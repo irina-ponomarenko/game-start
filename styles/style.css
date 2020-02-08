@@ -1,0 +1,132 @@
+/*---------------подключение шрифтов----------------*/
+
+@font-face {
+    font-family: 'Mason Chronicles';
+    src: url('../fonts/MasonChronicles/MasonChronicles.eot');
+    src: url('../fonts/MasonChronicles/MasonChronicles.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MasonChronicles/MasonChronicles.woff2') format('woff2'),
+        url('../fonts/MasonChronicles/MasonChronicles.woff') format('woff'),
+        url('../fonts/MasonChronicles/MasonChronicles.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('../fonts/PTSansNarrow/PTSans-Narrow.eot');
+    src: url('../fonts/PTSansNarrow/PTSans-Narrow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PTSansNarrow/PTSans-Narrow.woff2') format('woff2'),
+        url('../fonts/PTSansNarrow/PTSans-Narrow.woff') format('woff'),
+        url('../fonts/PTSansNarrow/PTSans-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, input {
+    font-family: 'Mason Chronicles'; 
+}
+
+p, a , span{
+     font-family: 'PT Sans Narrow';
+}
+
+/*-------------------wrapper style--------------------------*/
+
+.wrapper-game{
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.container-column{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+}
+.wrapper-column{
+    width: 33%; 
+}
+.profit-wrapper{
+    background: url("../images/bg-1.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profit-container-right-block img{
+    max-width: 460px;
+    width: 100%;
+}
+.profit-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+.list-profit{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+}
+.title-item {
+     font-size: 24px;
+     color: #ffe8c4;
+     text-shadow: 0px 0px 0 rgb(195,172,136),
+     1px 1px  0 rgb(143,120,84),
+     2px 2px 1px rgba(110,77,30,0.36),
+     2px 2px 1px rgba(110,77,30,0.5),
+     0px 0px 1px rgba(110,77,30,.2);
+    margin-bottom: 10px;
+}
+.item-profit{
+    margin: 5px;
+}
+.header-title-item{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header-title-item span{
+    color: #f4eade;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.btn{
+    font-size: 24px;
+    font-family: 'Mason Chronicles';
+    color: #ffe8c4;
+    text-shadow: 0px 0px 0 rgb(195,172,136),
+    1px 1px  0 rgb(143,120,84),
+    2px 2px 1px rgba(110,77,30,0.36),
+    2px 2px 1px rgba(110,77,30,0.5),
+    0px 0px 1px rgba(110,77,30,.2);
+    border: none;
+}
+.btn-profit{
+    background: url("../images/dark-bg-btn.png")no-repeat;
+    background-size: contain;
+    height: 46px;
+    width: 156px;
+}
+.btn-profit:hover{
+    background: url("../images/bg-btn.png")no-repeat;
+    background-size: contain;
+}
+.input-profit{
+    max-width: 136px;
+    margin-top: 10px;
+}
+.input{
+    background: url("../images/input-bg.png")no-repeat;
+    background-size: 100% 100%;
+    color: #efede0;
+    font-size: 24px;
+    border: none;
+    padding: 9px;
+    text-align: center;
+}
+.wrapper-btn-profit{
+    text-align: center;
+}
