@@ -332,6 +332,7 @@ p, a , span{
 .price-porion,
 .info-text-potion{
     font-size: 18px;
+    font-weight: 600;
 }
 .wrapper-list-about-potion{
     padding: 10px;
