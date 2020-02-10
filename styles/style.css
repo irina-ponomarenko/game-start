@@ -49,7 +49,7 @@ p, a , span{
     max-width: 1920px;
 }
 .wrapper-column{
-    width: 33%; 
+    width: 33.3%; 
 }
 .profit-wrapper{
     background: url("../images/bg-1.png")no-repeat;
@@ -57,7 +57,7 @@ p, a , span{
     background-position: center;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
 }
 .profit-container-right-block img{
     max-width: 460px;
@@ -76,7 +76,7 @@ p, a , span{
 .title-item,
 .title-rating{
      font-size: 24px;
-     color: #ffe8c4;
+     color: #f4c66f;
      text-shadow: 0px 0px 0 rgb(195,172,136),
      1px 1px  0 rgb(143,120,84),
      2px 2px 1px rgba(110,77,30,0.36),
@@ -89,7 +89,7 @@ p, a , span{
 }
 .header-title-item{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .header-title-item span{
     color: #f4eade;
@@ -99,7 +99,7 @@ p, a , span{
 .btn{
     font-size: 24px;
     font-family: 'Mason Chronicles';
-    color: #ffe8c4;
+    color: #f4c66f;
     text-shadow: 0px 0px 0 rgb(195,172,136),
     1px 1px  0 rgb(143,120,84),
     2px 2px 1px rgba(110,77,30,0.36),
@@ -110,7 +110,7 @@ p, a , span{
 .btn-profit{
     background: url("../images/dark-bg-btn.png")no-repeat;
     background-size: contain;
-    height: 46px;
+    height: 44px;
     width: 156px;
 }
 .btn-profit:hover{
@@ -125,11 +125,392 @@ p, a , span{
     background: url("../images/input-bg.png")no-repeat;
     background-size: 100% 100%;
     color: #efede0;
-    font-size: 24px;
+    font-size: 21px;
     border: none;
     padding: 9px;
     text-align: center;
 }
 .wrapper-btn-profit{
     text-align: center;
+}
+.scale-list{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.scale-list::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    background: url("../images/line-bg.png")repeat-x;
+    height: 5px;
+    left: 0;
+    right: 0;
+}
+.scale-list::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    background: url("../images/line-bg.png")repeat-x;
+    height: 5px;
+    left: 0;
+    right: 0;
+}
+.scale-item span{
+    color: #ffffff;
+    font-family: 'Mason Chronicles';
+    font-size: 18px;
+}
+.scale-item{
+    padding: 8px 10px;
+    border-left: 2px solid #e3d294;
+}
+.rating-profit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper-rating-container{
+    position: relative;
+}
+.wrapper-rating-container::after{
+    content: '';
+    position: absolute;
+    right: -16px;
+    top: -8px;
+    bottom: 0;
+    background: url("../images/venzel.png")no-repeat;
+    width: 38px;
+    height: 56px;
+    background-size: contain;
+}
+.draggable-container{
+    position: relative;
+}
+.cursor-draggable{
+    position: absolute;
+    background: url("../images/slider-icon.png")no-repeat;
+    background-size: contain;
+    width: 28px;
+    height: 32px;
+    top: -15px;
+    z-index: 10;
+
+}
+
+/*-----------------block potions-------------*/
+
+.potion-wrapper{
+    background: url("../images/bg-2.png")no-repeat;
+    background-size: cover;
+}
+.potion-butl{
+    max-width: 156px;
+    height: 131px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.potion-butl img{
+    max-width: 156px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+
+}
+.potion-container{
+    padding: 5px;
+}
+.item-potion{
+    max-width: 156px;
+    width: 100%;
+}
+.not-active-butl .active-butl{
+    display: none;
+}
+.not-active-butl{
+    position: relative;
+}
+.not-active-butl:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.potion-list{
+    display: flex;
+}
+.top-potion-variant{
+    position: relative;
+}
+.top-potion-variant::after{
+    content: '';
+    position: absolute;
+    background: url("../images/border-potion-container.png")repeat-x;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 7px;
+}
+.active-butl-frame{
+    position: absolute;
+    left: 145px;
+    right: -8px;
+    top: -9px;
+    bottom: -9px;
+    background: url("../images/frame-slider.png")no-repeat;
+    background-size: contain;
+    max-width: 159px;
+    z-index: 100;
+    border-radius: 34px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.item-potion{
+    position: relative;
+}
+.suma{
+    position: absolute;
+    top: 5px;
+    right: 23px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 2px 3px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.suma-potion{
+    font-size: 20px;
+    font-family: 'Mason Chronicles';
+    color: #f2f0e0;
+}
+.container-potion img{
+    max-width: 225px;
+    width: 100%;
+}
+.container-potion{
+    max-width: 225px;
+    width: 100%;
+}
+.about-potion{
+    display: flex;
+    align-items: center;
+}
+.name-potion,
+.title-item-info{
+    color: #690016;
+    font-family: 'Mason Chronicles';
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.info-text-potion{
+    margin-bottom: 10px;
+    max-width: 90%;
+}
+.item-info{
+    display: flex;
+    align-items: center;
+}
+.time-porion,
+.price-porion,
+.info-text-potion{
+    font-size: 21px;
+}
+.wrapper-list-about-potion{
+    padding: 20px;
+}
+
+/*---------------block actions-----------*/
+
+.actions-wrapper{
+    background: url("../images/bg-3.png")no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.first-title-action,
+.first-title-action span,
+.title-action{
+    font-size: 30px;
+    color: #f4c66f;
+    text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.title-action{
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 120px;
+}
+.title-action::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: rotate(180deg) translateY(-50%);
+}
+.title-action::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: translateY(-50%);
+}
+.first-title-action .result-action,
+.first-title-action .result-action span{
+    font-size: 24px;
+}
+.wrapper-first-title{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: fit-content;
+    padding: 0 32px;
+    margin-bottom: 10px;
+}
+.information-btn{
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background: url("../images/info-icon.png")no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    cursor: pointer;
+}
+
+.header-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-item-action{
+    position: relative;
+    width: fit-content;
+    padding-right: 30px;
+}
+.title-counter{
+    color: #ffffff;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.counter-input{
+    background: transparent;
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+    border: none;
+    padding: 3px;
+    width: 67%;
+    display: flex;
+}
+.number-counter{
+    background: url("../images/input-bg.png")no-repeat;
+    width: 110px;
+    height: 41px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.btn-counter{
+    width: 23px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+}
+.plus{
+    background: url("../images/input-btn-1.png")no-repeat;
+    transform: rotate(180deg);
+    background-size: contain;
+}
+.minus{
+    background: url("../images/input-btn-1.png")no-repeat;
+    background-size: contain;
+}
+.plus:focus,
+.plus:hover,
+.plus:active{
+    background: url("../images/input-btn-2.png")no-repeat;
+    background-size: contain;
+    transform: rotate(0deg);
+}
+.minus:focus,
+.minus:hover,
+.minus:active{
+    background: url("../images/input-btn-2.png")no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+}
+.money-span,
+.money-span span{
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'Mason Chronicles';
+    margin-top: 10px;
+}
+.money-span span{
+    font-size: 18px;
+}
+.item-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 18px;
+}
+.list-action{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn-action{
+    width: 150px;
+    height: 44px;
+    background: url(../images/dark-bg-btn.png)no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    margin: 0 10px;
+}
+.btn-action:hover{
+    background: url(../images/bg-btn.png)no-repeat;
+    background-size: contain;
+}
+.container-btn-action{
+    display: flex;
+    justify-content: center;
+}
+.footer-action p{
+    color: #ffffff;
+    font-size: 21px;
+    line-height: normal;
+}
+.footer-action{
+    max-width: 86%;
+    margin: 0 auto;
+    margin-top: 15px;
 }
