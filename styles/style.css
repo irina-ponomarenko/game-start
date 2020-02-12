@@ -28,6 +28,7 @@ h1, h2, h3, h4, input {
 
 p, a , span{
      font-family: 'PT Sans Narrow';
+     word-spacing: 2px;
 }
 
 /*-------------------wrapper style--------------------------*/
@@ -43,7 +44,6 @@ p, a , span{
 }
 .container-column{
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     width: 100%;
     max-width: 1920px;
@@ -53,6 +53,8 @@ p, a , span{
 }
 .wrapper-left-column{
     width: 29%;
+    position: relative;
+    right: -20px
 }
 .profit-wrapper{
     background: url("../images/bg-1.png")no-repeat;
@@ -231,7 +233,7 @@ p, a , span{
 
 }
 .potion-container{
-    padding: 5px;
+    padding: 8px;
 }
 .item-potion{
     max-width: 143px;
@@ -519,4 +521,120 @@ p, a , span{
     max-width: 81%;
     margin: 0 auto;
     margin-top: 10px;
+}
+
+/*------------------center block---------------*/
+
+.container-center-column{
+    position: relative;
+    height: 100%;
+}
+.container-center-column::before{
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    background: url("../images/left-right-center-line.png")repeat-y;
+    transform: rotateY(180deg);
+}
+.container-center-column::after{
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    background: url("../images/left-right-center-line.png")repeat-y;
+}
+.wrapper-center-column{
+    position: relative;
+}
+.wrapper-center-column::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    top: 0;
+    background: url("../images/center-bg.png")no-repeat;
+    background-size: cover;
+}
+.wrapper-center-column::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 7px;
+    left: 20px;
+    right: 20px;
+    background: url("../images/line-bg.png")repeat-x;
+}
+.header-center-block{
+    align-items: center;
+    background: url("../images/top-center-header.png")no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 25px;
+    top: -25px;
+
+}
+.first-title-center,
+.first-title-center span,
+.next-title-center,
+.next-title-center span,
+.next-title-center span span{
+    color: #ffff;
+    font-size: 26px;
+    font-family: 'Mason Chronicles';
+}
+.first-title-center{
+    margin-right: 10px;
+    display: flex;
+}
+.next-title-center{
+    display: flex;
+}
+.name-player,
+.balance{
+    white-space: nowrap;
+    max-width: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-left: 10px;
+}
+.balance{
+    max-width: 65px;
+    margin-right: 10px;
+}
+.center-hero{
+    max-width: 560px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    top: -10px;
+    z-index: 100000;
+}
+.center-hero::after{
+    content: '';
+    position: absolute;
+    left: -28px;
+    right: -28px;
+    top: -34px;
+    bottom: -28px;
+    background: url("../images/center-around.png")no-repeat;
+    background-size: contain;
+}
+.center-hero img{
+    width: 100%;
+    flex: none;
+    margin: 0 auto;
+}
+.container-image-hero{
+    border-radius: 100%;
+    overflow: hidden;
 }
