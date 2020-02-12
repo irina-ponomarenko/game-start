@@ -505,7 +505,7 @@ p, a , span{
     margin: 0 10px;
 }
 .btn-action:hover{
-    background: url(../images/bg-btn.png)no-repeat;
+    background: url("../images/bg-btn.png")no-repeat;
     background-size: contain;
 }
 .container-btn-action{
@@ -637,4 +637,210 @@ p, a , span{
 .container-image-hero{
     border-radius: 100%;
     overflow: hidden;
+}
+.wrapper-bottle-info{
+    position: relative;
+    border-radius: 100%;
+    background: url("../images/big-round.png")no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-bottle-img{
+    margin: 0 auto;
+    position: relative;
+}
+.container-bottle-img img{
+    width: 100%;
+    max-width: 55px;
+}
+.percent{
+    color: #ffffff;
+    font-family: 'Mason Chronicles';
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.bottle-2 img{
+    max-width: 62px;
+}
+.bottle-lis-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container-center-round{
+    position: relative;
+}
+.container-top-bottle{
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    left: 0;
+    right: 0;
+}
+.bottle-item{
+    cursor: pointer;
+}
+.bottle-position-1{
+    position: absolute;
+    top: 12px;
+    left: 57px;
+}
+.bottle-position-2{
+    position: absolute;
+    left: 158px;
+    top: -50px;
+}
+.bottle-position-3{
+    position: absolute;
+    right: 165px;
+    top: -50px;
+}
+.bottle-position-4{
+    position: absolute;
+    right: 66px;
+    top: 12px;
+}
+.btn-center{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: none;
+}
+.settings{
+    background: url("../images/settings.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 165px;
+    left: 0;
+}
+.poems{
+    background: url("../images/poems.png")no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 165px;
+    right: 0;
+}
+.settings:hover,
+.settings:active,
+.settings:focus{
+    background: url("../images/settings-click.png")no-repeat;
+    background-size: contain;
+}
+.poems:hover,
+.poems:active,
+.poems:focus{
+    background: url("../images/poems-click.png")no-repeat;
+    background-size: contain;
+}
+.container-btn-center{
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+    width: 100%;
+}
+.social-link{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: url("../images/bg-icon-soc.png")no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.twitter::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/twitter.png")no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+.telegram::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/telegram.png")no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+.horn::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/telegram-chat.png")no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+.discord::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/discord.png")no-repeat;
+    background-size: 54%;
+    background-position: center;
+}
+.facebook::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/facebook.png")no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+.social-list{
+    display: flex;
+    align-items: center;
+}
+.container-social{
+    position: absolute;
+    bottom: 0;
+    z-index: 100000;
+    width: 100%;
+}
+.social-position-1{
+    position: absolute;
+    left: 102px;
+    bottom: 42px;
+}
+.social-position-2{
+    position: absolute;
+    left: 172px;
+    bottom: 3px;
+}
+.social-position-3{
+    position: absolute;
+    left: 261px;
+    bottom: -12px;
+}
+.social-position-4{
+    position: absolute;
+    right: 175px;
+    bottom: 5px;
+}
+.social-position-5{
+    position: absolute;
+    right: 109px;
+    bottom: 45px;
 }
