@@ -37,4 +37,13 @@ $(document).ready(function() {
         return false;
     });
 
+
+
+    //---------------------scroll-------------//
+    $('.scroll-custom').slimscroll({
+        height: 'auto',
+        railVisible: true,
+        alwaysVisible: true
+    });
+
 });

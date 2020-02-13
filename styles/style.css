@@ -844,3 +844,83 @@ p, a , span{
     right: 109px;
     bottom: 45px;
 }
+.list-awards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+}
+.item-awards{
+    margin: 10px;
+}
+.item-awards img{
+    width: 70px;
+}
+.wrapper-awards{
+    padding: 40px 15px 15px;
+    position: relative;
+    z-index: 10;
+    top: -12px;
+}
+.wrapper-awards::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 7px;
+    left: 20px;
+    right: 20px;
+    background: url("../images/line-bg.png")repeat-x;
+}
+.header-awards{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 120px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.header-awards::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: translateY(-50%);
+}
+.header-awards::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: rotate(180deg) translateY(-50%);
+}
+.title-awards,
+.number-awards span{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Mason Chronicles';
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+    text-align: center;
+}
+.number-awards{
+    margin-left: 10px;
+}
+.container-awards{
+    max-height: 180px;
+    width: 94%;
+}
+
+/*-------------scroll---------*/
+
+/*--------------------------------*/

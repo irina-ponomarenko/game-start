@@ -1,0 +1,35 @@
+.container-awards > .slimScrollDiv > .slimScrollBar{
+  background: url("../images/vert-slider.png")no-repeat!important;
+  background-size: 100% 100%!important;
+  border-radius: 0 !important;
+  width: 12px !important;
+  opacity: 1 !important;
+}
+.slimScrollBar::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  left: 0;
+  right: 0;
+  background: url("../images/line-bg.png")repeat-x;
+  background-size: contain;
+}
+.slimScrollBar::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 3px;
+  left: 0;
+  right: 0;
+  background: url("../images/line-bg.png")repeat-x;
+  background-size: contain;
+}
+.slimScrollRail{
+  background: url("../images/left-right-center-line.png")repeat-y !important;
+  width: 3px !important;
+  right: 5px !important;
+  opacity: 1 !important;
+  background-size: contain !important;
+}
+
