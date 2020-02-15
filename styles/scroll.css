@@ -1,4 +1,4 @@
-.container-awards > .slimScrollDiv > .slimScrollBar{
+.slimScrollDiv > .slimScrollBar{
   background: url("../images/vert-slider.png")no-repeat!important;
   background-size: 100% 100%!important;
   border-radius: 0 !important;
