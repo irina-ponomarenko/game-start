@@ -1770,4 +1770,102 @@ p, a , span{
 .top-progress-block .slimScrollDiv{
     min-height: 460px;
 }
+.wrapper-content-events{
+    background: url("../images/bg-8.png")no-repeat;
+    background-size: cover;
+    padding: 15px 25px 15px 0;
+    flex: 1;
+}
+.title-events{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+}
+.title-events-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 83%;
+    margin: 0 auto;
+}
+.container-count-events{
+    padding: 10px 15px;
+    max-width: 203px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-count-events::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/bg-form.png")no-repeat;
+    background-size: cover;
+}
+.container-count-events span{
+    font-size: 19px;
+    font-family: 'Mason Chronicles';
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+.title-events-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.withdrawn .container-count-events:before{
+    transform: scale(-1, 1);
+}
+.header-events{
+    margin-bottom: 15px;
+}
+.header-table tr th{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow';
+    text-align: left;
+    padding: 10px;
+}
+.body-table-events tr td{
+    padding: 10px;
+}
+.table-events thead, .table-events tbody {
+    display: flex;
+    flex-direction: column;
+}
+.header-table tr,
+.body-table-events  tr{
+    display: flex;
+    justify-content: space-around;
+}
+.table-events{
+    width: 100%;
+}
+.body-table-events{
+    background: rgba(0,0,0,0.3);
+    height: 100% !important;
+}
+.container-table-events .slimScrollDiv{
+    min-height: 360px;
+}
+.info-event{
+    font-size: 14px;
+    color: #a6aba7;
+}
+.green span{
+    color: #3bc75e;
+}
+.red span{
+    color: #ff161c;
+}
+
 /*--------------------------------*/
