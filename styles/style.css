@@ -1608,7 +1608,7 @@ p, a , span{
 .item-progress{
     display: flex;
     align-items: center;
-    padding: 3px 15px 0;
+    padding: 2px 15px 0;
 }
 .progress-block{
     width: 65%;
@@ -1710,6 +1710,7 @@ p, a , span{
     flex-direction: column;
     height: auto;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 .progress-line-wrapper{
     display: flex;
