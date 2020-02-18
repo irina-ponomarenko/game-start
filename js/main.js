@@ -45,4 +45,10 @@ $(document).ready(function() {
         railVisible: true,
         alwaysVisible: true
     });
+
+    $('.header-faq').on('click', function () {
+        $('.container-answer').removeClass('active-toggle');
+        $(this).closest(".item-faq").find('.container-answer').addClass('active-toggle');
+        $('.active-toggle').slideToggle(500);
+    });
 });

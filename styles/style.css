@@ -2006,4 +2006,50 @@ p, a , span{
     justify-content: center;
     margin-top: 5px;
 }
+.header-faq h3{
+    font-size: 21px;
+    font-family: 'Mason Chronicles';
+    color: #f4c66f;
+    text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
+}
+.header-faq{
+    padding: 15px 25px;
+    position: relative;
+    padding-right: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+.header-faq::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 12px;
+    background: url("../images/arrow.png")no-repeat;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container-answer{
+    background: rgba(0,0,0,0.4);
+    padding: 15px 25px;
+    display: none;
+}
+.container-answer p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: normal;
+}
+.wrapper-content-faq{
+    background: url("../images/bg-11.jpg")no-repeat;
+    background-size: cover;
+    padding: 15px 25px 15px 0;
+    flex: 1;
+}
+.container-faq-list .slimScrollDiv{
+    min-height: 495px;
+}
+.list-faq{
+    height: 100% !important;
+}
 /*--------------------------------*/
