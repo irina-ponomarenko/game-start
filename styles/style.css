@@ -378,7 +378,7 @@ p, a , span{
     content: '';
     position: absolute;
     left: -20px;
-    right: -33px;
+    right: -18px;
     height: 79px;
     background: url("../images/bottom-frame.png")no-repeat;
     background-size: cover;
@@ -569,9 +569,34 @@ p, a , span{
 
 /*------------------center block---------------*/
 
-.container-center-column{
+.container-center-column,
+.container-center-content{
     position: relative;
     height: 100%;
+}
+.container-center-content::before{
+     content: '';
+     position: absolute;
+     right: 4px;
+     bottom: -25px;
+     height: 88px;
+     width: 61px;
+     background: url("../images/venzel.png")no-repeat;
+     background-size: contain;
+     z-index: 10000;
+     transform: rotate(24deg);
+ }
+.container-center-content::after{
+    content: '';
+    position: absolute;
+    left: 4px;
+    bottom: -25px;
+    height: 88px;
+    width: 61px;
+    background: url("../images/venzel.png")no-repeat;
+    background-size: contain;
+    z-index: 10000;
+    transform: rotate(154deg) scale(1, -1);
 }
 .container-center-column::before{
     content: '';
