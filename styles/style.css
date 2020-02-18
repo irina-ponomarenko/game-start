@@ -2030,6 +2030,17 @@ p, a , span{
     top: 50%;
     transform: translateY(-50%);
 }
+.active-arrow::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 12px;
+    background: url("../images/arrow.png")no-repeat;
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+}
 .container-answer{
     background: rgba(0,0,0,0.4);
     padding: 15px 25px;
