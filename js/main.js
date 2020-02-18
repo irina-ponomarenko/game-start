@@ -67,4 +67,9 @@ $(document).ready(function() {
         $(this).closest(".item-menu").addClass('active-btn');
         $(this).closest('.container-right-column').find()
     });
+
+    tippy('.tooltip', {
+        offset: '260, 0',
+        zIndex: 10000000000000,
+    });
 });

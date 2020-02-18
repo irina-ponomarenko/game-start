@@ -295,6 +295,7 @@ p, a , span{
     background-color: rgba(0,0,0,0.5);
     padding: 2px 3px;
     width: fit-content;
+    -moz-width: -moz-fit-content;
     border-radius: 5px;
 }
 .suma-potion{
@@ -387,13 +388,16 @@ p, a , span{
 .first-title-action .result-action span{
     font-size: 20px;
 }
+.result-action{
+    margin-right: 10px;
+}
 .wrapper-first-title{
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
     width: fit-content;
-    padding: 0 32px;
+    -moz-width: -moz-fit-content;
     margin-bottom: 10px;
 }
 .information-btn{
@@ -417,12 +421,14 @@ p, a , span{
 .header-item-action{
     position: relative;
     width: fit-content;
-    padding-right: 30px;
+    -moz-width: -moz-fit-content;
+    display: flex;
 }
 .title-counter{
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 5px;
+    margin-right: 10px;
 }
 .counter-input{
     background: transparent;
@@ -487,6 +493,7 @@ p, a , span{
     flex-direction: column;
     align-items: center;
     width: fit-content;
+    -moz-width: -moz-fit-content;
     margin: 8px 19px;
 }
 .list-action{
@@ -879,6 +886,7 @@ p, a , span{
     position: relative;
     padding: 0 120px;
     width: fit-content;
+    -moz-width: -moz-fit-content;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -1919,6 +1927,7 @@ p, a , span{
     text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
     text-align: center;
     width: fit-content;
+    -moz-width: -moz-fit-content;
     margin: 0 auto;
 }
 .title-about-game::before {
@@ -2060,7 +2069,7 @@ p, a , span{
     line-height: normal;
 }
 .wrapper-content-faq{
-    background: url("../images/bg-11.jpg")no-repeat;
+    background: url("../images/bg-9.jpg")no-repeat;
     background-size: cover;
     padding: 15px 25px 15px 0;
     flex: 1;
@@ -2076,5 +2085,32 @@ p, a , span{
 }
 .active-block{
     display: block;
+}
+/*--------------------------------*/
+
+/*-------------tooltip-------------------*/
+.tooltip{
+    position: relative;
+    z-index: 1000000;
+}
+.tippy-tooltip{
+    min-width: 120px;
+    background: url("../images/bg-popup.jpg")no-repeat;
+    background-size: cover;
+    padding: 15px 10px;
+    opacity: 0.9;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(92,90,92,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(92,90,92,1);
+    box-shadow: 0px 0px 5px 0px rgba(92,90,92,1);
+}
+.tippy-content {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: normal;
+    font-family: 'PT Sans Narrow';
+}
+.tippy-arrow{
+    display: none;
 }
 /*--------------------------------*/
