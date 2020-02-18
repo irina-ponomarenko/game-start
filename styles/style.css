@@ -909,8 +909,8 @@ p, a , span{
     text-transform: uppercase;
     font-size: 26px;
     font-family: 'Mason Chronicles';
-    color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+    color: #dbdbdb;
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
     text-align: center;
 }
 .number-awards{
@@ -940,8 +940,8 @@ p, a , span{
 .menu-link{
     font-size: 28px;
     font-family: 'Mason Chronicles';
-    color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+    color: #dbdbdb;
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
     text-align: center;
     text-decoration: none;
     background: url("../images/menu-btn.png")no-repeat;
@@ -1141,8 +1141,8 @@ p, a , span{
 .title-link{
     font-size: 28px;
     font-family: 'Mason Chronicles';
-    color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+    color: #dbdbdb;
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -1777,10 +1777,10 @@ p, a , span{
     flex: 1;
 }
 .title-events{
-    color: #ffffff;
+    color: #dbdbdb;
     font-size: 18px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 2px rgba(215,215,215,0.6);
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
 }
 .title-events-list{
     display: flex;
@@ -1868,4 +1868,142 @@ p, a , span{
     color: #ff161c;
 }
 
+/*--------------------------------*/
+
+/*---------------about game-----------------*/
+
+.btn-contact-game span{
+    color: #dbdbdb;
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+}
+.audit span:after,
+.smartcontract span:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    background: url("../images/search.png")no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    top: -4px;
+}
+.smartcontract span:after{
+    background: url("../images/smart.png")no-repeat;
+    background-size: contain;
+}
+.wrapper-content-about-game{
+    background: url("../images/bg-10.jpg")no-repeat;
+    background-size: cover;
+    padding: 15px 25px 15px 0;
+    flex: 1;
+}
+.title-about-game{
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 120px;
+    font-size: 26px;
+    font-family: 'Mason Chronicles';
+    color: #f4c66f;
+    text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.title-about-game::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: translateY(-50%);
+}
+.title-about-game::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    background: url("../images/line.png")no-repeat;
+    background-size: contain;
+    height: 6px;
+    width: 110px;
+    transform: rotate(180deg) translateY(-50%);
+}
+.item-about-game p{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: normal;
+}
+.list-about-game{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.item-about-game{
+    padding: 17px 0;
+    text-align: center;
+    position: relative;
+}
+.item-about-game::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: url("../images/line-big.png")no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.item-about-game:last-child::before{
+    display: none;
+}
+.item-about-game:first-child{
+    padding-top: 10px;
+}
+.container-info-about-game .slimScrollDiv{
+    min-height: 425px;
+}
+.list-about-game.scroll-custom{
+    height: 100% !important;
+}
+.btn-contact-game{
+    width: 160px;
+    height: 47px;
+    background: url("../images/dark-bg-btn.png")no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+.btn-contact-game::before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -1px;
+    background: url("../images/btn-frame.png")no-repeat;
+    background-size: cover;
+}
+.btn-contact-game:hover{
+    background: url("../images/bg-btn.png")no-repeat;
+    background-size: contain
+}
+.footer-about-game{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
 /*--------------------------------*/
