@@ -46,6 +46,8 @@ $(document).ready(function() {
         alwaysVisible: true
     });
 
+    //---------------------active slideToggle faq elements-------------//
+
     $('.header-faq').on('click', function () {
         $('.container-answer').removeClass('active-toggle');
         $(this).toggleClass('active-arrow');
