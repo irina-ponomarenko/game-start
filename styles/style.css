@@ -56,6 +56,17 @@ p, a , span{
     position: relative;
     right: -20px
 }
+.wrapper-left-column::after{
+    content: '';
+    position: absolute;
+    left: -56px;
+    width: 101px;
+    background: url("../images/border-left.png")no-repeat;
+    background-size: contain;
+    bottom: -27px;
+    top: 44px;
+}
+
 .profit-wrapper{
     background: url("../images/bg-1.png")no-repeat;
     background-size: cover;
@@ -63,6 +74,20 @@ p, a , span{
     display: flex;
     flex-direction: column;
     padding: 18px;
+}
+.top-after{
+    position: relative;
+}
+.top-after::after{
+    content: '';
+    position: absolute;
+    left: -48px;
+    right: 0;
+    background: url("../images/top-frame.png")no-repeat;
+    background-size: 100% 100%;
+    top: -28px;
+    transform: scale(-1, 1);
+    height: 101px;
 }
 .profit-container-right-block img{
     max-width: 330px;
@@ -304,22 +329,23 @@ p, a , span{
     color: #f2f0e0;
 }
 .container-potion img{
-    max-width: 180px;
+    max-width: 155px;
     width: 100%;
 }
 .container-potion{
-    max-width: 200px;
+    max-width: 170px;
     width: 100%;
 }
 .about-potion{
     display: flex;
     align-items: center;
+    padding-top: 5px;
 }
 .name-potion,
 .title-item-info{
     color: #690016;
     font-family: 'Mason Chronicles';
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -338,7 +364,7 @@ p, a , span{
     font-weight: 600;
 }
 .wrapper-list-about-potion{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 /*---------------block actions-----------*/
@@ -347,6 +373,17 @@ p, a , span{
     background: url("../images/bg-3.png")no-repeat;
     background-size: cover;
     padding: 10px;
+}
+.actions-wrapper::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    right: -33px;
+    height: 79px;
+    background: url("../images/bottom-frame.png")no-repeat;
+    background-size: cover;
+    bottom: -35px;
+    transform: rotate(180deg) scale(1, -1);
 }
 .first-title-action,
 .first-title-action span,
@@ -936,7 +973,16 @@ p, a , span{
     left: -20px;
     display: flex;
 }
-
+.wrapper-right-column::after{
+    content: '';
+    position: absolute;
+    right: -56px;
+    width: 101px;
+    background: url("../images/border-right.png")no-repeat;
+    background-size: contain;
+    bottom: -27px;
+    top: 44px;
+}
 .menu-list{
     display: flex;
     align-items: center;
@@ -1134,6 +1180,10 @@ p, a , span{
 .progress{
     padding-left: 0;
 }
+.gildia,
+.about-game{
+    z-index: 10;
+}
 .about-game,
 .gildia,
 .fag-after{
@@ -1252,7 +1302,7 @@ p, a , span{
     color: #f4c66f;
     text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
     text-align: left;
-    padding: 20px 0px;
+    padding: 11px 0px 18px;
 }
 .container-ivent-table{
     background: url("../images/bg-5.png")no-repeat;
@@ -1314,10 +1364,14 @@ p, a , span{
 .table-iven .slimScrollDiv{
     width: 87% !important;
     padding: 10px 20px 7px;
+    height: 151px !important;
 }
 .container-ivent-table .slimScrollRail{
     height: 86% !important;
     top: 14px !important;
+}
+.body-table-gildia{
+    height: 159px !important;
 }
 .header-raiting h3{
     font-size: 21px;
@@ -1716,6 +1770,28 @@ p, a , span{
 .container-right-column{
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+.container-right-column::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: -48px;
+    background: url("../images/top-frame.png")no-repeat;
+    background-size: 100% 100%;
+    top: -28px;
+    height: 101px;
+}
+.container-right-column::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    right: -33px;
+    height: 79px;
+    background: url("../images/bottom-frame.png")no-repeat;
+    background-size: cover;
+    bottom: -35px;
+    z-index: 100;
 }
 .content-right-block{
     flex-grow: 1;
@@ -1785,7 +1861,7 @@ p, a , span{
     flex: 1;
 }
 .top-progress-block .slimScrollDiv{
-    min-height: 460px;
+    min-height: 444px;
 }
 .wrapper-content-events{
     background: url("../images/bg-8.png")no-repeat;
@@ -1872,7 +1948,7 @@ p, a , span{
     height: 100% !important;
 }
 .container-table-events .slimScrollDiv{
-    min-height: 360px;
+    min-height: 322px;
 }
 .info-event{
     font-size: 14px;
@@ -1963,7 +2039,7 @@ p, a , span{
     margin: 0 auto;
 }
 .item-about-game{
-    padding: 17px 0;
+    padding: 10px 0;
     text-align: center;
     position: relative;
 }
@@ -1985,7 +2061,7 @@ p, a , span{
     padding-top: 10px;
 }
 .container-info-about-game .slimScrollDiv{
-    min-height: 425px;
+    min-height: 388px;
 }
 .list-about-game.scroll-custom{
     height: 100% !important;
@@ -2076,7 +2152,7 @@ p, a , span{
     flex: 1;
 }
 .container-faq-list .slimScrollDiv{
-    min-height: 495px;
+    min-height: 466px;
 }
 .list-faq{
     height: 100% !important;
