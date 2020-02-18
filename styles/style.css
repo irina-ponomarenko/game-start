@@ -963,6 +963,7 @@ p, a , span{
     background: url("../images/border-menu-btn.png")no-repeat;
     background-size: cover;
 }
+.active-btn .menu-link,
 .menu-link:hover{
     background: url("../images/active-menu-btn.png")no-repeat;
     background-size: contain;
@@ -987,7 +988,7 @@ p, a , span{
     height: 7px;
     left: 0;
     right: 0;
-    background: url(../images/line-bg.png)repeat-x;
+    background: url("../images/line-bg.png")repeat-x;
 }
 .item-menu{
     padding: 22px 22px;
@@ -1002,6 +1003,7 @@ p, a , span{
     background: url("../images/gildia-after.png")no-repeat;
     background-size: contain;
 }
+.gildia.active-btn::before,
 .gildia:hover::before{
     content: '';
     position: absolute;
@@ -1023,6 +1025,7 @@ p, a , span{
     background: url("../images/about-game-after.png")no-repeat;
     background-size: contain;
 }
+.about-game.active-btn::before,
 .about-game:hover::before{
     content: '';
     position: absolute;
@@ -1053,6 +1056,7 @@ p, a , span{
     background: url("../images/affects-after.png")no-repeat;
     background-size: contain;
 }
+.ivents.active-btn::before,
 .ivents:hover::before{
     content: '';
     position: absolute;
@@ -1063,6 +1067,7 @@ p, a , span{
     background: url("../images/affects-after-active.png")no-repeat;
     background-size: contain;
 }
+.raiting.active-btn::before,
 .raiting:hover::before{
     content: '';
     position: absolute;
@@ -1093,16 +1098,19 @@ p, a , span{
     background: url("../images/faq-after.png")no-repeat;
     background-size: contain;
 }
+.fag-after.active-btn::before,
 .fag-after:hover::before{
     content: '';
     position: absolute;
     left: 16px;
+    right: inherit;
     bottom: -230px;
     width: 23px;
     height: 100%;
     background: url("../images/faq-after-active.png")no-repeat;
     background-size: contain;
 }
+.progress.active-btn::before,
 .progress:hover::before{
     content: '';
     position: absolute;
@@ -2062,5 +2070,11 @@ p, a , span{
 }
 .list-faq{
     height: 100% !important;
+}
+.right-info-block{
+    display: none;
+}
+.active-block{
+    display: block;
 }
 /*--------------------------------*/
