@@ -1170,6 +1170,7 @@ p, a , span{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .container-input-link input{
     background-color: transparent;
@@ -1187,7 +1188,7 @@ p, a , span{
     width: 135px;
 }
 .copy-btn:hover{
-    background: url(../images/bg-btn.png)no-repeat;
+    background: url("../images/bg-btn.png")no-repeat;
     background-size: 100% 100%;
 }
 .info-link{
@@ -2093,7 +2094,8 @@ p, a , span{
     position: relative;
     z-index: 1000000;
 }
-.tippy-tooltip{
+.tippy-tooltip,
+.tooltipe{
     min-width: 120px;
     background: url("../images/bg-popup.jpg")no-repeat;
     background-size: cover;
@@ -2104,11 +2106,21 @@ p, a , span{
     -moz-box-shadow: 0px 0px 5px 0px rgba(92,90,92,1);
     box-shadow: 0px 0px 5px 0px rgba(92,90,92,1);
 }
+.tooltipe{
+    position: absolute;
+    bottom: 49px;
+    right: -140px;
+    display: none;
+}
+.tooltipe p,
 .tippy-content {
     color: #ffffff;
     font-size: 16px;
     line-height: normal;
     font-family: 'PT Sans Narrow';
+}
+.tooltipe p{
+    text-align: center;
 }
 .tippy-arrow{
     display: none;

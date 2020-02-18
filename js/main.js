@@ -68,8 +68,20 @@ $(document).ready(function() {
         $(this).closest('.container-right-column').find()
     });
 
+
+    //---------------------tooltip-------------//
+
     tippy('.tooltip', {
         offset: '260, 0',
         zIndex: 10000000000000,
+    });
+
+    //---------------------tooltip copy-------------//
+
+    $('.copy-btn').on('click', function () {
+       $(this).closest('.container-input-link').find('.tooltipe').fadeIn(500);
+        setTimeout(() => {
+            $(this).closest('.container-input-link').find('.tooltipe').fadeOut(500);
+        }, 2000);
     });
 });
