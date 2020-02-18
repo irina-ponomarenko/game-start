@@ -235,7 +235,7 @@ p, a , span{
 
 .potion-wrapper{
     background: url("../images/bg-2.png")no-repeat;
-    background-size: cover;
+    background-size: 100% 101%;
 }
 .potion-butl{
     max-width: 143px;
