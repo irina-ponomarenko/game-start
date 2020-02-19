@@ -84,4 +84,28 @@ $(document).ready(function() {
             $(this).closest('.container-input-link').find('.tooltipe').fadeOut(500);
         }, 2000);
     });
+
+
+    //---------------------popup-------------//
+
+        $('.show_popup').click(function() { // Вызываем функцию по нажатию на кнопку
+        let popup_id = $('#' + $(this).attr("rel")); // Связываем rel и popup_id
+        $(popup_id).addClass('active-popup').fadeIn(500); // Открываем окно
+        $('.overlay_popup').fadeIn(500); // Открываем блок заднего фона
+    });
+    $('.overlay_popup').click(function() { // Обрабатываем клик по заднему фону
+        $('.overlay_popup, .popup').hide(); // Скрываем затемнённый задний фон и основное всплывающее окно
+    });
+
+    $('.btn-popup').on('click', function(){
+        $(this).closest('.body').find('.overlay_popup').fadeOut(500);
+        $(this).closest('.popup').removeClass('active-popup').fadeOut(500);
+    });
+
+    $('.succsess-popup, .negative, .negative-big, .info-popup, .start-popup, .overlay_popup').css('display', 'block');
+
+
+    $(".lang").on('click', function(){
+        $(this).closest('.list-control').find('.list-lang').slideToggle(500);
+    });
 });
