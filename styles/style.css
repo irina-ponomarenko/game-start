@@ -1012,6 +1012,7 @@ p, a , span, label{
     background-size: contain;
     bottom: -27px;
     top: 44px;
+    z-index: 13;
 }
 .menu-list{
     display: flex;
@@ -1821,6 +1822,7 @@ p, a , span, label{
     background: url("../images/bottom-frame.png")no-repeat;
     background-size: cover;
     bottom: -38px;
+    z-index: 12;
 }
 .content-right-block{
     flex-grow: 1;
