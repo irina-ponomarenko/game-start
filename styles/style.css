@@ -1103,7 +1103,7 @@ p, a , span, label{
     position: relative;
 }
 .menu-link{
-font-size: 24px;
+    font-size: 24px;
     font-family: 'Mason Chronicles';
     color: #dbdbdb;
     text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
@@ -1117,6 +1117,7 @@ font-size: 24px;
     width: 193px;
     height: 45px;
     position: relative;
+    z-index: 100;
 }
 .menu-link::after{
     content: '';
@@ -1157,7 +1158,7 @@ font-size: 24px;
     background: url("../images/line-bg.png")repeat-x;
 }
 .item-menu{
-   padding: 16px;
+   padding: 16px 5px;
 }
 .gildia::before{
     content: '';
@@ -1205,7 +1206,7 @@ font-size: 24px;
 .raiting::before{
     content: '';
     position: absolute;
-    right: 13px;
+    right: 10px;
     bottom: -114px;
     width: 19px;
     height: 100%;
@@ -1215,7 +1216,7 @@ font-size: 24px;
 .ivents::before{
     content: '';
     position: absolute;
-    left: 9px;
+    left: 7px;
     bottom: -114px;
     width: 19px;
     height: 100%;
@@ -1226,7 +1227,7 @@ font-size: 24px;
 .ivents:hover::before{
     content: '';
     position: absolute;
-    left: 9px;
+    left: 7px;
     bottom: -114px;
     width: 19px;
     height: 100%;
@@ -1237,7 +1238,7 @@ font-size: 24px;
 .raiting:hover::before{
     content: '';
     position: absolute;
-    right: 13px;
+    right: 10px;
     bottom: -114px;
     width: 19px;
     height: 100%;
@@ -1247,7 +1248,7 @@ font-size: 24px;
 .progress::before{
     content: '';
     position: absolute;
-    right: 19px;
+    right: 15px;
     bottom: -188px;
     width: 21px;
     height: 100%;
@@ -1257,7 +1258,7 @@ font-size: 24px;
 .fag-after::before{
     content: '';
     position: absolute;
-    left: 17px;
+    left: 15px;
     bottom: -188px;
     width: 21px;
     height: 100%;
@@ -1268,10 +1269,9 @@ font-size: 24px;
 .fag-after:hover::before{
     content: '';
     position: absolute;
-    left: 17px;
+    left: 15px;
     bottom: -188px;
-    width: 21px;x;
-    width: 23px;
+    width: 21px;
     height: 100%;
     background: url("../images/faq-after-active.png")no-repeat;
     background-size: contain;
@@ -1280,7 +1280,7 @@ font-size: 24px;
 .progress:hover::before{
     content: '';
     position: absolute;
-    right: 19px;
+    right: 15px;
     bottom: -188px;
     width: 21px;
     height: 100%;
@@ -1291,10 +1291,6 @@ font-size: 24px;
 .raiting,
 .progress{
     padding-left: 0;
-}
-.gildia,
-.about-game{
-    z-index: 10;
 }
 .about-game,
 .ivents,
