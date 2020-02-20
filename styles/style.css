@@ -1170,8 +1170,7 @@ p, a , span, label{
     background: url("../images/gildia-after.png")no-repeat;
     background-size: contain;
 }
-.gildia.active-btn::before,
-.gildia:hover::before{
+.gildia.active-btn::before{
     content: '';
     position: absolute;
     right: 0;
@@ -1192,8 +1191,7 @@ p, a , span, label{
     background: url("../images/about-game-after.png")no-repeat;
     background-size: contain;
 }
-.about-game.active-btn::before,
-.about-game:hover::before{
+.about-game.active-btn::before{
     content: '';
     position: absolute;
     left: 0;
@@ -1223,8 +1221,7 @@ p, a , span, label{
     background: url("../images/affects-after.png")no-repeat;
     background-size: contain;
 }
-.ivents.active-btn::before,
-.ivents:hover::before{
+.ivents.active-btn::before{
     content: '';
     position: absolute;
     left: 7px;
@@ -1234,8 +1231,7 @@ p, a , span, label{
     background: url("../images/affects-after-active.png")no-repeat;
     background-size: contain;
 }
-.raiting.active-btn::before,
-.raiting:hover::before{
+.raiting.active-btn::before{
     content: '';
     position: absolute;
     right: 10px;
@@ -1265,8 +1261,7 @@ p, a , span, label{
     background: url("../images/faq-after.png")no-repeat;
     background-size: contain;
 }
-.fag-after.active-btn::before,
-.fag-after:hover::before{
+.fag-after.active-btn::before{
     content: '';
     position: absolute;
     left: 15px;
@@ -1276,8 +1271,7 @@ p, a , span, label{
     background: url("../images/faq-after-active.png")no-repeat;
     background-size: contain;
 }
-.progress.active-btn::before,
-.progress:hover::before{
+.progress.active-btn::before{
     content: '';
     position: absolute;
     right: 15px;
@@ -1536,7 +1530,7 @@ p, a , span, label{
     justify-content: space-evenly;
 }
 .icon-raiting{
-    width: 40px;
+    width: 34px;
     border-radius: 100%;
     height: 100%;
     overflow: hidden;
@@ -1575,7 +1569,7 @@ p, a , span, label{
     background: url("../images/line-bg.png")repeat-x;
 }
 .item-block{
-    min-width: 40px;
+    min-width: 34px;
 }
 .footer-raiting{
     padding: 5px 0;
@@ -2729,9 +2723,20 @@ p, a , span, label{
     filter: brightness(50%);
 }
 .play::after{
+     content: '';
+     position: absolute;
+     background: url("../images/play.png")no-repeat;
+     background-size: 30%;
+     background-position: center;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+ }
+.pause::before{
     content: '';
     position: absolute;
-    background: url("../images/play.png")no-repeat;
+    background: url("../images/breyk.png")no-repeat;
     background-size: 30%;
     background-position: center;
     left: 0;

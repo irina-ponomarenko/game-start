@@ -122,4 +122,32 @@ $(document).ready(function() {
     $(".lang").on('click', function(){
         $(this).closest('.list-control').find('.list-lang').slideToggle(500);
     });
+
+    //---------------------sound------------//
+
+    let el = document.getElementById('btn-control');
+    let playing = false; // текущее состояние плеера
+
+    let player = new Audio('audio/bg-sound.mp3');
+    player.preload = "auto";
+    player.addEventListener('ended', function(){ // слушаем окончание трека
+        el.innerText = "Done";
+        playing = false;
+    });
+    if(el) {
+        el.addEventListener('click', playPause); // слушаем нажатие на кнопку
+    }
+
+    function playPause() {
+        if( playing) {
+            player.pause();
+            el.classList.remove('pause');
+            el.classList.add('play');
+        } else {
+            player.play();
+            el.classList.remove('play');
+            el.classList.add('pause');
+        }
+        playing = !playing;
+    }
 });
