@@ -22,7 +22,7 @@
  			<div class="wrapper-column wrapper-left-column">
                 <div class="profit-wrapper top-after">
                     <div class="profit-container">
-                        <div class="profit-container-right-block">
+                        <div class="profit-container-right-block tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
                             <img src="images/chest.png" alt="chest profit"/>
                         </div>
                         <div class="profit-container-left-block">
@@ -81,11 +81,10 @@
                 <div class="potion-wrapper">
                     <div class="potion-container">
                         <div class="top-potion-variant">
-                            <div class="active-butl-frame"></div>
                             <ul class="potion-list">
-                                <li class="item-potion">
+                                <li class="item-potion" name="potion1">
                                     <div class="wrapper-potion-butl">
-                                        <div class="potion-butl  not-active-butl">
+                                        <div class="potion-butl">
                                             <img class="non-active-butl" src="images/butl-1.png">
                                             <img class="active-butl" src="images/butl-1-active.png">
                                         </div>
@@ -94,7 +93,7 @@
                                         <span class="suma-potion">2 000</span>
                                     </div>
                                 </li>
-                                <li class="item-potion">
+                                <li class="item-potion active-butl-frame"  name="potion2">
                                     <div class="wrapper-potion-butl">
                                         <div class="potion-butl">
                                             <img class="non-active-butl" src="images/butl-2.png">
@@ -105,9 +104,9 @@
                                         <span class="suma-potion">40 000</span>
                                     </div>
                                 </li>
-                                <li class="item-potion">
+                                <li class="item-potion"  name="potion3">
                                     <div class="wrapper-potion-butl">
-                                        <div class="potion-butl  not-active-butl">
+                                        <div class="potion-butl">
                                             <img class="non-active-butl" src="images/butl-3.png">
                                             <img class="active-butl" src="images/butl-3-active.png">
                                         </div>
@@ -116,9 +115,9 @@
                                         <span class="suma-potion">500</span>
                                     </div>
                                 </li>
-                                <li class="item-potion">
+                                <li class="item-potion"  name="potion4">
                                     <div class="wrapper-potion-butl">
-                                        <div class="potion-butl  not-active-butl">
+                                        <div class="potion-butl">
                                             <img class="non-active-butl" src="images/butl-4.png">
                                             <img class="active-butl" src="images/butl-4-active.png">
                                         </div>
@@ -129,7 +128,104 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="bottom-about-potion">
+                    </div>
+                </div>
+                <div class="change-potion-container">
+                    <div class="potion-variant-vlock variant-1" id="potion1">
+                       <div class="bottom-about-potion">
+                            <div class="wrapper-list-about-potion">
+                                <ul class="list-about-potion">
+                                    <li class="about-potion">
+                                        <div class="container-potion">
+                                            <img src="images/potion-big-1.png" alt="potion"/>
+                                        </div>
+                                        <div class="about-potion-info">
+                                            <div class="header-info">
+                                                <h2 class="name-potion">Лес Марибора: </h2>
+                                                <p class="info-text-potion"> - воодушевляет на подвиги. Но не наломайте дров!</p>
+                                            </div>
+                                            <ul class="info-potion-list">
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Цена:</h3>
+                                                    <p class="price-porion">25<span>TRX</span></p>
+                                                </li>
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Время готовки:</h3>
+                                                    <p class="time-porion">3 <span>дня</span></p>
+                                                </li>
+                                            </ul>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="actions-wrapper">
+                            <div class="container-actions">
+                                <div class="header-actions">
+                                    <div class="wrapper-first-title">
+                                       <h3 class="first-title-action">Очки мастерства <span>0</span> <span class="result-action">(+<span>5</span> за варку)</span></h3>
+                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                    </div>
+                                    <h2 class="title-action">Действия</h2>
+                                </div>
+                                <div class="container-list-action">
+                                    <ul class="list-action">
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">3 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="money-span">250 <span>TRX</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">4 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="count-span">5 <span>шт</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">Сейчас</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="container-btn-action">
+                                        <button type="button" class="btn btn-action">Сварить</button>
+                                        <button type="button" class="btn btn-action">Улучшить</button>
+                                        <button type="button" class="btn btn-action">Продать</button>
+                                    </div>
+                                </div>
+                                <div class="footer-action">
+                                    <p>* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="potion-variant-vlock variant-2 active-potion-info" id="potion2">
+                       <div class="bottom-about-potion">
                             <div class="wrapper-list-about-potion">
                                 <ul class="list-about-potion">
                                     <li class="about-potion">
@@ -156,69 +252,256 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="actions-wrapper">
+                            <div class="container-actions">
+                                <div class="header-actions">
+                                    <div class="wrapper-first-title">
+                                       <h3 class="first-title-action">Очки мастерства <span>63</span> <span class="result-action">(+<span>5</span> за варку)</span></h3>
+                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                    </div>
+                                    <h2 class="title-action">Действия</h2>
+                                </div>
+                                <div class="container-list-action">
+                                    <ul class="list-action">
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">3 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="money-span">250 <span>TRX</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">4 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="count-span">50 <span>шт</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">Сейчас</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="container-btn-action">
+                                        <button type="button" class="btn btn-action">Сварить</button>
+                                        <button type="button" class="btn btn-action">Улучшить</button>
+                                        <button type="button" class="btn btn-action">Продать</button>
+                                    </div>
+                                </div>
+                                <div class="footer-action">
+                                    <p>* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                                </div>
+                            </div>
+                        </div> 
                     </div>
-                </div>
-                <div class="actions-wrapper">
-                    <div class="container-actions">
-                        <div class="header-actions">
-                            <div class="wrapper-first-title">
-                               <h3 class="first-title-action">Очки мастерства <span>63</span> <span class="result-action">(+<span>5</span> за варку)</span></h3>
-                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
-                            </div>
-                            <h2 class="title-action">Действия</h2>
-                        </div>
-                        <div class="container-list-action">
-                            <ul class="list-action">
-                                <li class="item-action">
-                                    <div class="header-item-action">
-                                        <h3 class="title-counter">3 дня</h3>
-                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
-                                    </div>
-                                    <div class="number-counter">
-                                        <input type="text" class="counter-input" value="10"/>
-                                        <div class="btn-counter-wrapper">
-                                            <span class="btn-counter plus"></span>
-                                            <span class="btn-counter minus"></span>
+                    <div class="potion-variant-vlock variant-3" id="potion3">
+                       <div class="bottom-about-potion">
+                            <div class="wrapper-list-about-potion">
+                                <ul class="list-about-potion">
+                                    <li class="about-potion">
+                                        <div class="container-potion">
+                                            <img src="images/potion-big-3.png" alt="potion"/>
                                         </div>
-                                    </div>
-                                    <span class="money-span">250 <span>TRX</span></span>
-                                </li>
-                                <li class="item-action">
-                                    <div class="header-item-action">
-                                        <h3 class="title-counter">4 дня</h3>
-                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
-                                    </div>
-                                    <div class="number-counter">
-                                        <input type="text" class="counter-input" value="10"/>
-                                        <div class="btn-counter-wrapper">
-                                            <span class="btn-counter plus"></span>
-                                            <span class="btn-counter minus"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="item-action">
-                                    <div class="header-item-action">
-                                        <h3 class="title-counter">Сейчас</h3>
-                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
-                                    </div>
-                                    <div class="number-counter">
-                                        <input type="text" class="counter-input" value="10"/>
-                                        <div class="btn-counter-wrapper">
-                                            <span class="btn-counter plus"></span>
-                                            <span class="btn-counter minus"></span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="container-btn-action">
-                                <button type="button" class="btn btn-action">Сварить</button>
-                                <button type="button" class="btn btn-action">Улучшить</button>
-                                <button type="button" class="btn btn-action">Продать</button>
+                                        <div class="about-potion-info">
+                                            <div class="header-info">
+                                                <h2 class="name-potion">Филин: </h2>
+                                                <p class="info-text-potion"> - позволяет видеть в кромешной тьме. Но с рассветом погружает в сон.</p>
+                                            </div>
+                                            <ul class="info-potion-list">
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Цена:</h3>
+                                                    <p class="price-porion">2500<span>TRX</span></p>
+                                                </li>
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Время готовки:</h3>
+                                                    <p class="time-porion">3 <span>дня</span></p>
+                                                </li>
+                                            </ul>
+                                        </div> 
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="footer-action">
-                            <p>* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                        <div class="actions-wrapper">
+                            <div class="container-actions">
+                                <div class="header-actions">
+                                    <div class="wrapper-first-title">
+                                       <h3 class="first-title-action">Очки мастерства <span>63</span> <span class="result-action">(+<span>5</span> за варку)</span></h3>
+                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                    </div>
+                                    <h2 class="title-action">Действия</h2>
+                                </div>
+                                <div class="container-list-action">
+                                    <ul class="list-action">
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">3 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="money-span">2500 <span>TRX</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">4 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="count-span">50 <span>шт</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">Сейчас</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="container-btn-action">
+                                        <button type="button" class="btn btn-action">Сварить</button>
+                                        <button type="button" class="btn btn-action">Улучшить</button>
+                                        <button type="button" class="btn btn-action">Продать</button>
+                                    </div>
+                                </div>
+                                <div class="footer-action">
+                                    <p>* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="potion-variant-vlock variant-4" id="potion4">
+                       <div class="bottom-about-potion">
+                            <div class="wrapper-list-about-potion">
+                                <ul class="list-about-potion">
+                                    <li class="about-potion">
+                                        <div class="container-potion">
+                                            <img src="images/potion-big-4.png" alt="potion"/>
+                                        </div>
+                                        <div class="about-potion-info">
+                                            <div class="header-info">
+                                                <h2 class="name-potion">Полнолуние: </h2>
+                                                <p class="info-text-potion"> - придает силу волка. После употребления возникает завывания на луну</p>
+                                            </div>
+                                            <ul class="info-potion-list">
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Цена:</h3>
+                                                    <p class="price-porion">12500 <span>TRX</span></p>
+                                                </li>
+                                                <li class="item-info">
+                                                    <h3 class="title-item-info">Время готовки:</h3>
+                                                    <p class="time-porion">3 <span>дня</span></p>
+                                                </li>
+                                            </ul>
+                                        </div> 
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        <div class="actions-wrapper">
+                            <div class="container-actions">
+                                <div class="header-actions">
+                                    <div class="wrapper-first-title">
+                                       <h3 class="first-title-action">Очки мастерства <span>63</span> <span class="result-action">(+<span>5</span> за варку)</span></h3>
+                                        <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                    </div>
+                                    <h2 class="title-action">Действия</h2>
+                                </div>
+                                <div class="container-list-action">
+                                    <ul class="list-action">
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">3 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="money-span">12500 <span>TRX</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">4 дня</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                            <span class="count-span">50 <span>шт</span></span>
+                                        </li>
+                                        <li class="item-action">
+                                            <div class="header-item-action">
+                                                <h3 class="title-counter">Сейчас</h3>
+                                                <div class="information-btn tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
+                                            </div>
+                                            <div class="number-counter">
+                                                <input type="text" class="counter-input" value="10"/>
+                                                <div class="btn-counter-wrapper">
+                                                    <span class="btn-counter plus"></span>
+                                                    <span class="btn-counter minus"></span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="container-btn-action">
+                                        <button type="button" class="btn btn-action">Сварить</button>
+                                        <button type="button" class="btn btn-action">Улучшить</button>
+                                        <button type="button" class="btn btn-action">Продать</button>
+                                    </div>
+                                </div>
+                                <div class="footer-action">
+                                    <p>* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                                </div>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -283,19 +566,19 @@
                             <div class="container-social">
                                 <ul class="social-list">
                                     <li class="social-item social-position-1">
-                                        <a href="" class="social-link twitter" target="_blank"></a>
+                                        <a href="" class="social-link twitter tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." target="_blank"></a>
                                     </li>
                                     <li class="social-item social-position-2">
-                                        <a href="" class="social-link telegram" target="_blank"></a>
+                                        <a href="" class="social-link telegram  tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." target="_blank"></a>
                                     </li>
                                     <li class="social-item social-position-3">
-                                        <a href="" class="social-link horn" target="_blank"></a>
+                                        <a href="" class="social-link horn  tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." target="_blank"></a>
                                     </li>
                                     <li class="social-item social-position-4">
-                                        <a href="" class="social-link discord" target="_blank"></a>
+                                        <a href="" class="social-link discord  tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." target="_blank"></a>
                                     </li>
                                     <li class="social-item social-position-5">
-                                        <a href="" class="social-link facebook" target="_blank"></a>
+                                        <a href="" class="social-link facebook  tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." target="_blank"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -311,22 +594,22 @@
                             </div>
                             <div class="container-awards">
                                 <ul class="list-awards scroll-custom">
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img class="tooltip" src="images/awards/41.png" data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." alt="award"/>
                                     </li>
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img  class="tooltip" src="images/awards/42.png"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus." alt="award"/>
                                     </li>
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img src="images/awards/43.png" alt="award"/>
                                     </li>
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img src="images/awards/44.png" alt="award"/>
                                     </li>
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img src="images/awards/45.png" alt="award"/>
                                     </li>
-                                    <li class="item-awards">
+                                    <li class="item-awards active-awards">
                                         <img src="images/awards/46.png" alt="award"/>
                                     </li>
                                     <li class="item-awards">
@@ -448,108 +731,108 @@
                                         <ul class="list-table-ivent">
                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                             <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                               <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
                                             </li>
-                                            <li>
+                                               <li>
                                                 <div class="container-icon-table">
-                                                    <!--  <img src="" alt="avatar"/> -->
+                                                     <img src="images/avatar.jpg" alt="avatar"/>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table fist-item-name">
                                                     <span>Джон Сена</span>
                                                 </div>
-                                                <div class="info-table">
+                                                <div class="info-table summ-table">
                                                     <span>100500</span>
                                                     <span>TRX</span>
                                                 </div>
@@ -757,12 +1040,12 @@
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">17</span>
                                                             <span class="count-percent">100%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness active-readiness"></div>
+                                                    <div class="readiness active-readiness  tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress red-progress">
                                                     <div class="position-number second-number"></div>
@@ -770,12 +1053,12 @@
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">125</span>
                                                             <span class="count-percent">50%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress blue-progress">
                                                     <div class="position-number three-number"></div>
@@ -783,12 +1066,12 @@
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">500</span>
                                                             <span class="count-percent">50%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress pink-progress">
                                                     <div class="position-number four-number"></div>
@@ -796,12 +1079,12 @@
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">5000</span>
                                                             <span class="count-percent">50%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -809,64 +1092,56 @@
                                         <div class="container-list-progress">
                                             <ul class="list-progress">
                                                 <li class="item-progress apgrade-green-progress">
-                                                    <div class="position-number">
-                                                        <span>1</span>
-                                                    </div>
+                                                    <div class="position-number first-number"></div>
                                                     <div class="progress-block">
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">17</span>
                                                             <span class="count-percent">50%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress apgrade-red-progress">
-                                                    <div class="position-number">
-                                                        <span>2</span>
-                                                    </div>
+                                                    <div class="position-number second-number"></div>
                                                     <div class="progress-block">
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">125</span>
                                                             <span class="count-percent">5%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress apgrade-blue-progress">
-                                                    <div class="position-number">
-                                                        <span>3</span>
-                                                    </div>
+                                                    <div class="position-number three-number"></div>
                                                     <div class="progress-block">
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">500</span>
                                                             <span class="count-percent">95%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                                 <li class="item-progress apgrade-pink-progress">
-                                                    <div class="position-number">
-                                                        <span>4</span>
-                                                    </div>
+                                                    <div class="position-number  four-number"></div>
                                                     <div class="progress-block">
                                                         <div class="progress-line-wrapper">
                                                             <span class="count-number">5000</span>
                                                             <span class="count-percent">60%</span>
-                                                            <div class="progress-line tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus.">
+                                                            <div class="progress-line">
                                                                 <div class="line"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="readiness"></div>
+                                                    <div class="readiness tooltip"  data-tippy-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies fermentum odio vestibulum tristique. Cras eu urna at metus pharetra finibus."></div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1332,7 +1607,8 @@
                     </li>
                      <li class="face-item">
                         <div class="container-face-img your-face">
-                            <img src="images/image-icon.png" alt="face image"/>
+                            <label for="uploadbtn" class="uploadButton"></label>
+                            <input type="file"  name="upload" accept="png,image/*" id="uploadbtn">
                         </div>
                     </li>
                 </ul>

@@ -45,7 +45,7 @@ p, a , span, label{
     height: auto;
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 40px 15px;
 }
 .container-column{
     display: flex;
@@ -59,7 +59,7 @@ p, a , span, label{
 .wrapper-left-column{
     width: 29%;
     position: relative;
-    right: -20px
+    right: -19px
 }
 .wrapper-left-column::after{
     content: '';
@@ -240,7 +240,13 @@ p, a , span, label{
 
 .potion-wrapper{
     background: url("../images/bg-2.png")no-repeat;
-    background-size: 100% 101%;
+    background-size: cover;
+}
+.bottom-about-potion{
+    background: url("../images/bg-2.png")no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
 }
 .potion-butl{
     max-width: 143px;
@@ -253,20 +259,21 @@ p, a , span, label{
     align-items: center;
 }
 .potion-butl img{
-    max-width: 146px;
+    max-width: 133px;
     width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    display: none;
 
 }
 .potion-container{
     padding: 8px;
 }
 .item-potion{
-    max-width: 143px;
+    max-width: 133px;
     width: 100%;
 }
 .not-active-butl .active-butl{
@@ -299,20 +306,68 @@ p, a , span, label{
     bottom: -5px;
     height: 7px;
 }
-.active-butl-frame{
+.top-potion-variant::before{
+    content: '';
     position: absolute;
-    left: 114px;
+    background: url("../images/border-potion-container.png")repeat-x;
+    left: 0;
+    right: 0;
+    top: -5px;
+    height: 7px;
+}
+.bottom-about-potion::after{
+    content: '';
+    position: absolute;
+    background: url("../images/border-potion-container.png")repeat-x;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 7px;
+}
+.active-butl-frame{
+    position: relative;
+}
+.active-butl-frame::after{
+    content: '';
+    position: absolute;
+    left: 0px;
     right: -8px;
-    top: -9px;
-    bottom: -9px;
-    background: url("../images/frame-slider.png")no-repeat;
-    background-size: contain;
+    top: -8px;
+    bottom: -8px;
+    background: url(../images/frame-slider.png)no-repeat;
+    background-size: 100% 100%;
     max-width: 150px;
     z-index: 100;
     border-radius: 30px;
+    width: 100%;
     -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.wrapper-potion-butl .potion-butl .non-active-butl{
+    display: block;
+}
+.wrapper-potion-butl .potion-butl{
+    position: relative;
+}
+.wrapper-potion-butl .potion-butl::after{
+    content: '';
+    position: absolute;
+    left: -1px;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.active-butl-frame .wrapper-potion-butl .potion-butl .non-active-butl{
+    display: none;
+}
+.active-butl-frame .wrapper-potion-butl .potion-butl::after{
+    display: none;
+}
+.active-butl-frame .wrapper-potion-butl .potion-butl .active-butl{
+    display: block;
+    border-radius: 21px
 }
 .item-potion{
     position: relative;
@@ -370,6 +425,13 @@ p, a , span, label{
 }
 .wrapper-list-about-potion{
     padding: 0 10px;
+    min-height: 166px;
+}
+.potion-variant-vlock{
+    display: none;
+}
+.active-potion-info{
+    display: block;
 }
 
 /*---------------block actions-----------*/
@@ -521,13 +583,16 @@ p, a , span, label{
     transform: rotate(180deg);
 }
 .money-span,
+.count-span,
+.count-span span,
 .money-span span{
     color: #ffffff;
     font-size: 18px;
     font-family: 'Mason Chronicles';
     margin-top: 5px;
 }
-.money-span span{
+.money-span span,
+.count-span span{
     font-size: 16px;
 }
 .item-action{
@@ -925,12 +990,27 @@ p, a , span, label{
     justify-content: center;
     margin: 0 auto;
     height: 100%;
+    max-width: 90%;
 }
 .item-awards{
     margin: 10px;
 }
 .item-awards img{
     width: 70px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+}
+.active-awards img{
+     -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: inherit; /* IE 6-9 */
 }
 .wrapper-awards{
     padding: 32px 15px 15px;
@@ -1023,19 +1103,19 @@ p, a , span, label{
     position: relative;
 }
 .menu-link{
-    font-size: 28px;
+font-size: 24px;
     font-family: 'Mason Chronicles';
     color: #dbdbdb;
     text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
     text-align: center;
     text-decoration: none;
     background: url("../images/menu-btn.png")no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 208px;
-    height: 48px;
+    width: 193px;
+    height: 45px;
     position: relative;
 }
 .menu-link::after{
@@ -1064,7 +1144,8 @@ p, a , span, label{
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 15px 0 35px;
+    padding: 15px 0 15px;
+    overflow-y: hidden;
 }
 .menu-container::after{
     content: '';
@@ -1076,14 +1157,14 @@ p, a , span, label{
     background: url("../images/line-bg.png")repeat-x;
 }
 .item-menu{
-    padding: 22px 22px;
+   padding: 16px;
 }
 .gildia::before{
     content: '';
     position: absolute;
     right: 0;
-    bottom: -41px;
-    width: 30px;
+    bottom: -34px;
+    width: 28px;
     height: 100%;
     background: url("../images/gildia-after.png")no-repeat;
     background-size: contain;
@@ -1093,8 +1174,8 @@ p, a , span, label{
     content: '';
     position: absolute;
     right: 0;
-    bottom: -41px;
-    width: 30px;
+    bottom: -34px;
+    width: 28px;
     height: 100%;
     background: url("../images/gildia-after-active.png")no-repeat;
     background-size: contain;
@@ -1104,8 +1185,8 @@ p, a , span, label{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -41px;
-    width: 30px;
+    bottom: -34px;
+    width: 28px;
     height: 100%;
     background: url("../images/about-game-after.png")no-repeat;
     background-size: contain;
@@ -1115,8 +1196,8 @@ p, a , span, label{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -41px;
-    width: 30px;
+    bottom: -34px;
+    width: 28px;;
     height: 100%;
     background: url("../images/about-game-after-active.png")no-repeat;
     background-size: contain;
@@ -1124,9 +1205,9 @@ p, a , span, label{
 .raiting::before{
     content: '';
     position: absolute;
-    right: 9px;
-    bottom: -136px;
-    width: 23px;
+    right: 13px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
     background: url("../images/reiting-after.png")no-repeat;
     background-size: contain;
@@ -1135,8 +1216,8 @@ p, a , span, label{
     content: '';
     position: absolute;
     left: 9px;
-    bottom: -136px;
-    width: 23px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
     background: url("../images/affects-after.png")no-repeat;
     background-size: contain;
@@ -1146,8 +1227,8 @@ p, a , span, label{
     content: '';
     position: absolute;
     left: 9px;
-    bottom: -136px;
-    width: 23px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
     background: url("../images/affects-after-active.png")no-repeat;
     background-size: contain;
@@ -1156,9 +1237,9 @@ p, a , span, label{
 .raiting:hover::before{
     content: '';
     position: absolute;
-    right: 9px;
-    bottom: -136px;
-    width: 23px;
+    right: 13px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
     background: url("../images/reiting-after-active.png")no-repeat;
     background-size: contain;
@@ -1166,9 +1247,9 @@ p, a , span, label{
 .progress::before{
     content: '';
     position: absolute;
-    right: 16px;
-    bottom: -230px;
-    width: 23px;
+    right: 19px;
+    bottom: -188px;
+    width: 21px;
     height: 100%;
     background: url("../images/progress-after.png")no-repeat;
     background-size: contain;
@@ -1176,9 +1257,9 @@ p, a , span, label{
 .fag-after::before{
     content: '';
     position: absolute;
-    left: 16px;
-    bottom: -230px;
-    width: 23px;
+    left: 17px;
+    bottom: -188px;
+    width: 21px;
     height: 100%;
     background: url("../images/faq-after.png")no-repeat;
     background-size: contain;
@@ -1187,9 +1268,9 @@ p, a , span, label{
 .fag-after:hover::before{
     content: '';
     position: absolute;
-    left: 16px;
-    right: inherit;
-    bottom: -230px;
+    left: 17px;
+    bottom: -188px;
+    width: 21px;x;
     width: 23px;
     height: 100%;
     background: url("../images/faq-after-active.png")no-repeat;
@@ -1199,9 +1280,9 @@ p, a , span, label{
 .progress:hover::before{
     content: '';
     position: absolute;
-    right: 16px;
-    bottom: -230px;
-    width: 23px;
+    right: 19px;
+    bottom: -188px;
+    width: 21px;
     height: 100%;
     background: url("../images/progress-after-active.png")no-repeat;
     background-size: contain;
@@ -1324,8 +1405,9 @@ p, a , span, label{
 }
 .list-header-gildia{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
+    max-width: 85%;
 }
 .list-header-gildia li{
     font-size: 21px;
@@ -1339,6 +1421,7 @@ p, a , span, label{
     background: url("../images/bg-5.png")no-repeat;
     background-size: cover;
     position: relative;
+    flex: 1;
 }
 .container-ivent-table::after{
     content: '';
@@ -1356,11 +1439,18 @@ p, a , span, label{
     opacity: 0.5;
     text-align: right;
 }
+.fist-item-name{
+   width: 44%;
+}
+.summ-table{
+    width: 36%;
+}
 .container-icon-table{
-    width: 25px;
-    height: 25px;
+    width: 27px;
+    height: 27px;
     background-color: #424242;
     border-radius: 100%;
+    overflow: hidden;
 }
 .container-icon-table img{
     width: 100%;
@@ -1369,7 +1459,7 @@ p, a , span, label{
     width: 100%;
 }
 .list-table-ivent li{
-    padding: 5px 5px 5px 20px;
+    padding: 5px;
 }
 .header-table-gildia{
     position: relative;
@@ -1390,19 +1480,18 @@ p, a , span, label{
 .list-table-ivent li{
     display: flex;
     justify-content: space-between;
-    width: 80%;
 }
 .table-iven .slimScrollDiv{
     width: 87% !important;
     padding: 10px 20px 7px;
-    height: 151px !important;
+    height: 211px !important;
 }
 .container-ivent-table .slimScrollRail{
     height: 86% !important;
     top: 14px !important;
 }
 .body-table-gildia{
-    height: 159px !important;
+    height: 209px !important;
 }
 .header-raiting h3{
     font-size: 21px;
@@ -1452,6 +1541,9 @@ p, a , span, label{
 }
 .icon-raiting{
     width: 40px;
+    border-radius: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 .icon-raiting img{
     width: 100%;
@@ -1466,7 +1558,7 @@ p, a , span, label{
     padding-right: 30px;
 }
 .table-raiting .slimScrollDiv{
-     min-height: 310px;
+     min-height: 390px;
 }
 .item-raiting{
     margin-bottom: 10px;
@@ -1487,7 +1579,7 @@ p, a , span, label{
     background: url("../images/line-bg.png")repeat-x;
 }
 .item-block{
-    min-width: 52px;
+    min-width: 40px;
 }
 .footer-raiting{
     padding: 5px 0;
@@ -1732,6 +1824,7 @@ p, a , span, label{
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+    z-index: 1000000;
 }
 .apgrade-green-progress .progress-block::after{
     background: url("../images/btn-light.png")no-repeat;
@@ -1752,6 +1845,7 @@ p, a , span, label{
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+    z-index: 1000000;
 }
 .apgrade-red-progress .progress-block::after{
     background: url("../images/btn-light-2.png")no-repeat;
@@ -1773,6 +1867,7 @@ p, a , span, label{
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+    z-index: 1000000;
 }
 .apgrade-blue-progress .progress-block::after{
     background: url("../images/btn-light-3.png")no-repeat;
@@ -1793,6 +1888,7 @@ p, a , span, label{
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+    z-index: 1000000;
 }
 .apgrade-pink-progress .progress-block::after{
     background: url("../images/btn-light-4.png")no-repeat;
@@ -1892,7 +1988,7 @@ p, a , span, label{
     flex: 1;
 }
 .top-progress-block .slimScrollDiv{
-    min-height: 440px;
+    min-height: 470px;
 }
 .wrapper-content-events{
     background: url("../images/bg-8.png")no-repeat;
@@ -1902,7 +1998,7 @@ p, a , span, label{
 }
 .title-events{
     color: #dbdbdb;
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 10px;
     text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
 }
@@ -1954,7 +2050,7 @@ p, a , span, label{
 }
 .header-table tr th{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 21px;
     font-family: 'PT Sans Narrow';
     text-align: left;
     padding: 10px;
@@ -1979,10 +2075,10 @@ p, a , span, label{
     height: 100% !important;
 }
 .container-table-events .slimScrollDiv{
-    min-height: 322px;
+    min-height: 388px;
 }
 .info-event{
-    font-size: 14px;
+    font-size: 18px;
     color: #a6aba7;
 }
 .green span{
@@ -2066,11 +2162,11 @@ p, a , span, label{
     line-height: normal;
 }
 .list-about-game{
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 .item-about-game{
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
     position: relative;
 }
@@ -2092,10 +2188,15 @@ p, a , span, label{
     padding-top: 10px;
 }
 .container-info-about-game .slimScrollDiv{
-    min-height: 388px;
+    min-height: 433px;
 }
 .list-about-game.scroll-custom{
     height: 100% !important;
+}
+.container-info-about-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .btn-contact-game{
     width: 160px;
@@ -2129,7 +2230,7 @@ p, a , span, label{
 .footer-about-game{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .header-faq h3{
     font-size: 21px;
@@ -2183,16 +2284,18 @@ p, a , span, label{
     flex: 1;
 }
 .container-faq-list .slimScrollDiv{
-    min-height: 466px;
+    min-height: 512px;
 }
 .list-faq{
     height: 100% !important;
 }
 .right-info-block{
     display: none;
+    flex: 1;
+    flex-direction: column;
 }
 .active-block{
-    display: block;
+    display: flex;
 }
 /*--------------------------------*/
 
@@ -2218,7 +2321,7 @@ p, a , span, label{
     bottom: 49px;
     right: -140px;
     display: none;
-    z-index: 10;
+    z-index: 100;
 }
 .tooltipe p,
 .tippy-content {
@@ -2458,6 +2561,7 @@ p, a , span, label{
     justify-content: center;
     align-items: center;
     background-color: #0b0705;
+    overflow: hidden;
 }
 .container-face-img img{
     width: 100%;
@@ -2467,9 +2571,19 @@ p, a , span, label{
     margin: 0 auto;
     justify-content: center;
 }
-.your-face img{
+.your-face input{
+    font-size: 0;
+    opacity: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.uploadButton{
     width: 35px;
     height: 30px;
+    background: url('../images/image-icon.png')no-repeat;
+    background-size: contain;
 }
 .face-item{
     margin: 0 5px;

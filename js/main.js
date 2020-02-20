@@ -69,6 +69,20 @@ $(document).ready(function() {
     });
 
 
+    //---------------------click change potion-------------//
+
+      $('.item-potion').on('click', function (event) {
+        event.preventDefault();
+
+        const name = $(this).attr('name');
+        $('.potion-variant-vlock').removeClass('active-potion-info');
+        $('#' + name).addClass('active-potion-info');
+        $('.item-potion').removeClass('active-butl-frame');
+        $(this).closest(".item-potion").addClass('active-butl-frame');
+
+    });
+
+
     //---------------------tooltip-------------//
 
     tippy('.tooltip', {
