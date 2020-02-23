@@ -150,4 +150,9 @@ $(document).ready(function() {
         }
         playing = !playing;
     }
+
+    //--------------sound btn-------------//
+
+    const rollSound = new Audio("audio/bg-sound-btn.mp3");
+    $('button, .menu-link, .social-link, .btn-counter, .btn-contact-game').click(e => rollSound.play());
 });

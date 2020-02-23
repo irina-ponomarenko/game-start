@@ -30,6 +30,10 @@ p, a , span, label{
      font-family: 'PT Sans Narrow';
      word-spacing: 2px;
 }
+a:focus,
+a:active{
+  outline: none;
+}
 
 /*-------------------wrapper style--------------------------*/
 .body{
@@ -73,7 +77,7 @@ p, a , span, label{
 }
 
 .profit-wrapper{
-    background: url("../images/bg-1.png")no-repeat;
+    background: url("../images/bg-1.jpg")no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -239,11 +243,11 @@ p, a , span, label{
 /*-----------------block potions-------------*/
 
 .potion-wrapper{
-    background: url("../images/bg-2.png")no-repeat;
+    background: url("../images/bg-2.jpg")no-repeat;
     background-size: cover;
 }
 .bottom-about-potion{
-    background: url("../images/bg-2.png")no-repeat;
+    background: url("../images/bg-2.jpg")no-repeat;
     background-size: cover;
     background-position: bottom;
     position: relative;
@@ -275,6 +279,7 @@ p, a , span, label{
 .item-potion{
     max-width: 133px;
     width: 100%;
+    cursor: pointer;
 }
 .not-active-butl .active-butl{
     display: none;
@@ -344,6 +349,9 @@ p, a , span, label{
     -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 }
+.active-butl-frame .potion-butl{
+    background: rgba(0,0,0,0.5);
+}
 .wrapper-potion-butl .potion-butl .non-active-butl{
     display: block;
 }
@@ -395,6 +403,7 @@ p, a , span, label{
 .container-potion{
     max-width: 170px;
     width: 100%;
+    height: 155px;
 }
 .about-potion{
     display: flex;
@@ -437,7 +446,7 @@ p, a , span, label{
 /*---------------block actions-----------*/
 
 .actions-wrapper{
-    background: url("../images/bg-3.png")no-repeat;
+    background: url("../images/bg-3.jpg")no-repeat;
     background-size: cover;
     padding: 10px;
 }
@@ -697,7 +706,7 @@ p, a , span, label{
     left: 20px;
     right: 20px;
     top: 0;
-    background: url("../images/center-bg.png")no-repeat;
+    background: url("../images/center-bg.jpg")no-repeat;
     background-size: cover;
 }
 .wrapper-center-column::after{
@@ -1140,7 +1149,7 @@ p, a , span, label{
 
 }
 .menu-container{
-    background: url("../images/menu-bg.png")no-repeat;
+    background: url("../images/menu-bg.jpg")no-repeat;
     background-size: cover;
     position: relative;
     display: flex;
@@ -1407,8 +1416,11 @@ p, a , span, label{
     text-align: left;
     padding: 11px 0px 18px;
 }
+.list-header-gildia li:first-child{
+    padding-left: 20px;
+}
 .container-ivent-table{
-    background: url("../images/bg-5.png")no-repeat;
+    background: url("../images/bg-5.jpg")no-repeat;
     background-size: cover;
     position: relative;
     flex: 1;
@@ -1431,6 +1443,7 @@ p, a , span, label{
 }
 .fist-item-name{
    width: 44%;
+   padding-left: 40px;
 }
 .summ-table{
     width: 36%;
@@ -1473,12 +1486,9 @@ p, a , span, label{
 }
 .table-iven .slimScrollDiv{
     width: 87% !important;
-    padding: 10px 20px 7px;
-    height: 211px !important;
-}
-.container-ivent-table .slimScrollRail{
-    height: 86% !important;
-    top: 14px !important;
+    padding: 0 20px 7px;
+    height: 202px !important;
+    margin-top: 10px;
 }
 .body-table-gildia{
     height: 209px !important;
@@ -1520,7 +1530,7 @@ p, a , span, label{
     padding: 15px 0;
 }
 .wrapper-content-raiting{
-    background: url("../images/bg-6.png")no-repeat;
+    background: url("../images/bg-6.jpg")no-repeat;
     background-size: cover;
     flex: 1;
 }
@@ -1587,7 +1597,7 @@ p, a , span, label{
     text-shadow: 0px 0px 0 rgb(195,172,136), 1px 1px 0 rgb(143,120,84), 2px 2px 1px rgba(110,77,30,0.36), 2px 2px 1px rgba(110,77,30,0.5), 0px 0px 1px rgba(110,77,30,.2);
 }
 .wrapper-content-progress{
-    background: url("../images/bg-7.png")no-repeat;
+    background: url("../images/bg-7.jpg")no-repeat;
     background-size: cover;
     padding: 15px 25px 15px 0;
     flex: 1;
@@ -1981,7 +1991,7 @@ p, a , span, label{
     min-height: 470px;
 }
 .wrapper-content-events{
-    background: url("../images/bg-8.png")no-repeat;
+    background: url("../images/bg-8.jpg")no-repeat;
     background-size: cover;
     padding: 15px 25px 15px 0;
     flex: 1;
