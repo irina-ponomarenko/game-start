@@ -153,6 +153,26 @@ $(document).ready(function() {
 
     //--------------sound btn-------------//
 
-    const rollSound = new Audio("audio/bg-sound-btn.mp3");
-    $('button, .menu-link, .social-link, .btn-counter, .btn-contact-game').click(e => rollSound.play());
+    let rollSound;
+    let rollSound1;
+
+    $('button, .social-link, .btn-counter, .btn-contact-game').click(e => {
+        if (rollSound && rollSound1) {
+            rollSound.pause();
+            rollSound1.pause();
+        }
+
+        rollSound  = new Audio("audio/bg-sound-btn1.mp3");
+        rollSound.play();
+    });
+
+    $('.menu-link').click(e => {
+        if (rollSound && rollSound1) {
+            rollSound.pause();
+            rollSound1.pause();
+        }
+
+        rollSound1  = new Audio("audio/bg-sound-btn2.mp3");
+        rollSound1.play();
+    });
 });
