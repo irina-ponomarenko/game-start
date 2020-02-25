@@ -2203,6 +2203,12 @@ a:active{
     line-height: normal;
     text-align: left;
 }
+.item-about-game p a{
+    color: #f4c66f;
+    text-shadow: -1px -1px 1px rgba(215,215,215,0.6), 1px 1px 1px #000;
+    text-decoration: none;
+    margin: 0 2px;
+}
 .list-about-game{
     max-width: 86%;
     margin: 0 auto;
