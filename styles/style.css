@@ -1422,7 +1422,7 @@ a:active{
     justify-content: space-around;
     position: relative;
     max-width: 78%;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 .list-header-gildia li{
     font-size: 21px;
@@ -1465,10 +1465,13 @@ a:active{
 }
 .fist-item-name{
      width: 30%;
-
+    display: flex;
+    justify-content: center;
 }
 .summ-table{
     width: 30%;
+    justify-content: flex-end;
+    display: flex;
 }
 .container-icon-table{
     width: 27px;
@@ -1504,7 +1507,7 @@ a:active{
 }
 .list-table-ivent li{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .table-iven .slimScrollDiv{
     width: 87% !important;
