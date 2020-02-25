@@ -88,12 +88,10 @@ $(document).ready(function() {
     tippy('.tooltip', {
         offset: '260, 0',
         zIndex: 10000000000000,
-        hideOnClick: false
     });
     tippy('.tooltip1', {
         offset: '260, 0',
         zIndex: 10000000000000,
-        hideOnClick: false,
         allowHTML: true
     });
 
