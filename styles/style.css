@@ -63,7 +63,9 @@ a:active{
 .wrapper-left-column{
     width: 29%;
     position: relative;
-    right: -19px
+    right: -19px;
+    display: flex;
+    flex-direction: column;
 }
 .wrapper-left-column::after{
     content: '';
@@ -426,7 +428,7 @@ a:active{
     display: flex;
     align-items: center;
 }
-.time-porion,
+.time-potion,
 .price-porion,
 .info-text-potion{
     font-size: 18px;
@@ -446,7 +448,14 @@ a:active{
     display: none;
 }
 .active-potion-info{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.change-potion-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /*---------------block actions-----------*/
@@ -455,6 +464,9 @@ a:active{
     background: url("../images/bg-3.jpg")no-repeat;
     background-size: cover;
     padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .actions-wrapper::before{
     content: '';
@@ -852,12 +864,12 @@ a:active{
 }
 .bottle-position-2{
     position: absolute;
-    left: 158px;
+    left: 9px;
     top: -50px;
 }
 .bottle-position-3{
     position: absolute;
-    right: 165px;
+    right: 9px;
     top: -50px;
 }
 .bottle-position-4{
@@ -1183,21 +1195,21 @@ a:active{
 .gildia::before{
     content: '';
     position: absolute;
-    right: 0;
-    bottom: -34px;
-    width: 28px;
+    right: 10px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
-    background: url("../images/gildia-after.png")no-repeat;
+    background: url("../images/reiting-after.png")no-repeat;
     background-size: contain;
 }
 .gildia.active-btn::before{
     content: '';
     position: absolute;
-    right: 0;
-    bottom: -34px;
-    width: 28px;
+    right: 10px;
+    bottom: -114px;
+    width: 19px;
     height: 100%;
-    background: url("../images/gildia-after-active.png")no-repeat;
+    background: url("../images/reiting-after-active.png")no-repeat;
     background-size: contain;
 
 }
@@ -1224,11 +1236,11 @@ a:active{
 .raiting::before{
     content: '';
     position: absolute;
-    right: 10px;
-    bottom: -114px;
-    width: 19px;
+    right: 15px;
+    bottom: -188px;
+    width: 21px;
     height: 100%;
-    background: url("../images/reiting-after.png")no-repeat;
+    background: url("../images/progress-after.png")no-repeat;
     background-size: contain;
 }
 .ivents::before{
@@ -1254,21 +1266,21 @@ a:active{
 .raiting.active-btn::before{
     content: '';
     position: absolute;
-    right: 10px;
-    bottom: -114px;
-    width: 19px;
+    right: 15px;
+    bottom: -188px;
+    width: 21px;
     height: 100%;
-    background: url("../images/reiting-after-active.png")no-repeat;
+    background: url("../images/progress-after-active.png")no-repeat;
     background-size: contain;
 }
 .progress::before{
     content: '';
     position: absolute;
-    right: 15px;
-    bottom: -188px;
-    width: 21px;
+    right: 0;
+    bottom: -34px;
+    width: 28px;
     height: 100%;
-    background: url("../images/progress-after.png")no-repeat;
+    background: url("../images/gildia-after.png")no-repeat;
     background-size: contain;
 }
 .fag-after::before{
@@ -1294,11 +1306,11 @@ a:active{
 .progress.active-btn::before{
     content: '';
     position: absolute;
-    right: 15px;
-    bottom: -188px;
-    width: 21px;
+    right: 0;
+    bottom: -34px;
+    width: 28px;
     height: 100%;
-    background: url("../images/progress-after-active.png")no-repeat;
+    background: url("../images/gildia-after-active.png")no-repeat;
     background-size: contain;
 }
 .gildia,
@@ -2054,6 +2066,9 @@ a:active{
     position: relative;
     text-align: center;
 }
+.summa-ivents{
+    margin-right: 5px;
+}
 .title-events-item{
     width: 50%;
     display: flex;
@@ -2186,9 +2201,10 @@ a:active{
     color: #ffffff;
     font-size: 17px;
     line-height: normal;
+    text-align: left;
 }
 .list-about-game{
-    max-width: 80%;
+    max-width: 86%;
     margin: 0 auto;
 }
 .item-about-game{
