@@ -211,7 +211,7 @@ $(document).ready(function() {
     });
 
     $('.menu-link').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6  && rollSound8  && rollSound9  && rollSound10) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -219,6 +219,9 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
+            rollSound8.pause();
+            rollSound9.pause();
+            rollSound10.pause();
         }
 
         rollSound1  = new Audio("audio/menu.mp3");
@@ -240,7 +243,7 @@ $(document).ready(function() {
         rollSound2.play();
     });
     $('.information-btn, .btn-counter, .face-item').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6  && rollSound7  && rollSound8  && rollSound9  && rollSound10) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -248,13 +251,17 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
+            rollSound7.pause();
+            rollSound8.pause();
+            rollSound9.pause();
+            rollSound10.pause();
         }
 
         rollSound3  = new Audio("audio/switch.mp3");
         rollSound3.play();
     });
     $('.tooltip, .tooltip1').mouseover(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7  && rollSound8  && rollSound9  && rollSound10) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -262,10 +269,15 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
+            rollSound7.pause();
+            rollSound8.pause();
+            rollSound9.pause();
+            rollSound10.pause();
+
         }
 
-        rollSound3  = new Audio("audio/switch.mp3");
-        rollSound3.play();
+        rollSound7  = new Audio("audio/switch.mp3");
+        rollSound7.play();
     });
 
     setTimeout(function(){

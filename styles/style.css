@@ -810,7 +810,6 @@ a:active{
 }
 .wrapper-bottle-info{
     position: relative;
-    border-radius: 100%;
     background: url("../images/big-round.png")no-repeat;
     background-size: contain;
     width: 100px;
@@ -820,6 +819,7 @@ a:active{
     align-items: center;
     border-radius: 100%;
     flex-direction: column;
+    pointer-events: none;
 }
 .container-bottle-img{
     margin: 0 auto;
