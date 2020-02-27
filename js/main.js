@@ -191,13 +191,12 @@ $(document).ready(function() {
     let rollSound4;
     let rollSound5;
     let rollSound6;
-    let rollSound7;
     let rollSound8;
     let rollSound9;
     let rollSound10;
 
     $('button, .readiness, .element-item, .btn-contact-game, .lang, .item-lang').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -205,7 +204,6 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound  = new Audio("audio/button.mp3");
@@ -213,7 +211,7 @@ $(document).ready(function() {
     });
 
     $('.menu-link').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -221,7 +219,6 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound1  = new Audio("audio/menu.mp3");
@@ -229,7 +226,7 @@ $(document).ready(function() {
     });
 
     $('.item-potion').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -237,14 +234,13 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound2  = new Audio("audio/potions.mp3");
         rollSound2.play();
     });
     $('.information-btn, .btn-counter, .face-item').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -252,14 +248,13 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound3  = new Audio("audio/switch.mp3");
         rollSound3.play();
     });
-    $('.profit-container-right-block , .information-btn, .item-awards, .social-item, .bottle-item, .readiness').hover(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+    $('.tooltip, .tooltip1').mouseover(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -267,7 +262,6 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound3  = new Audio("audio/switch.mp3");
@@ -276,7 +270,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('.negative-big, .negative').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
                 rollSound.pause();
                 rollSound1.pause();
                 rollSound2.pause();
@@ -284,7 +278,6 @@ $(document).ready(function() {
                 rollSound4.pause();
                 rollSound5.pause();
                 rollSound6.pause();
-                rollSound7.pause();
             }
 
             rollSound4  = new Audio("audio/window_error.mp3");
@@ -295,7 +288,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('.succsess-popup').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
                 rollSound.pause();
                 rollSound1.pause();
                 rollSound2.pause();
@@ -303,7 +296,6 @@ $(document).ready(function() {
                 rollSound4.pause();
                 rollSound5.pause();
                 rollSound6.pause();
-                rollSound7.pause();
             }
 
             rollSound5  = new Audio("audio/window_success.mp3");
@@ -312,7 +304,7 @@ $(document).ready(function() {
     }, 3000);
 
     $('.header-faq').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
             rollSound.pause();
             rollSound1.pause();
             rollSound2.pause();
@@ -320,31 +312,14 @@ $(document).ready(function() {
             rollSound4.pause();
             rollSound5.pause();
             rollSound6.pause();
-            rollSound7.pause();
         }
 
         rollSound6  = new Audio("audio/potions2.mp3");
         rollSound6.play();
     });
-    $('.scroll-custom').scroll(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-            rollSound7.pause();
-        }
-
-        rollSound7  = new Audio("audio/switch.mp3");
-        rollSound7.play();
-    });
-
     setTimeout(function(){
         $('.info-popup').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8) {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8) {
                 rollSound.pause();
                 rollSound1.pause();
                 rollSound2.pause();
@@ -352,7 +327,6 @@ $(document).ready(function() {
                 rollSound4.pause();
                 rollSound5.pause();
                 rollSound6.pause();
-                rollSound7.pause();
                 rollSound8.pause();
             }
 
@@ -364,7 +338,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('.succsess-popup2').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8 && rollSound9) {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8 && rollSound9) {
                 rollSound.pause();
                 rollSound1.pause();
                 rollSound2.pause();
@@ -372,7 +346,6 @@ $(document).ready(function() {
                 rollSound4.pause();
                 rollSound5.pause();
                 rollSound6.pause();
-                rollSound7.pause();
                 rollSound8.pause();
                 rollSound9.pause();
             }
@@ -384,7 +357,7 @@ $(document).ready(function() {
 
     setTimeout(function(){
         $('.succsess-popup3').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8 && rollSound9 && rollSound10) {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8 && rollSound9 && rollSound10) {
                 rollSound.pause();
                 rollSound1.pause();
                 rollSound2.pause();
@@ -392,7 +365,6 @@ $(document).ready(function() {
                 rollSound4.pause();
                 rollSound5.pause();
                 rollSound6.pause();
-                rollSound7.pause();
                 rollSound8.pause();
                 rollSound9.pause();
                 rollSound10.pause();

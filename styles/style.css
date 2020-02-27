@@ -818,6 +818,7 @@ a:active{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
     flex-direction: column;
 }
 .container-bottle-img{
@@ -856,6 +857,7 @@ a:active{
 }
 .bottle-item{
     cursor: pointer;
+    border-radius: 100%;
 }
 .bottle-position-1{
     position: absolute;
@@ -2458,7 +2460,6 @@ a:active{
   transform: translateY(-50%);
   left: 0;
   right: 0;
-  z-index: 1000;
   width:50%;
   z-index: 100000000000;
   background: url('../images/bg-popup.jpg')no-repeat;
@@ -2466,7 +2467,7 @@ a:active{
   max-width: 500px;
   margin: 0 auto;
   padding: 33px;
-  border: 7px solid #40c4c8;
+  border: 5px solid #40c4c8;
     -moz-border-image: url(../images/border.png) 30 round round;
     -webkit-border-image: url(../images/border.png) 30 round round; 
     -o-border-image: url(../images/border.png) 30 round round;
