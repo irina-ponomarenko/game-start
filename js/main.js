@@ -106,7 +106,6 @@ $(document).ready(function() {
 
 
     //---------------------popup-------------//
-
         $('.show_popup').click(function() { // Вызываем функцию по нажатию на кнопку
         let popup_id = $('#' + $(this).attr("rel")); // Связываем rel и popup_id
         $(popup_id).addClass('active-popup').fadeIn(500); // Открываем окно
@@ -121,7 +120,34 @@ $(document).ready(function() {
         $(this).closest('.popup').removeClass('active-popup').fadeOut(500);
     });
 
-    $('.succsess-popup, .negative, .negative-big, .info-popup, .start-popup, .overlay_popup').css('display', 'block');
+
+    setTimeout(function(){
+        $('.overlay_popup').css('display', 'block');
+    }, );
+
+    setTimeout(function(){
+        $('.succsess-popup').css('display', 'block');
+    }, 3000);
+
+    setTimeout(function(){
+        $('.negative, .negative-big').css('display', 'block');
+    }, 6000);
+
+    setTimeout(function(){
+        $('.info-popup').css('display', 'block');
+    }, 8000);
+
+    setTimeout(function(){
+        $('.succsess-popup2').css('display', 'block');
+    }, 10000);
+
+    setTimeout(function(){
+        $('.succsess-popup3').css('display', 'block');
+    }, 12000);
+
+    setTimeout(function(){
+        $('.start-popup').css('display', 'block');
+    }, 14000);
 
 
     $(".lang").on('click', function(){
@@ -160,24 +186,221 @@ $(document).ready(function() {
 
     let rollSound;
     let rollSound1;
+    let rollSound2;
+    let rollSound3;
+    let rollSound4;
+    let rollSound5;
+    let rollSound6;
+    let rollSound7;
+    let rollSound8;
+    let rollSound9;
+    let rollSound10;
 
-    $('button, .social-link, .btn-counter, .btn-contact-game').click(e => {
-        if (rollSound && rollSound1) {
+    $('button, .readiness, .element-item, .btn-contact-game, .lang, .item-lang').click(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
             rollSound.pause();
             rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
         }
 
-        rollSound  = new Audio("audio/bg-sound-btn1.mp3");
+        rollSound  = new Audio("audio/button.mp3");
         rollSound.play();
     });
 
     $('.menu-link').click(e => {
-        if (rollSound && rollSound1) {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
             rollSound.pause();
             rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
         }
 
-        rollSound1  = new Audio("audio/bg-sound-btn2.mp3");
+        rollSound1  = new Audio("audio/menu.mp3");
         rollSound1.play();
     });
+
+    $('.item-potion').click(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            rollSound.pause();
+            rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
+        }
+
+        rollSound2  = new Audio("audio/potions.mp3");
+        rollSound2.play();
+    });
+    $('.information-btn, .btn-counter, .face-item').click(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            rollSound.pause();
+            rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
+        }
+
+        rollSound3  = new Audio("audio/switch.mp3");
+        rollSound3.play();
+    });
+    $('.profit-container-right-block , .information-btn, .item-awards, .social-item, .bottle-item, .readiness').hover(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            rollSound.pause();
+            rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
+        }
+
+        rollSound3  = new Audio("audio/switch.mp3");
+        rollSound3.play();
+    });
+
+    setTimeout(function(){
+        $('.negative-big, .negative').fadeIn(e => {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+                rollSound.pause();
+                rollSound1.pause();
+                rollSound2.pause();
+                rollSound3.pause();
+                rollSound4.pause();
+                rollSound5.pause();
+                rollSound6.pause();
+                rollSound7.pause();
+            }
+
+            rollSound4  = new Audio("audio/window_error.mp3");
+            rollSound4.play();
+        });
+    }, 6000);
+
+
+    setTimeout(function(){
+        $('.succsess-popup').fadeIn(e => {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+                rollSound.pause();
+                rollSound1.pause();
+                rollSound2.pause();
+                rollSound3.pause();
+                rollSound4.pause();
+                rollSound5.pause();
+                rollSound6.pause();
+                rollSound7.pause();
+            }
+
+            rollSound5  = new Audio("audio/window_success.mp3");
+            rollSound5.play();
+        });
+    }, 3000);
+
+    $('.header-faq').click(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            rollSound.pause();
+            rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
+        }
+
+        rollSound6  = new Audio("audio/potions2.mp3");
+        rollSound6.play();
+    });
+    $('.scroll-custom').scroll(e => {
+        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7) {
+            rollSound.pause();
+            rollSound1.pause();
+            rollSound2.pause();
+            rollSound3.pause();
+            rollSound4.pause();
+            rollSound5.pause();
+            rollSound6.pause();
+            rollSound7.pause();
+        }
+
+        rollSound7  = new Audio("audio/switch.mp3");
+        rollSound7.play();
+    });
+
+    setTimeout(function(){
+        $('.info-popup').fadeIn(e => {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8) {
+                rollSound.pause();
+                rollSound1.pause();
+                rollSound2.pause();
+                rollSound3.pause();
+                rollSound4.pause();
+                rollSound5.pause();
+                rollSound6.pause();
+                rollSound7.pause();
+                rollSound8.pause();
+            }
+
+            rollSound8  = new Audio("audio/window_information.mp3");
+            rollSound8.play();
+        });
+    }, 8000);
+
+
+    setTimeout(function(){
+        $('.succsess-popup2').fadeIn(e => {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8 && rollSound9) {
+                rollSound.pause();
+                rollSound1.pause();
+                rollSound2.pause();
+                rollSound3.pause();
+                rollSound4.pause();
+                rollSound5.pause();
+                rollSound6.pause();
+                rollSound7.pause();
+                rollSound8.pause();
+                rollSound9.pause();
+            }
+
+            rollSound9  = new Audio("audio/window_success_withdraw2.mp3");
+            rollSound9.play();
+        });
+    }, 10000);
+
+    setTimeout(function(){
+        $('.succsess-popup3').fadeIn(e => {
+            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7 && rollSound8 && rollSound9 && rollSound10) {
+                rollSound.pause();
+                rollSound1.pause();
+                rollSound2.pause();
+                rollSound3.pause();
+                rollSound4.pause();
+                rollSound5.pause();
+                rollSound6.pause();
+                rollSound7.pause();
+                rollSound8.pause();
+                rollSound9.pause();
+                rollSound10.pause();
+            }
+
+            rollSound10  = new Audio("audio/window_success_withdraw.mp3");
+            rollSound10.play();
+        });
+    }, 12000);
+
 });

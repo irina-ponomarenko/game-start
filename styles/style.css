@@ -111,7 +111,6 @@ a:active{
 }
 .list-profit{
     display: flex;
-    align-items: center;
     align-items: flex-start;
 }
 .title-item,
@@ -451,6 +450,7 @@ a:active{
     display: flex;
     flex-direction: column;
     height: 100%;
+    flex: 1;
 }
 .change-potion-container{
     display: flex;
@@ -2472,7 +2472,8 @@ a:active{
     -o-border-image: url(../images/border.png) 30 round round;
     border-image: url(../images/border.png) 30 round round;
 }
-.succsess-popup{
+.succsess-popup,
+.succsess-popup2, .succsess-popup3{
     -webkit-box-shadow: 0px 0px 39px 0px rgba(53,203,91,0.68);
     -moz-box-shadow: 0px 0px 39px 0px rgba(53,203,91,0.68);
     box-shadow: 0px 0px 39px 0px rgba(53,203,91,0.68);
@@ -2519,6 +2520,8 @@ a:active{
      transition: .3s;
 }
 .succsess-popup .title-popup,
+.succsess-popup2 .title-popup,
+.succsess-popup3 .title-popup,
 .title-popup{
     color: #35c559;
     padding-left: 60px;
@@ -2534,7 +2537,9 @@ a:active{
     padding-left: 0;
 }
 
-.succsess-popup .title-popup::after{
+.succsess-popup .title-popup::after,
+.succsess-popup2 .title-popup::after,
+.succsess-popup3 .title-popup::after{
     content: '';
     position: absolute;
     width: 45px;
