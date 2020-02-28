@@ -276,7 +276,7 @@ $(document).ready(function() {
 
         }
 
-        rollSound7  = new Audio("audio/switch.mp3");
+        rollSound7  = new Audio("audio/switch2.mp3");
         rollSound7.play();
     });
 
