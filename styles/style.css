@@ -1481,6 +1481,7 @@ a:active{
      width: 30%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .summ-table{
     width: 30%;
