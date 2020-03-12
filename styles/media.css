@@ -2831,8 +2831,9 @@
 	    top: -2px;
 	}
 	.btn-contact-game {
-	    width: 72px;
-	    height: 21px;
+		width: 75px;
+		height: 21px;
+		background-size: 100% 100%;
 	}
 	.title-events {
 	    font-size: 10px;
