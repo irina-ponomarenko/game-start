@@ -2056,6 +2056,10 @@ a:active{
     display: flex;
     flex-direction: column;
     flex: 1;
+    overflow-y: hidden;
+}
+.scroll-custom{
+    overflow-y: hidden;
 }
 .top-progress-block .slimScrollDiv{
     min-height: 470px;
