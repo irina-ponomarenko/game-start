@@ -3204,4 +3204,8 @@
 	.wrapper-content-progress {
 		padding: 5px 16px 5px 0;
 	}
+	.wrapper-right-column::after {
+		right: -38px;
+		top: 15px;
+	}
 }
