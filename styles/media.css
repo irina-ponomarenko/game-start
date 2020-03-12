@@ -2201,6 +2201,15 @@
 
 }
 @media screen and (max-width: 820px) {
+	.tooltipe {
+		bottom: 14px;
+		right: -13px;
+		opacity: 0.8;
+		min-width: 53px;
+	}
+	.item-choice{
+		margin: 0 5px;
+	}
 	.item-awards img {
 		width: 23px;
 	}
