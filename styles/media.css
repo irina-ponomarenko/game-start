@@ -3110,4 +3110,30 @@
 	.header-awards {
 		align-items: baseline;
 	}
+	.social-position-1 {
+		left: 41px;
+		bottom: 10px;
+	}
+	.social-position-5 {
+		bottom: 9px;
+		right: 46px;
+	}
+	.social-position-2 {
+		left: 66px;
+		bottom: -3px;
+	}
+	.social-position-3 {
+		left: 93px;
+		bottom: -7px;
+	}
+	.social-position-4 {
+		right: 71px;
+		bottom: -3px;
+	}
+	.first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+		font-size: 10px;
+	}
+	.first-title-center {
+		margin-right: 5px;
+	}
 }
