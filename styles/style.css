@@ -1107,6 +1107,7 @@ a:active{
 .container-awards{
     max-height: 180px;
     width: 94%;
+    overflow-y: hidden;
 }
 
 /*-------------right block---------*/
