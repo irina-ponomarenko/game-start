@@ -2204,7 +2204,7 @@
 	.item-awards img {
 		width: 23px;
 	}
-	.wrapper-column {
+	.wrapper-center-column {
 		width: 30%;
 	}
 	.header-awards{
@@ -2889,5 +2889,209 @@
 	}
 	.tippy-tooltip, .tooltipe{
 		padding: 5px 3px;
+	}
+	.btn, .title-item, .title-rating, .first-title-action, .first-title-action span, .title-action,
+	.title-progress-block, .list-header-gildia li, .title-about-game, .header-faq h3{
+		text-shadow: none;
+	}
+}
+@media screen and (max-width: 767px) {
+	.wrapper-left-column,
+	.wrapper-right-column{
+		width: 30%;
+	}
+	.wrapper-center-column {
+		width: 32%;
+	}
+	.social-position-4 {
+		right: 78px;
+		bottom: 0px;
+	}
+	.social-position-5 {
+		bottom: 13px;
+		right: 51px;
+	}
+	.item-potion, .potion-butl img {
+		max-width: 52px;
+	}
+	.active-butl-frame::after {
+		border-radius: 10px;
+	}
+	.active-butl-frame .wrapper-potion-butl .potion-butl .active-butl {
+		border-radius: 10px;
+	}
+	.wrapper-right-column::after,
+	.wrapper-left-column::after{
+		width: 38px;
+	}
+	.wrapper-awards {
+		padding: 20px 0 0px;
+	}
+	.container-awards {
+		width: 76%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 667px) {
+	.center-hero {
+		max-width: 178px;
+	}
+	.wrapper-bottle-info {
+		width: 40px;
+		height: 40px;
+	}
+	.percent {
+		font-size: 7px;
+	}
+	.item-potion, .potion-butl img {
+		max-width: 48px;
+	}
+	.potion-butl {
+		max-width: 48px;
+		height: 41px;
+	}
+	.suma-potion {
+		font-size: 6px;
+	}
+	.suma {
+		line-height: 6px;
+	}
+	.container-potion img {
+		max-width: 54px;
+	}
+	.container-potion {
+		max-width: 54px;
+		height: 54px;
+	}
+	.footer-action p {
+		font-size: 7px;
+	}
+	.bottle-position-4 {
+		right: 29px;
+	}
+	.bottle-position-1 {
+		left: 26px;
+	}
+	.bottle-position-3 {
+		right: 7px;
+	}
+	.wrapper-list-about-potion {
+		min-height: 57px;
+	}
+	.top-progress-block .slimScrollDiv {
+		min-height: 182px;
+	}
+	.item-awards img {
+		width: 21px;
+	}
+	.item-awards {
+		margin: 2px;
+	}
+	.container-awards .list-awards, .container-awards .slimScrollDiv {
+		height: 72px !important;
+	}
+	.container-center-content::after, .container-center-content::before {
+		height: 28px;
+		width: 20px;
+		bottom: -11px;
+	}
+	.actions-wrapper::before, .container-right-column::before {
+		height: 30px;
+		bottom: -19px;
+	}
+	.actions-wrapper::before {
+		right: -8px;
+	}
+	.container-right-column::before {
+		left: -7px;
+	}
+	.container-center-content::after {
+		left: 13px;
+	}
+	.container-center-content::before {
+		right: 15px;
+	}
+	.top-after::after, .container-right-column::after {
+		height: 32px;
+	}
+	.wrapper-left-column::after{
+		top: 16px;
+	}
+	.wrapper-right-column::after {
+		right: -30px;
+		top: 15px;
+	}
+	.btn-center {
+		top: 50px;
+	}
+	.poems {
+		right: 2px;
+	}
+	.table-iven .slimScrollDiv{
+		height: 66px !important;
+	}
+	.container-icon-table {
+		width: 13px;
+		height: 13px;
+	}
+	.percent-choice, .info-table span {
+		font-size: 8px;
+	}
+	.summ-table{
+		align-items: center;
+	}
+	.item-block span {
+		font-size: 8px;
+	}
+	.item-block {
+		min-width: 15px;
+	}
+	.icon-raiting {
+		width: 15px;
+	}
+	.table-raiting .slimScrollDiv {
+		min-height: 138px;
+	}
+	.table-raiting {
+		padding: 5px 0 5px;
+		padding-right: 12px;
+	}
+	.footer-raiting {
+		padding: 3px 0;
+		padding-right: 15px;
+	}
+	.item-about-game p {
+		font-size: 8px;
+	}
+	.wrapper-content-about-game{
+		padding: 6px 12px 6px 0;
+	}
+	.footer-about-game{
+		margin-top: 9px;
+	}
+	.wrapper-content-events {
+		padding: 5px 8px 5px 0;
+	}
+	.header-events {
+		margin-bottom: 2px;
+	}
+	.container-count-events {
+		max-width: 59px;
+		height: 8px;
+	}
+	.container-table-events .slimScrollDiv {
+		min-height: 135px;
+	}
+	.wrapper-content-faq{
+		padding: 8px 10px 8px 0;
+	}
+	.header-faq {
+		padding: 4px 18px;
+	}
+	.container-faq-list .slimScrollDiv {
+		min-height: 189px;
+	}
+	.wrapper-content-progress {
+		padding: 5px 11px 5px 0;
 	}
 }
