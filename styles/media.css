@@ -3094,4 +3094,20 @@
 	.wrapper-content-progress {
 		padding: 5px 11px 5px 0;
 	}
+	.header-awards, .title-action {
+		padding: 0 28px;
+	}
+	.header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+		width: 25px;
+		height: 2px;
+	}
+	.title-awards, .number-awards span {
+		font-size: 11px;
+	}
+	.number-awards {
+		margin-left: 5px;
+	}
+	.header-awards {
+		align-items: baseline;
+	}
 }
