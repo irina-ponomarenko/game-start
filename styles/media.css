@@ -1129,7 +1129,7 @@
 	    height: 148px !important;
 	}
 }
-@media screen and (max-width: 1375px) {
+@media screen and (max-width: 1375px) and (orientation: landscape) {
 	.wrapper-list-about-potion {
 		min-height: 125px;
 	    display: flex;
@@ -1279,6 +1279,7 @@
 	}
 	.wrapper-left-column::after {
 		width: 68px;
+		left: -41px;
 	}
 	.wrapper-right-column::after {
 		width: 68px;
@@ -1346,8 +1347,21 @@
 	.progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before{
 		bottom: -28px;
 	}
+	.first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+		font-size: 18px;
+	}
+	.header-center-block{
+		padding: 15px 16px 19px;
+	}
+	.bottle-position-2,
+	.bottle-position-3{
+		top: -42px;
+	}
+	.wrapper-first-title{
+		margin-bottom: 5px;
+	}
 }
-@media screen and (max-width: 1341px) {
+@media screen and (max-width: 1341px) and (orientation: landscape) {
 	.potion-butl {
 	    max-width: 97px;
 	    height: 82px;
@@ -1365,7 +1379,7 @@
 	    min-height: 126px;
 	}
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) and (orientation: landscape) {
 	.center-hero {
 	    max-width: 355px;
 	}
@@ -1642,7 +1656,7 @@
 	}
 
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1260px) and (orientation: landscape) {
  	.title-rating {
 	    font-size: 14px;
 	    max-width: 90%;
@@ -1778,7 +1792,7 @@
 	}
 
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (orientation: landscape) {
 	.first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
 	    font-size: 17px;
 	}
@@ -1867,7 +1881,7 @@
 	}
 
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1170px) and (orientation: landscape) {
 	.scale-item span {
 	    font-size: 12px;
 	}
@@ -1953,7 +1967,32 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (orientation: portrait) and (min-aspect-ratio: 9/13){
+	.rotate-device-overlay {
+		display: block;
+	}
+	.portrait-block,
+	.popup,
+	.overlay_popup{
+		opacity: 0;
+	}
+
+	.rotate-device-overlay .phone {
+		-webkit-animation: sizeIncrease .5s forwards ease,  borderIncrease .5s .5s forwards ease,  rotateRight .7s 1s forwards ease;
+		animation: sizeIncrease .5s forwards ease,  borderIncrease .5s .5s forwards ease,  rotateRight .7s 1s forwards ease;
+	}
+
+	.rotate-device-overlay .phone i {
+		-webkit-animation: fadeIn .5s .8s forwards ease;
+		animation: fadeIn .5s .8s forwards ease;
+	}
+
+	.rotate-device-overlay p {
+		-webkit-animation: fadeIn .5s 1.3s forwards ease;
+		animation: fadeIn .5s 1.3s forwards ease;
+	}
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
 	.title-item, .title-rating {
 	    font-size: 12px;
 	}
@@ -2420,7 +2459,7 @@
 	}
 
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 820px) and (orientation: landscape) {
 	.tooltipe {
 		bottom: 14px;
 		right: -13px;
@@ -3125,7 +3164,7 @@
 		text-shadow: none;
 	}
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: landscape) {
 	.wrapper-left-column,
 	.wrapper-right-column{
 		width: 30%;
@@ -3162,7 +3201,7 @@
 		margin: 0 auto;
 	}
 }
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 667px) and (orientation: landscape) {
 	.center-hero {
 		max-width: 178px;
 	}
@@ -3368,7 +3407,7 @@
 		margin-right: 5px;
 	}
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) and (orientation: landscape) {
 	.social-position-1 {
 		left: 36px;
 	}

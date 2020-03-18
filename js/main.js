@@ -387,5 +387,4 @@ $(document).ready(function() {
         });
     }, 12000);
 
-
 });
