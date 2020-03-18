@@ -1967,7 +1967,7 @@
 	}
 }
 
-@media screen and (max-width: 1024px) and (orientation: portrait) and (min-aspect-ratio: 9/13){
+@media screen and (max-width: 1024px) and (orientation: portrait){
 	.rotate-device-overlay {
 		display: block;
 	}
