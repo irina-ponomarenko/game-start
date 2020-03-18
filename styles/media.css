@@ -1976,6 +1976,9 @@
 	.overlay_popup{
 		opacity: 0;
 	}
+	.body{
+		overflow: hidden;
+	}
 
 	.rotate-device-overlay .phone {
 		-webkit-animation: sizeIncrease .5s forwards ease,  borderIncrease .5s .5s forwards ease,  rotateRight .7s 1s forwards ease;
