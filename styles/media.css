@@ -542,7 +542,9 @@
 	    font-size: 19px;
 	}
 }
-@media screen and (max-width: 1530px) {
+
+
+@media screen and (max-width: 1560px) {
 	.center-hero {
 	    max-width: 440px;
 	}
@@ -615,6 +617,28 @@
 	}
 	.time-potion, .price-porion, .info-text-potion {
 	    font-size: 16px;
+	}
+	.info-text-potion{
+		margin-bottom: 6px;
+	}
+	.profit-container-right-block img {
+		max-width: 241px;
+	}
+	.profit-wrapper {
+		padding: 15px 15px;
+	}
+	.wrapper-list-about-potion {
+		min-height: 143px;
+	}
+	.container-potion img {
+		max-width: 130px;
+	}
+	.container-potion {
+		max-width: 138px;
+		height: 132px;
+	}
+	.footer-action{
+		margin-top: 5px;
 	}
 	.social-link {
 	    width: 45px;
@@ -1107,11 +1131,14 @@
 }
 @media screen and (max-width: 1375px) {
 	.wrapper-list-about-potion {
-	    min-height: 147px;
+		min-height: 125px;
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
 	    justify-content: center;
+	}
+	.container-awards .slimScrollDiv {
+		height: 150px !important;
 	}
 	.scale-item span {
 	    font-size: 14px;
@@ -1124,7 +1151,200 @@
 	    font-size: 20px;
 	}
 	.center-hero {
-	    max-width: 383px;
+		max-width: 350px;
+	}
+	.item-awards img {
+		width: 42px;
+	}
+	.top-progress-block .slimScrollDiv {
+		min-height: 338px;
+	}
+	.title-link {
+		margin-bottom: 5px;
+	}
+	.table-iven .slimScrollDiv, .body-table-gildia {
+		height: 110px !important;
+	}
+	.table-raiting .slimScrollDiv {
+		min-height: 256px;
+	}
+	.container-info-about-game .slimScrollDiv {
+		min-height: 281px;
+	}
+	.container-table-events .slimScrollDiv {
+		min-height: 238px;
+	}
+	.container-faq-list .slimScrollDiv {
+		min-height: 350px;
+	}
+	.container-potion img {
+		max-width: 115px;
+	}
+	.container-potion {
+		max-width: 123px;
+		height: 122px;
+	}
+	.potion-butl {
+		max-width: 93px;
+		height: 76px;
+	}
+	.item-potion, .potion-butl img {
+		max-width: 93px;
+	}
+	.list-header-gildia li{
+		padding: 6px 0px 14px;
+	}
+	.list-header-gildia li:first-child {
+		padding-left: 20px;
+	}
+	.header-raiting h3 {
+		font-size: 19px;
+	}
+	.header-faq {
+		padding: 8px 18px;
+		padding-right: 21px;
+	}
+	.settings, .poems {
+		top: 118px;
+	}
+	.container-center-content::after, .container-center-content::before {
+		height: 67px;
+		width: 41px;
+	}
+	.container-center-content::after{
+		left: 10px;
+	}
+	.container-center-content::before{
+		right: 11px;
+	}
+	.actions-wrapper::before,
+	.container-right-column::before{
+		height: 57px;
+	}
+	.header-title-item span{
+		font-size: 14px;
+	}
+	.first-title-action, .first-title-action span, .title-action {
+		font-size: 16px;
+	}
+	.first-title-action .result-action, .first-title-action .result-action span {
+		font-size: 14px;
+	}
+	.money-span, .count-span, .count-span span, .money-span span {
+		margin-top: 0px;
+	}
+	.footer-action {
+		margin-top: 2px;
+	}
+	.title-item, .title-rating{
+		margin-bottom: 5px;
+	}
+	.item-info{
+		align-items: baseline;
+	}
+	.item-info:last-child  .title-item-info {
+		margin-bottom: 0;
+	}
+	.top-after::after, .container-right-column::after {
+		height: 74px;
+	}
+	.top-after::after,
+	.container-right-column::after{
+		top: -17px;
+	}
+	.list-control {
+		top: -11px;
+	}
+	.scale-item {
+		padding: 3px;
+	}
+	.wrapper-rating-container::after {
+		width: 27px;
+		height: 41px;
+	}
+	.header-awards, .title-action {
+		padding: 0 94px;
+	}
+	.wrapper-awards {
+		padding: 27px 10px 10px;
+	}
+	.center-hero::after {
+		left: -23px;
+		right: -23px;
+		top: -30px;
+		bottom: -23px;
+	}
+	.wrapper-center-column{
+		width: 30%;
+	}
+	.wrapper-left-column::after {
+		width: 68px;
+	}
+	.wrapper-right-column::after {
+		width: 68px;
+		right: -41px;
+		bottom: -20px;
+		top: 48px;
+	}
+	.name-potion, .title-item-info {
+		font-size: 18px;
+	}
+	.wrapper-bottle-info {
+		width: 70px;
+		height: 70px;
+	}
+	.bottle-position-1 {
+		left: 49px;
+		top: 6px;
+	}
+	.bottle-position-4 {
+		right: 50px;
+		top: 6px;
+	}
+	.social-position-1 {
+		left: 80px;
+		bottom: 21px;
+	}
+	.social-position-5 {
+		bottom: 21px;
+		right: 79px;
+	}
+	.social-position-2 {
+		left: 128px;
+	}
+	.social-position-3 {
+		left: 181px;
+	}
+	.social-position-4 {
+		right: 123px;
+		bottom: 0px;
+	}
+	.item-action{
+		margin: 6px 19px;
+	}
+	.number-counter {
+		width: 72px;
+		height: 25px;
+	}
+	.btn-counter {
+		width: 15px;
+		height: 13px;
+	}
+	.item-menu {
+		padding: 12px 5px;
+	}
+	.raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+		bottom: -143px;
+	}
+	.gildia::before, .gildia.active-btn::before {
+		right: 8px;
+		width: 14px;
+	}
+	.gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+		bottom: -83px;
+	}
+	.progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before{
+		bottom: -28px;
 	}
 }
 @media screen and (max-width: 1341px) {
