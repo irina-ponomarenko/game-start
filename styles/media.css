@@ -1970,14 +1970,17 @@
 @media screen and (max-width: 1024px) and (orientation: portrait){
 	.rotate-device-overlay {
 		display: block;
+		z-index: 1000000000;
 	}
-	.portrait-block,
 	.popup,
 	.overlay_popup{
-		opacity: 0;
+		display: none !important;
 	}
 	.body{
 		overflow: hidden;
+		height: 100%;
+		width: 100%;
+		display: block;
 	}
 
 	.rotate-device-overlay .phone {
