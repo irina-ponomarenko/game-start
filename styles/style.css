@@ -807,6 +807,9 @@ a:active{
 .container-image-hero{
     border-radius: 100%;
     overflow: hidden;
+    position: relative;
+    max-width: 560px;
+    height: 522px;
 }
 .wrapper-bottle-info{
     position: relative;
@@ -3049,4 +3052,13 @@ a:active{
         -webkit-transform: rotate(-90deg);
         transform: rotate(90deg);
     }
+}
+#c {
+    position: absolute;
+    top: 0;
+    width: 560px;
+    height: 560px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: block;
 }
