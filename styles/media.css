@@ -1789,7 +1789,7 @@
 	}
 
 }
-@media screen and (max-width: 1260px) and (orientation: landscape) {
+@media screen and (max-width: 1280px) and (orientation: landscape) {
  	.title-rating {
 	    font-size: 14px;
 	    max-width: 90%;
