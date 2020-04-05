@@ -45,7 +45,7 @@ https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-characte
       1000
     );
     camera.position.z = 60
-    camera.position.x = 1;
+    camera.position.x = 0.5;
     camera.position.y = -1;
     
     let stacy_txt = new THREE.TextureLoader().load('./images/witcher_body.png');
