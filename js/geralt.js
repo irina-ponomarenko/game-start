@@ -161,7 +161,6 @@ https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-characte
   scene.add(floor);
     
 let geometry = new THREE.CircleGeometry(18, 90);
-// let material = new THREE.MeshBasicMaterial({ color: 0x9bffaf }); // 0xf2ce2e
 let circle = new THREE.Mesh(geometry, image);
 
   circle.position.z = -5;
@@ -257,8 +256,7 @@ let circle = new THREE.Mesh(geometry, image);
     var mousecoords = getMousePos(e);
       if (neck ) {
 
-        moveJoint(mousecoords, neck, 50);
-        // moveJoint(mousecoords, waist, 30);
+        moveJoint(mousecoords, neck, 80);
       }
   });
 
@@ -308,9 +306,9 @@ let circle = new THREE.Mesh(geometry, image);
       dy = (((degreeLimit * 0.5) * yPercentage) / 100) * -1;
     }
     // Down (Rotates neck down between 0 and degreeLimit)
-    if (y >= w.y / 2) {
-      ydiff = y - w.y / 2;
-      yPercentage = (ydiff / (w.y / 2)) * 100;
+    if (y >= w.y / 1.3) {
+      ydiff = y - w.y / 1.3;
+      yPercentage = (ydiff / (w.y / 1.3)) * 100;
       dy = (degreeLimit * yPercentage) / 100;
     }
     return { x: dx, y: dy };

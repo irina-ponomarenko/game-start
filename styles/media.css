@@ -2217,6 +2217,10 @@
 	.title-item, .title-rating {
 	    font-size: 12px;
 	}
+	.bottle-position-4 {
+		right: 41px;
+		top: -9px;
+	}
 	.header-title-item span {
 	    font-size: 11px;
 	}
@@ -2242,23 +2246,23 @@
 	}
 	.social-position-1 {
 	    left: 65px;
-	    bottom: 10px;
+	    bottom: 16px;
 	}
 	.social-position-2 {
 	    left: 101px;
-	    bottom: -7px;
+	    bottom: 1px;
 	}
 	.social-position-3 {
 	    left: 140px;
-	    bottom: -14px;
+	    bottom: -4px;
 	}
 	.social-position-4 {
-	    right: 107px;
-	    bottom: -10px;
+		right: 92px;
+		bottom: 6px;
 	}
 	.social-position-5 {
-	    bottom: 8px;
-	    right: 71px;
+		bottom: 22px;
+		right: 58px;
 	}
 	.settings, .poems {
 	    top: 69px;
@@ -2366,7 +2370,7 @@
 	   height: 191px !important;
 	}
 	.item-awards img {
-	    width: 38px;
+	    width: 35px;
 	}
 	.menu-link {
 	    width: 105px;
@@ -2458,7 +2462,7 @@
 	    font-size: 12px;
 	}
 	.top-progress-block .slimScrollDiv {
-	    min-height: 318px;
+		min-height: 303px;
 	}
 	.table-iven .slimScrollDiv {
 	    width: 84% !important;
@@ -2485,7 +2489,7 @@
 	    width: 22px;
 	}
 	.table-raiting .slimScrollDiv {
-	    min-height: 256px;
+		min-height: 234px;
 	}
 	.title-about-game {
 	    font-size: 16px;
@@ -2529,7 +2533,7 @@
 		font-size: 13px;
 	}
 	.container-table-events .slimScrollDiv {
-	    min-height: 246px;
+		min-height: 229px;
 	}
 	.header-faq h3 {
 	    font-size: 14px;
@@ -2678,14 +2682,21 @@
 	    font-size: 13px;
 	    margin: 15px 0;
 	}
+	.container-image-hero, #c {
+		max-width: 255px;
+		height: 255px;
+	}
 
 }
-@media screen and (max-width: 820px) and (orientation: landscape) {
+@media screen and (max-width: 825px) and (orientation: landscape) {
 	.tooltipe {
 		bottom: 14px;
 		right: -13px;
 		opacity: 0.8;
 		min-width: 53px;
+	}
+	.btn.copy-btn{
+		margin: 0;
 	}
 	.item-choice{
 		margin: 0 5px;
@@ -2859,7 +2870,7 @@
 		padding: 5px 15px 5px 0;
 	}
 	.top-progress-block .slimScrollDiv {
-		min-height: 202px;
+		min-height: 213px;
 	}
 	.item-menu {
 	    padding: 0;
@@ -2906,24 +2917,24 @@
 	    height: 22px;
 	}
 	.social-position-1 {
-		left: 49px;
-		bottom: 13px;
+		left: 53px;
+		bottom: 18px;
 	}
 	.social-position-2 {
-		left: 76px;
-		bottom: -1px;
+		left: 80px;
+		bottom: 5px;
 	}
 	.social-position-4 {
 		right: 85px;
-		bottom: -1px;
+		bottom: 4px;
 	}
 	.social-position-5 {
-		bottom: 11px;
+		bottom: 17px;
 		right: 57px;
 	}
 	.social-position-3 {
-		left: 107px;
-		bottom: -7px;
+		left: 110px;
+		bottom: -1px;
 	}
 	.wrapper-game{
 		padding: 0;
@@ -3253,7 +3264,7 @@
 	.table-iven .slimScrollDiv {
 	    padding: 0 11px 3px;
 	    margin-top: 5px;
-		height: 75px !important;
+		height: 89px !important;
 	}
 	.list-header-gildia li {
 	    padding: 3px 0px 7px;
@@ -3282,14 +3293,14 @@
 	    font-size: 9px;
 	}
 	.table-raiting .slimScrollDiv {
-		min-height: 144px;
+		min-height: 158px;
 	}
 	.title-about-game {
 	    font-size: 11px;
 	    padding: 0 37px;
 	}
 	.item-raiting {
-		margin-bottom: 3px;
+		margin-bottom: 2px;
 	}
 	.list-table-ivent li {
 		padding: 2px 3px;
@@ -3308,7 +3319,7 @@
 	    padding-top: 5px;
 	}
 	.container-info-about-game .slimScrollDiv {
-	    min-height: 150px;
+		min-height: 162px;
 	}
 	.btn-contact-game span {
 	    font-size: 9px;
@@ -3349,7 +3360,7 @@
 	    font-size: 9px;
 	}
 	.container-table-events .slimScrollDiv {
-		min-height: 141px;
+		min-height: 153px;
 	}
 	.header-faq h3 {
 	    font-size: 10px;
@@ -3384,6 +3395,10 @@
 	.title-progress-block, .list-header-gildia li, .title-about-game, .header-faq h3{
 		text-shadow: none;
 	}
+	.container-image-hero, #c {
+		max-width: 206px;
+		height: 206px;
+	}
 }
 @media screen and (max-width: 767px) and (orientation: landscape) {
 	.wrapper-left-column,
@@ -3394,12 +3409,16 @@
 		width: 32%;
 	}
 	.social-position-4 {
-		right: 78px;
+		right: 80px;
+		bottom: 6px;
+	}
+	.social-position-3 {
+		left: 112px;
 		bottom: 0px;
 	}
 	.social-position-5 {
-		bottom: 13px;
-		right: 51px;
+		bottom: 19px;
+		right: 52px;
 	}
 	.item-potion, .potion-butl img {
 		max-width: 52px;
@@ -3421,10 +3440,39 @@
 		width: 76%;
 		margin: 0 auto;
 	}
+
+}
+@media screen and (max-width: 737px) and (orientation: landscape){
+	.center-hero {
+		max-width: 200px;
+	}
+	.poems {
+		right: 2px;
+	}
+	.social-position-1 {
+		bottom: 21px;
+	}
+	.social-position-2 {
+		bottom: 9px;
+	}
+	.social-position-3 {
+		bottom: 6px;
+	}
+	.social-position-4 {
+		right: 75px;
+		bottom: 11px;
+	}
+	.social-position-5 {
+		bottom: 25px;
+		right: 49px;
+	}
+	container-info-about-game .slimScrollDiv {
+		min-height: 159px;
+	}
 }
 @media screen and (max-width: 667px) and (orientation: landscape) {
 	.center-hero {
-		max-width: 178px;
+		max-width: 180px;
 	}
 	.wrapper-bottle-info {
 		width: 40px;
@@ -3516,7 +3564,7 @@
 		top: 50px;
 	}
 	.poems {
-		right: 2px;
+		right: 0;
 	}
 	.table-iven .slimScrollDiv{
 		height: 66px !important;
@@ -3541,7 +3589,7 @@
 		width: 15px;
 	}
 	.table-raiting .slimScrollDiv {
-		min-height: 138px;
+		min-height: 143px;
 	}
 	.table-raiting {
 		padding: 5px 0 5px;
@@ -3603,23 +3651,23 @@
 	}
 	.social-position-1 {
 		left: 41px;
-		bottom: 10px;
+		bottom: 13px;
 	}
 	.social-position-5 {
-		bottom: 9px;
-		right: 46px;
+		bottom: 11px;
+		right: 44px;
 	}
 	.social-position-2 {
 		left: 66px;
-		bottom: -3px;
+		bottom: 1px;
 	}
 	.social-position-3 {
-		left: 93px;
-		bottom: -7px;
+		left: 94px;
+		bottom: -4px;
 	}
 	.social-position-4 {
-		right: 71px;
-		bottom: -3px;
+		right: 70px;
+		bottom: 0px;
 	}
 	.first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
 		font-size: 10px;
@@ -3627,22 +3675,41 @@
 	.first-title-center {
 		margin-right: 5px;
 	}
+	.container-image-hero, #c {
+		max-width: 178px;
+		height: 178px;
+	}
+	.item-progress {
+		padding: 2px 7px 0 20px;
+	}
+	.item-raiting {
+		margin-bottom: 1px;
+	}
+	.container-info-about-game .slimScrollDiv {
+		min-height: 155px;
+	}
+
 }
 @media screen and (max-width: 640px) and (orientation: landscape) {
 	.social-position-1 {
 		left: 36px;
+		bottom: 14px;
 	}
 	.social-position-2 {
 		left: 59px;
+		bottom: 3px;
 	}
 	.social-position-3 {
 		left: 87px;
+		bottom: -2px;
 	}
 	.social-position-5 {
-		right: 43px;
+		right: 42px;
+		bottom: 12px;
 	}
 	.social-position-4 {
 		right: 67px;
+		bottom: 2px;
 	}
 	.table-events {
 		width: 95%;
@@ -3687,5 +3754,18 @@
 	.wrapper-right-column::after {
 		right: -38px;
 		top: 15px;
+	}
+	.center-hero {
+		max-width: 169px;
+	}
+	.container-image-hero, #c {
+		max-width: 169px;
+		height: 169px;
+	}
+	.container-info-about-game .slimScrollDiv {
+		min-height: 148px;
+	}
+	.table-raiting .slimScrollDiv {
+		min-height: 139px;
 	}
 }
