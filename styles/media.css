@@ -2597,6 +2597,7 @@
 	}
 	.footer-action {
 	    max-width: 94%;
+        margin-bottom: 3px;
 	}
 	.btn-control {
 	    width: 22px;
