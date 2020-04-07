@@ -1795,6 +1795,9 @@
 	    max-width: 90%;
    	    margin-right: 5px;
 	}
+	.list-control {
+		top: -15px;
+	}
 	.center-hero {
 	    max-width: 335px;
 	}
@@ -2180,11 +2183,26 @@
 		height: 300px;
 	}
 }
+@media screen and (max-width: 1112px) and (orientation: landscape){
+	.wrapper-center-column {
+		width: 32%;
+	}
+	.footer-action {
+		max-width: 92%;
+		margin-bottom: 14px;
+	}
+}
 
 @media screen and (max-width: 1024px) and (orientation: portrait){
 	.rotate-device-overlay {
 		display: block;
 		z-index: 1000000000;
+	}
+	.footer-action {
+		margin-bottom: 3px;
+	}
+	.wrapper-center-column {
+		width: 30%;
 	}
 	.popup,
 	.overlay_popup{
@@ -3127,7 +3145,7 @@
 	    margin: 4px;
 	}
 	.poems {
-		right: 6px;
+		right: 2px;
 	}
 	.btn-start {
 	    width: 101px;
@@ -3264,7 +3282,7 @@
 	.table-iven .slimScrollDiv {
 	    padding: 0 11px 3px;
 	    margin-top: 5px;
-		height: 89px !important;
+		height: 74px !important;
 	}
 	.list-header-gildia li {
 	    padding: 3px 0px 7px;
@@ -3293,7 +3311,9 @@
 	    font-size: 9px;
 	}
 	.table-raiting .slimScrollDiv {
-		min-height: 158px;
+		min-height: 132px;
+		height: 140px !important;
+
 	}
 	.title-about-game {
 	    font-size: 11px;
@@ -3319,7 +3339,8 @@
 	    padding-top: 5px;
 	}
 	.container-info-about-game .slimScrollDiv {
-		min-height: 162px;
+		min-height: 145px;
+		height: 148px !important;
 	}
 	.btn-contact-game span {
 	    font-size: 9px;
@@ -3360,7 +3381,8 @@
 	    font-size: 9px;
 	}
 	.container-table-events .slimScrollDiv {
-		min-height: 153px;
+		min-height: 140px;
+		height: 144px !important;
 	}
 	.header-faq h3 {
 	    font-size: 10px;
@@ -3370,17 +3392,18 @@
 	    height: 6px;
 	}
 	.header-faq {
-	    padding: 5px 12px;
+	    padding: 5px 22px;
 	    padding-right: 12px;
 	}
 	.container-faq-list .slimScrollDiv {
-	    min-height: 200px;
+		min-height: 196px;
 	}
 	.container-answer p {
 	    font-size: 9px;
 	}
 	.container-answer {
 	    padding: 5px 12px;
+		padding-left: 20px;
 	}
 	.tooltipe p, .tippy-content, .tippy-content span {
 	    font-size: 9px;
@@ -3404,6 +3427,9 @@
 	.wrapper-left-column,
 	.wrapper-right-column{
 		width: 30%;
+	}
+	.header-awards{
+		margin-top: 5px;
 	}
 	.wrapper-center-column {
 		width: 32%;
@@ -3434,7 +3460,7 @@
 		width: 38px;
 	}
 	.wrapper-awards {
-		padding: 20px 0 0px;
+		padding: 10px 0 0px;
 	}
 	.container-awards {
 		width: 76%;
@@ -3564,7 +3590,7 @@
 		top: 50px;
 	}
 	.poems {
-		right: 0;
+		right: -1px;
 	}
 	.table-iven .slimScrollDiv{
 		height: 66px !important;
