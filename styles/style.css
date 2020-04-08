@@ -799,10 +799,11 @@ a:active{
     background: url("../images/center-around.png")no-repeat;
     background-size: contain;
 }
-.center-hero img{
+.center-photo{
     width: 100%;
     flex: none;
     margin: 0 auto;
+    display: none;
 }
 .container-image-hero{
     border-radius: 100%;
@@ -810,6 +811,9 @@ a:active{
     position: relative;
     max-width: 522px;
     height: 522px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper-bottle-info{
     position: relative;
@@ -2843,6 +2847,8 @@ a:active{
     z-index: 100000000;
     display: flex;
     align-items: center;
+    max-width: 98px;
+    justify-content: center;
 }
 .control-item{
     display: flex;
@@ -2861,6 +2867,10 @@ a:active{
 .btn-control:hover{
     filter: brightness(50%);
 }
+.sound-btn{
+    width: 23px;
+    height: 23px;
+}
 .play::after{
      content: '';
      position: absolute;
@@ -2872,6 +2882,28 @@ a:active{
      top: 0;
      bottom: 0;
  }
+.static-hero::after{
+    content: '';
+    position: absolute;
+    background: url("../images/image.png")no-repeat;
+    background-size: 45%;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.threeD-hero::after{
+    content: '';
+    position: absolute;
+    background: url("../images/person.png")no-repeat;
+    background-size: 45%;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
 .pause::before{
     content: '';
     position: absolute;
@@ -2882,6 +2914,43 @@ a:active{
     right: 0;
     top: 0;
     bottom: 0;
+}
+.volume-on:after{
+    content: '';
+    position: absolute;
+    background: url("../images/volume-on.png")no-repeat;
+    background-size: 42%;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.volume-off:after{
+    content: '';
+    position: absolute;
+    background: url("../images/volume-off.png")no-repeat;
+    background-size: 42%;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.list-open:after{
+    content: '';
+    position: absolute;
+    background: url("../images/music.png")no-repeat;
+    background-size: 36%;
+    background-position: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.sound-item{
+    display: flex;
+    justify-content: center;
 }
 .lang,
 .item-lang{
@@ -2905,18 +2974,22 @@ a:active{
 .langs{
     position: relative;
 }
-.list-lang{
+.list-lang, .list-control-sound{
     background: url("../images/bg-popup.jpg")no-repeat;
     background-size: cover;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     position: absolute;
-    top: 21px;
-    left: 4px;
-    right: 4px;
-    border: 3px solid #4c473a;
+    top: 13px;
+    left: 2px;
+    right: 2px;
+    border: 1px solid #4c473a;
     display: none;
+}
+.list-control-sound{
+    padding-bottom: 0;
 }
 
 .rotate-device-overlay {
@@ -3066,4 +3139,13 @@ a:active{
     overflow: hidden;
     border-radius: 100%;
     display: block;
+}
+.active-image #c{
+    display: none !important;
+}
+.active-image .center-photo{
+    display: block;
+}
+.control-music{
+    position: relative;
 }

@@ -149,10 +149,27 @@ $(document).ready(function() {
         $('.start-popup').css('display', 'block');
     }, 14000);
 
+    //--------------------change language------------//
 
     $(".lang").on('click', function(){
         $(this).closest('.list-control').find('.list-lang').slideToggle(500);
     });
+
+    //--------------------counter sounds-----------//
+
+    $(".list-open").on('click', function(){
+        $(this).closest('.list-control').find('.list-control-sound').slideToggle(500);
+    });
+
+
+    //--------------------change hero------------//
+
+    $('.hero').on('click', function () {
+        $(this).toggleClass('threeD-hero');
+        $(this).closest('.body').find('.container').toggleClass('active-image');
+
+    });
+
 
     //---------------------sound------------//
 
@@ -183,6 +200,7 @@ $(document).ready(function() {
     }
 
     //--------------sound btn-------------//
+    let flagSounds = true;
 
     let rollSound;
     let rollSound1;
@@ -195,22 +213,7 @@ $(document).ready(function() {
     let rollSound9;
     let rollSound10;
 
-    $('button, .readiness, .element-item, .btn-contact-game, .lang, .item-lang').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-        }
-
-        rollSound  = new Audio("audio/button.mp3");
-        rollSound.play();
-    });
-
-    $('.menu-link').click(e => {
+    const pauseSounds = () => {
         if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6  && rollSound8  && rollSound9  && rollSound10) {
             rollSound.pause();
             rollSound1.pause();
@@ -223,168 +226,121 @@ $(document).ready(function() {
             rollSound9.pause();
             rollSound10.pause();
         }
+    };
 
-        rollSound1  = new Audio("audio/menu.mp3");
-        rollSound1.play();
+    $('button, .readiness, .element-item, .btn-contact-game, .lang, .item-lang').click(e => {
+        if (flagSounds) {
+            pauseSounds();
+
+            rollSound  = new Audio("audio/button.mp3");
+            rollSound.play();
+        }
+    });
+
+    $('.menu-link').click(e => {
+        if (flagSounds) {
+            pauseSounds();
+
+            rollSound1 = new Audio("audio/menu.mp3");
+            rollSound1.play();
+        }
     });
 
     $('.item-potion').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-        }
+        if (flagSounds) {
+            pauseSounds();
 
-        rollSound2  = new Audio("audio/potions.mp3");
-        rollSound2.play();
+            rollSound2 = new Audio("audio/potions.mp3");
+            rollSound2.play();
+        }
     });
     $('.information-btn, .btn-counter, .face-item').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6  && rollSound7  && rollSound8  && rollSound9  && rollSound10) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-            rollSound7.pause();
-            rollSound8.pause();
-            rollSound9.pause();
-            rollSound10.pause();
-        }
+        if (flagSounds) {
+            pauseSounds();
 
-        rollSound3  = new Audio("audio/switch.mp3");
-        rollSound3.play();
+            rollSound3 = new Audio("audio/switch.mp3");
+            rollSound3.play();
+        }
     });
     $('.tooltip, .tooltip1').mouseover(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound7  && rollSound8  && rollSound9  && rollSound10) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-            rollSound7.pause();
-            rollSound8.pause();
-            rollSound9.pause();
-            rollSound10.pause();
+        if (flagSounds) {
+            pauseSounds();
 
+            rollSound7 = new Audio("audio/switch2.mp3");
+            rollSound7.play();
         }
-
-        rollSound7  = new Audio("audio/switch2.mp3");
-        rollSound7.play();
     });
 
     setTimeout(function(){
         $('.negative-big, .negative').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
-                rollSound.pause();
-                rollSound1.pause();
-                rollSound2.pause();
-                rollSound3.pause();
-                rollSound4.pause();
-                rollSound5.pause();
-                rollSound6.pause();
-            }
+            if (flagSounds) {
+                pauseSounds();
 
-            rollSound4  = new Audio("audio/window_error.mp3");
-            rollSound4.play();
+                rollSound4 = new Audio("audio/window_error.mp3");
+                rollSound4.play();
+            }
         });
     }, 6000);
 
 
     setTimeout(function(){
         $('.succsess-popup').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
-                rollSound.pause();
-                rollSound1.pause();
-                rollSound2.pause();
-                rollSound3.pause();
-                rollSound4.pause();
-                rollSound5.pause();
-                rollSound6.pause();
-            }
+            if (flagSounds) {
+                pauseSounds();
 
-            rollSound5  = new Audio("audio/window_success.mp3");
-            rollSound5.play();
+                rollSound5 = new Audio("audio/window_success.mp3");
+                rollSound5.play();
+            }
         });
     }, 3000);
 
     $('.header-faq').click(e => {
-        if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6) {
-            rollSound.pause();
-            rollSound1.pause();
-            rollSound2.pause();
-            rollSound3.pause();
-            rollSound4.pause();
-            rollSound5.pause();
-            rollSound6.pause();
-        }
+        if (flagSounds) {
+            pauseSounds();
 
-        rollSound6  = new Audio("audio/potions2.mp3");
-        rollSound6.play();
+            rollSound6 = new Audio("audio/potions2.mp3");
+            rollSound6.play();
+        }
     });
     setTimeout(function(){
         $('.info-popup').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8) {
-                rollSound.pause();
-                rollSound1.pause();
-                rollSound2.pause();
-                rollSound3.pause();
-                rollSound4.pause();
-                rollSound5.pause();
-                rollSound6.pause();
-                rollSound8.pause();
-            }
+            if (flagSounds) {
+                pauseSounds();
 
-            rollSound8  = new Audio("audio/window_information.mp3");
-            rollSound8.play();
+                rollSound8 = new Audio("audio/window_information.mp3");
+                rollSound8.play();
+            }
         });
     }, 8000);
 
 
     setTimeout(function(){
         $('.succsess-popup2').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8 && rollSound9) {
-                rollSound.pause();
-                rollSound1.pause();
-                rollSound2.pause();
-                rollSound3.pause();
-                rollSound4.pause();
-                rollSound5.pause();
-                rollSound6.pause();
-                rollSound8.pause();
-                rollSound9.pause();
-            }
+            if (flagSounds) {
+                pauseSounds();
 
-            rollSound9  = new Audio("audio/window_success_withdraw2.mp3");
-            rollSound9.play();
+                rollSound9 = new Audio("audio/window_success_withdraw2.mp3");
+                rollSound9.play();
+            }
         });
     }, 10000);
 
     setTimeout(function(){
         $('.succsess-popup3').fadeIn(e => {
-            if (rollSound && rollSound1 && rollSound2 && rollSound3 &&rollSound4 && rollSound5 && rollSound6 && rollSound8 && rollSound9 && rollSound10) {
-                rollSound.pause();
-                rollSound1.pause();
-                rollSound2.pause();
-                rollSound3.pause();
-                rollSound4.pause();
-                rollSound5.pause();
-                rollSound6.pause();
-                rollSound8.pause();
-                rollSound9.pause();
-                rollSound10.pause();
-            }
+            if (flagSounds) {
+                pauseSounds();
 
-            rollSound10  = new Audio("audio/window_success_withdraw.mp3");
-            rollSound10.play();
+                rollSound10 = new Audio("audio/window_success_withdraw.mp3");
+                rollSound10.play();
+            }
         });
     }, 12000);
+
+    //----------change status sounds-----------//
+
+    $('#sound-control').on('click', function () {
+        $(this).toggleClass('volume-off');
+        flagSounds = !flagSounds;
+    });
 
 });
