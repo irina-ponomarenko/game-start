@@ -747,7 +747,7 @@ a:active{
     position: relative;
     z-index: 100000;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 20px 25px;
     top: -25px;
 
@@ -778,7 +778,7 @@ a:active{
     margin-left: 10px;
 }
 .balance{
-    max-width: 65px;
+    max-width: 105px;
     margin-right: 10px;
 }
 .center-hero{
@@ -2029,7 +2029,8 @@ a:active{
     top: 0;
     right: 5px;
 }
-.readiness{
+.readiness,
+.done-mix{
     width: 55px;
     height: 55px;
     border-radius: 10px;
@@ -2041,12 +2042,25 @@ a:active{
     background: url("../images/mix-btn-navedenie.png")no-repeat;
     background-size: contain;
 }
-.active-readiness{
+.active-readiness,
+.active-done{
     background: url("../images/mix-btn-navedenie.png")no-repeat;
     background-size: contain;
     -webkit-box-shadow: 0px 0px 12px 0px rgba(148,137,22,1);
     -moz-box-shadow: 0px 0px 12px 0px rgba(148,137,22,1);
     box-shadow: 0px 0px 12px 0px rgba(148,137,22,1);
+}
+.active-done{
+    background: url("../images/mix-btn-done.png")no-repeat;
+    background-size: contain;
+}
+.done-mix{
+    background: url("../images/mix-btn-done.png")no-repeat;
+    background-size: contain;
+}
+.done-mix:hover{
+    background: url("../images/mix-btn-done-nav.png")no-repeat;
+    background-size: contain;
 }
 .container-progress-block{
     display: flex;

@@ -469,7 +469,8 @@
 	    width: 35px;
 	    height: 35px;
 	}
-	.readiness {
+	.readiness,
+	.done-mix{
 	    width: 50px;
 	    height: 50px;
 	}
@@ -1170,7 +1171,8 @@
 	.progress-line-wrapper {
 	    padding: 18px 0;
 	}
-	.readiness {
+	.readiness,
+	.done-mix{
 	    width: 45px;
 	    height: 45px;
 	}
@@ -1870,7 +1872,8 @@
 	.progress-block {
 	    padding-left: 44px;
 	}
-	.readiness {
+	.readiness,
+	.done-mix{
 	    width: 40px;
 	    height: 40px;
 	}
@@ -2244,6 +2247,9 @@
 	}
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+	.name-player, .balance{
+		max-width: 82px;
+	}
 	.title-item, .title-rating {
 	    font-size: 12px;
 	}
@@ -2412,7 +2418,8 @@
 	.title-progress-block {
 	    font-size: 14px;
 	}
-	.readiness {
+	.readiness,
+	.done-mix{
 	    width: 34px;
 	    height: 31px;
 	    border-radius: 5px;
@@ -2897,7 +2904,8 @@
 	.position-number span {
 	    font-size: 10px;
 	}
-	.readiness {
+	.readiness,
+	.done-mix{
 	    width: 30px;
 	    height: 24px;
 	}
