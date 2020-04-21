@@ -3164,3 +3164,27 @@ a:active{
 .control-music{
     position: relative;
 }
+
+/*-----------------------table answer----------------*/
+.table-answer-container{
+    margin: 8px 0;
+}
+.table-answer{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-family: 'PT Sans Narrow';
+    color: #ffffff;
+    font-size: 14px;
+}
+.top-title-table{
+    border: 1px solid #ccc;
+}
+.top-title-table th, .body-table-answer td {
+    border-left: 1px solid #ccc;
+    white-space: nowrap;
+    padding: 3px;
+}
+.red-percent{
+    color: #fe1b1b;
+}
