@@ -2507,6 +2507,11 @@ a:active{
     box-shadow: 0px 0px 39px 0px rgba(53,203,91,0.68);
     /*z-index: 99999999999;*/
 }
+.none-shadow{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 .popup::before{
     content: '';
     position: absolute;
@@ -2585,6 +2590,7 @@ a:active{
     font-size: 28px;
     margin-top: 20px;
     line-height: normal;
+    text-align: center;
 }
 .popup.negative-big,
 .popup.negative{
@@ -2816,7 +2822,29 @@ a:active{
     text-align: center;
     font-size: 21px;
 }
-.btn-start:hover{
+.btn-success,
+.btn-cancel{
+    width: 160px;
+    height: 47px;
+    background: url("../images/dark-bg-btn.png")no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.86);
+    margin: 0 15px;
+    font-size: 21px;
+    border: none;
+}
+.container-window-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-start:hover,
+.btn-success:hover,
+.btn-cancel:hover{
     background: url("../images/bg-btn.png")no-repeat;
     background-size: contain;
 }

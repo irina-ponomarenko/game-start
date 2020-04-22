@@ -80,6 +80,9 @@
 	.btn {
 	    font-size: 16px;
 	}
+	.btn-success, .btn-cancel{
+		font-size: 19px;
+	}
 	.list-profit {
 	    z-index: 100;
 	    position: relative;
@@ -848,6 +851,11 @@
 	}
 	.btn {
 	    font-size: 14px;
+	}
+	.btn-success, .btn-cancel{
+		font-size: 16px;
+		width: 150px;
+		height: 44px;
 	}
 	.wrapper-right-column::after {
 	    width: 82px;
@@ -1838,6 +1846,11 @@
 	.btn {
 	    font-size: 13px;
 	}
+	.btn-success, .btn-cancel{
+		font-size: 16px;
+		width: 135px;
+		height: 39px;
+	}
 	.wrapper-list-about-potion {
 	    min-height: 122px;
 	}
@@ -2496,6 +2509,12 @@
 	.btn {
 	    font-size: 12px;
 	}
+	.btn-success, .btn-cancel{
+		font-size: 14px;
+		width: 115px;
+		height: 34px;
+		margin: 0 10px;
+	}
 	.copy-btn {
 	    height: 28px;
 	    width: 93px;
@@ -2879,6 +2898,12 @@
 	    width: 51px;
 	    height: 15px;
 	    margin: 0 4px;
+	}
+	.btn-success, .btn-cancel{
+		font-size: 10px;
+		width: 75px;
+		height: 22px;
+		margin: 0 7px;
 	}
 	.money-span, .count-span, .count-span span, .money-span span {
 	    font-size: 7px;
