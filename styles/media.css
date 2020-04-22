@@ -2303,23 +2303,23 @@
 	}
 	.social-position-1 {
 	    left: 65px;
-	    bottom: 16px;
+        bottom: 21px;
 	}
 	.social-position-2 {
-	    left: 101px;
-	    bottom: 1px;
+        left: 103px;
+        bottom: 3px;
 	}
 	.social-position-3 {
-	    left: 140px;
+	    left: 146px;
 	    bottom: -4px;
 	}
 	.social-position-4 {
-		right: 92px;
+		right: 100px;
 		bottom: 6px;
 	}
 	.social-position-5 {
 		bottom: 22px;
-		right: 58px;
+		right: 65px;
 	}
 	.settings, .poems {
 	    top: 69px;
