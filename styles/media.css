@@ -2811,6 +2811,9 @@
 	.big-table-answer td{
 		display: table-cell;
 	}
+	.big-table-answer td::before{
+		display: none;
+	}
 	.container-scroll-table {
 		max-width: 190px;
 	}
