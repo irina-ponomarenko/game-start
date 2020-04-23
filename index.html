@@ -1502,28 +1502,478 @@
                         <div class="wrapper-content-faq right-info-block" id="faq-js">
                             <div class="container-faq-list">
                                 <ul class="list-faq scroll-custom">
-                                   <li class="item-faq">
-                                       <div class="header-faq">
-                                           <h3>What do I need to start the game?</h3>
-                                       </div>
-                                       <div class="container-answer">
-                                           <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                               you must have the TronLink or TronPay browser extension installed.
-                                               To start the game, you must have at least 1-2 TRX
-                                               coin on your account to pay the commission for the first transaction.
-                                           </p>
-                                           <div class="table-answer-container">
-                                               <table class="table-answer">
-                                                   <thead class="top-title-table">
+                                     <li class="item-faq">
+                                    <div class="header-faq">
+                                        <h3>Что такое улучшение зелья?</h3>
+                                    </div>
+                                    <div class="container-answer">
+                                        <p>Из нескольких более дешевых зелий вы можете сделать 1 более дорогое.
+                                            Так, для того, что бы сделать 1 зелье Ласточка вам потребуется 10 зелий Лес Марибора.
+                                            Зелья улучшаются только последовательно и только в порядке возрастания цены.
+                                            Например для того, чтобы из зелья Лес Марибора сделать Полнолуние вам необходимо пройти весь цикл:
+                                        </p>
+                                        <ul class="answer-sub-list">
+                                            <li>
+                                                <p>Лес Марибора (необходимо 10 зельев)  улучшить до Ласточки,</p>
+                                            </li>
+                                            <li>
+                                                <p>Ласточку (необходимо 10 зельев) улучшить до Филина,</p>
+                                            </li>
+                                            <li>
+                                                <p>Филина (необходимо 5 зельев) улучшить до Полнолуния.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Обратного улучшения нет. Улучшения бесплатны, но занимают время. </p>
+                                        <div class="table-answer-container">
+                                            <table class="table-answer">
+                                                <thead class="top-title-table">
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Кол.зельев</th>
+                                                    <th>Дни</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody class="body-table-answer">
+                                                <tr>
+                                                    <td class="section-body title-body">
+                                                        <span>Лес Марибора → Ласточка</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Кол.зельев">
+                                                        <span>10</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Дни">
+                                                        <span>4</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="section-body title-body">
+                                                        <span>Ласточка → Филин</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Кол.зельев">
+                                                        <span>10</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Дни">
+                                                        <span>7</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="section-body title-body">
+                                                        <span>Филин → Полнолуние</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Кол.зельев">
+                                                        <span>5</span>
+                                                    </td>
+                                                    <td class="section-body" data-label="Дни">
+                                                        <span>7</span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </li>
+                                     <li class="item-faq">
+                                        <div class="header-faq">
+                                            <h3>Что такое Очки мастерства?</h3>
+                                        </div>
+                                        <div class="container-answer">
+                                            <p>
+                                                При каждом приготовлении зелья вы получаете очки мастерства(ОМ) для этого зелья.  ОМ повышаются с каждым циклом варки и не зависят от количества зельев в одном цикле.
+                                            </p>
+                                            <div class="table-answer-container">
+                                                <table class="table-answer">
+                                                    <thead class="top-title-table">
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>Цикл, дни</th>
+                                                        <th>Очки за цикл</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="body-table-answer">
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Лес Марибора</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Цикл, дни">
+                                                            <span>3</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Очки за цикл">
+                                                            <span>8</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Ласточка</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Цикл, дни">
+                                                            <span>6</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Очки за цикл">
+                                                            <span>16</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Филин</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Цикл, дни">
+                                                            <span>12</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Очки за цикл">
+                                                            <span>33</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Полнолуние</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Цикл, дни">
+                                                            <span>18</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="Очки за цикл">
+                                                            <span>50</span>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </li>
+                                     <li class="item-faq">
+                                        <div class="header-faq">
+                                            <h3>Зависит ли стоимость зелья при продаже от моих Очков мастерства?</h3>
+                                        </div>
+                                        <div class="container-answer">
+                                            <p>Да, для количества ОМ до 96 существует таблица стоимости продажи зелья от ее начальной стоимости варки.
+                                                После достижения 96 и больше ОМ включается <b>рыночная доходность</b>.
+                                            </p>
+                                            <div class="table-answer-container container-scroll-table">
+                                                <table class="table-answer big-table-answer">
+                                                    <thead class="top-title-table">
+                                                    <tr>
+                                                        <th colspan="2">Лес Марибора <span>(Цикл 3 дня)</span></th>
+                                                        <th colspan="2">Ласточка <span>(Цикл 6 дней)</span></th>
+                                                        <th colspan="2">Филин <span>(Цикл 12 дней)</span></th>
+                                                        <th colspan="2">Полнолуние <span>(Цикл 18 дней)</span></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="body-table-answer">
                                                         <tr>
-                                                            <th></th>
-                                                            <th>Лес Марибора</th>
-                                                            <th>Ласточка</th>
-                                                            <th>Филин</th>
-                                                            <th>Полнолуние</th>
+                                                            <td class="section-body title-body">
+                                                                <span> ОМ</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span>Доходность</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span> ОМ</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span>Доходность</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span> ОМ</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span>Доходность</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span> ОМ</span>
+                                                            </td>
+                                                            <td class="section-body title-body">
+                                                                <span>Доходность</span>
+                                                            </td>
                                                         </tr>
-                                                   </thead>
-                                                   <tbody class="body-table-answer">
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>8</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>79%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>16</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>80%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>33</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>80%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>50</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>85%</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>16</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>81,25%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>32</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>85%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>66</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>95%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>100</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>115%</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>24</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>83,50%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>48</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>90%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>99</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>110%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>32</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>85,75%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>64</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>95%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>40</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>88%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>80</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>100%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>48</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>90,25%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>96</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>105%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>56</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>92,50%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>64</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>94,75%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>72</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>97%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>80</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>99,25%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>88</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>101,50%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="section-body">
+                                                                <span>96</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                                <span>103,75%</span>
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                            <td class="section-body">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                   </li>
+                                     <li class="item-faq">
+                                        <div class="header-faq">
+                                            <h3>Что такое рыночная доходность?</h3>
+                                        </div>
+                                        <div class="container-answer">
+                                            <p>
+                                                При достижениии 96 ОМ и больше для определенного зелья активируется рыночная доходность.
+                                                При этом цена на зелья будет зависеть от ситуации на рынке.
+                                                Так, каждое зелье может иметь 4 разные доходности в зависимости от того в дефиците или в избытке оно находиться.
+                                                Больше деталей о рыночной доходности можете найти здесь.
+                                            </p>
+                                            <div class="table-answer-container">
+                                                <table class="table-answer">
+                                                    <thead class="top-title-table">
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>Лес Марибора</th>
+                                                        <th>Ласточка</th>
+                                                        <th>Филин</th>
+                                                        <th>Полнолуние</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="body-table-answer">
                                                         <tr>
                                                             <td class="section-body title-body">
                                                                 <span>Переизбыток</span>
@@ -1592,81 +2042,79 @@
                                                                 <span>148%</span>
                                                             </td>
                                                         </tr>
-                                                   </tbody>
-                                               </table>
-                                           </div>
-                                       </div>
-                                   </li>
-                                    <li class="item-faq">
-                                        <div class="header-faq">
-                                            <h3>How can i get an Airdrop bonus?</h3>
-                                        </div>
-                                        <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
-                                            </p>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </li>
-                                    <li class="item-faq">
+                                     <li class="item-faq">
                                         <div class="header-faq">
-                                            <h3>How to top up the balance and withdraw funds?</h3>
+                                            <h3>Какая реферальная программа?</h3>
                                         </div>
                                         <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
+                                            <p>
+                                                Реферальная система имеет 2 уровни и выплачивается сразу, как только ваш реферал поставил зелья на варку.
+                                                Для каждого зелья реферальное вознаграждение отличается:
+
                                             </p>
-                                        </div>
-                                    </li>
-                                    <li class="item-faq">
-                                        <div class="header-faq">
-                                            <h3>How to  earn more?</h3>
-                                        </div>
-                                        <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item-faq">
-                                        <div class="header-faq">
-                                            <h3>How does the accrual of profits go?</h3>
-                                        </div>
-                                        <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item-faq">
-                                        <div class="header-faq">
-                                            <h3>How risky is the investment in the game?</h3>
-                                        </div>
-                                        <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li class="item-faq">
-                                        <div class="header-faq">
-                                            <h3>Is it possible to reister without a sponsor?</h3>
-                                        </div>
-                                        <div class="container-answer">
-                                            <p>The game runs on Tron's blockchain smartcontract and for interaction,
-                                                you must have the TronLink or TronPay browser extension installed.
-                                                To start the game, you must have at least 1-2 TRX
-                                                coin on your account to pay the commission for the first transaction.
-                                            </p>
+                                            <p>Обратного улучшения нет. Улучшения бесплатны, но занимают время. </p>
+                                            <div class="table-answer-container">
+                                                <table class="table-answer">
+                                                    <thead class="top-title-table">
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>1 ур</th>
+                                                        <th>2 ур</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="body-table-answer">
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Лес Марибора </span>
+                                                        </td>
+                                                        <td class="section-body" data-label="1 ур">
+                                                            <span>0,5%</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="2 ур">
+                                                            <span>0,25%</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Ласточка</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="1 ур">
+                                                            <span>1%</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="2 ур">
+                                                            <span>0,5%</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Филин</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="1 ур">
+                                                            <span>2%</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="2 ур">
+                                                            <span>1%</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="section-body title-body">
+                                                            <span>Полнолуние</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="1 ур">
+                                                            <span>3%</span>
+                                                        </td>
+                                                        <td class="section-body" data-label="2 ур">
+                                                            <span>1,5%</span>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
@@ -1712,177 +2160,177 @@
  <!-- popup -->
  
 
- <div class="overlay_popup"></div>
-        <div class="popup succsess-popup none-shadow" id="popup10">
-           <button type="button" class="btn-popup"></button>
-          <div class="content-popup">
-              <div class="header-popup">
-                  <h2 class="title-popup">Lorem ipsum</h2>
-              </div>
-              <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <div class="container-window-btn">
-                  <button type="button" class="btn btn-success">Подтвердить</button>
-                  <button type="button" class="btn btn-cancel">Отменить</button>
-              </div>
-          </div>
-      </div>
- <div class="popup succsess-popup" id="popup1">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Lorem ipsum</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-     </div>
- </div>
+<!-- <div class="overlay_popup"></div>-->
+<!--        <div class="popup succsess-popup none-shadow" id="popup10">-->
+<!--           <button type="button" class="btn-popup"></button>-->
+<!--          <div class="content-popup">-->
+<!--              <div class="header-popup">-->
+<!--                  <h2 class="title-popup">Lorem ipsum</h2>-->
+<!--              </div>-->
+<!--              <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+<!--              <div class="container-window-btn">-->
+<!--                  <button type="button" class="btn btn-success">Подтвердить</button>-->
+<!--                  <button type="button" class="btn btn-cancel">Отменить</button>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--      </div>-->
+<!-- <div class="popup succsess-popup" id="popup1">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Lorem ipsum</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
 
-  <div class="popup negative" id="popup2">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Lorem ipsum</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-     </div>
- </div>
+<!--  <div class="popup negative" id="popup2">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Lorem ipsum</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
-  <div class="popup negative-big" id="popup3">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Lorem ipsum</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
-     </div>
- </div>
+<!--  <div class="popup negative-big" id="popup3">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Lorem ipsum</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
 
-  <div class="popup info-popup" id="popup4">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Lorem ipsum</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?</p>
-     </div>
- </div>
+<!--  <div class="popup info-popup" id="popup4">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Lorem ipsum</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
- <div class="popup setting-popup" id="popup5">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Настройки</h2>
-         </div>
-         <form class="content-popup-container">
-             <div class="container-face">
-                 <img src="images/big-face-1.png" alt="face avatar">
-             </div>
-             <div class="container-form">
-                 <label for="name1">Имя</label>
-                 <input type="text" name="name1" id="name1" class="form-input" placeholder="John Senna">
-                 <button type="button" class="btn btn-form tooltip"  data-tippy-content="Вы можете установить имя только один раз!">Применить</button>
-             </div>
-         </form>
-         <div class="footer-popup">
-            <form class="choice-form">
-                <ul class="list-face">
-                    <li class="face-item active-face">
-                        <div class="container-face-img">
-                            <img src="images/big-face-1.png" alt="face image"/>
-                        </div>
-                    </li>
-                    <li class="face-item">
-                        <div class="container-face-img">
-                            <img src="images/big-face-2.png" alt="face image"/>
-                        </div>
-                    </li>
-                    <li class="face-item">
-                        <div class="container-face-img">
-                            <img src="images/big-face-3.png" alt="face image"/>
-                        </div>
-                    </li>
-                     <li class="face-item">
-                        <div class="container-face-img your-face">
-                            <label for="uploadbtn" class="uploadButton"></label>
-                            <input type="file"  name="upload" accept="png,image/*" id="uploadbtn">
-                        </div>
-                    </li>
-                </ul>
-                <button type="button" class="btn btn-form">Применить</button>
-            </form>
-            <p class="text-popup">Первая установка аватара бесплатная. Все последующие изменения аватарки стоят 200 TRX.</p>
-         </div>
-     </div>
- </div>
+<!-- <div class="popup setting-popup" id="popup5">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Настройки</h2>-->
+<!--         </div>-->
+<!--         <form class="content-popup-container">-->
+<!--             <div class="container-face">-->
+<!--                 <img src="images/big-face-1.png" alt="face avatar">-->
+<!--             </div>-->
+<!--             <div class="container-form">-->
+<!--                 <label for="name1">Имя</label>-->
+<!--                 <input type="text" name="name1" id="name1" class="form-input" placeholder="John Senna">-->
+<!--                 <button type="button" class="btn btn-form tooltip"  data-tippy-content="Вы можете установить имя только один раз!">Применить</button>-->
+<!--             </div>-->
+<!--         </form>-->
+<!--         <div class="footer-popup">-->
+<!--            <form class="choice-form">-->
+<!--                <ul class="list-face">-->
+<!--                    <li class="face-item active-face">-->
+<!--                        <div class="container-face-img">-->
+<!--                            <img src="images/big-face-1.png" alt="face image"/>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="face-item">-->
+<!--                        <div class="container-face-img">-->
+<!--                            <img src="images/big-face-2.png" alt="face image"/>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                    <li class="face-item">-->
+<!--                        <div class="container-face-img">-->
+<!--                            <img src="images/big-face-3.png" alt="face image"/>-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                     <li class="face-item">-->
+<!--                        <div class="container-face-img your-face">-->
+<!--                            <label for="uploadbtn" class="uploadButton"></label>-->
+<!--                            <input type="file"  name="upload" accept="png,image/*" id="uploadbtn">-->
+<!--                        </div>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <button type="button" class="btn btn-form">Применить</button>-->
+<!--            </form>-->
+<!--            <p class="text-popup">Первая установка аватара бесплатная. Все последующие изменения аватарки стоят 200 TRX.</p>-->
+<!--         </div>-->
+<!--     </div>-->
+<!-- </div>-->
 
-  <div class="popup element-popup" id="popup6">
-      <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">Выберите стихию</h2>
-         </div>
-         <div class="content-elements">
-             <ul class="list-elements">
-                <li class="element-item">
-                     <div class="element-content">
-                         <img src="images/element-1.png" alt="element"/>
-                     </div>
-                     <h3 class="name-element">Ethereum</h3>
-                </li>
-                <li class="element-item active-element">
-                     <div class="element-content">
-                         <img src="images/element-2.png" alt="element"/>
-                     </div>
-                    <h3 class="name-element">Tron</h3>
-                </li>
-                <li class="element-item">
-                     <div class="element-content">
-                         <img src="images/element-3.png" alt="element"/>
-                     </div>
-                    <h3 class="name-element">Stable</h3>
-                </li>
-             </ul>
-         </div>
-         <p class="text-popup">
-             Каждая стихия это отдельная игра.
-         </p>
-     </div>
- </div>
+<!--  <div class="popup element-popup" id="popup6">-->
+<!--      <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">Выберите стихию</h2>-->
+<!--         </div>-->
+<!--         <div class="content-elements">-->
+<!--             <ul class="list-elements">-->
+<!--                <li class="element-item">-->
+<!--                     <div class="element-content">-->
+<!--                         <img src="images/element-1.png" alt="element"/>-->
+<!--                     </div>-->
+<!--                     <h3 class="name-element">Ethereum</h3>-->
+<!--                </li>-->
+<!--                <li class="element-item active-element">-->
+<!--                     <div class="element-content">-->
+<!--                         <img src="images/element-2.png" alt="element"/>-->
+<!--                     </div>-->
+<!--                    <h3 class="name-element">Tron</h3>-->
+<!--                </li>-->
+<!--                <li class="element-item">-->
+<!--                     <div class="element-content">-->
+<!--                         <img src="images/element-3.png" alt="element"/>-->
+<!--                     </div>-->
+<!--                    <h3 class="name-element">Stable</h3>-->
+<!--                </li>-->
+<!--             </ul>-->
+<!--         </div>-->
+<!--         <p class="text-popup">-->
+<!--             Каждая стихия это отдельная игра.-->
+<!--         </p>-->
+<!--     </div>-->
+<!-- </div>-->
 
- <div class="popup succsess-popup2" id="popup8">
-     <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">“Успех - вывод”</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-     </div>
- </div>
+<!-- <div class="popup succsess-popup2" id="popup8">-->
+<!--     <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">“Успех - вывод”</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
- <div class="popup  succsess-popup3" id="popup9">
-     <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">“Успех - ввод”</h2>
-         </div>
-         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-     </div>
- </div>
+<!-- <div class="popup  succsess-popup3" id="popup9">-->
+<!--     <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">“Успех - ввод”</h2>-->
+<!--         </div>-->
+<!--         <p class="text-popup">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
+<!--     </div>-->
+<!-- </div>-->
 
- <div class="popup start-popup" id="popup7">
-     <button type="button" class="btn-popup"></button>
-     <div class="content-popup">
-         <div class="header-popup">
-             <h2 class="title-popup">ваш пригласителЬ</h2>
-         </div>
-         <form class="start-form">
-             <input type="text" name="name-input" placeholder="juslsfgsgsgg[wgw]kcvsddrwrsllwrs">
-             <button type="submit" class="btn-start">Начать игру</button>
-         </form>
-         <p class="text-popup error-field">*Пополните баланс для начлала игры</p>
-     </div>
- </div>
+<!-- <div class="popup start-popup" id="popup7">-->
+<!--     <button type="button" class="btn-popup"></button>-->
+<!--     <div class="content-popup">-->
+<!--         <div class="header-popup">-->
+<!--             <h2 class="title-popup">ваш пригласителЬ</h2>-->
+<!--         </div>-->
+<!--         <form class="start-form">-->
+<!--             <input type="text" name="name-input" placeholder="juslsfgsgsgg[wgw]kcvsddrwrsllwrs">-->
+<!--             <button type="submit" class="btn-start">Начать игру</button>-->
+<!--         </form>-->
+<!--         <p class="text-popup error-field">*Пополните баланс для начлала игры</p>-->
+<!--     </div>-->
+<!-- </div>-->
  <!----------->
 
  <div class="rotate-device-overlay">

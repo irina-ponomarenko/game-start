@@ -3214,6 +3214,26 @@ a:active{
     white-space: nowrap;
     padding: 3px;
 }
+.top-title-table th{
+    white-space: pre-wrap;
+}
 .red-percent{
     color: #fe1b1b;
+}
+.answer-sub-list{
+    list-style: none;
+}
+.answer-sub-list li{
+    padding-left: 15px;
+    position: relative;
+}
+.answer-sub-list li:before{
+    content: "—";
+    position: absolute;
+    left: -5px;
+    color: #ffffff;
+    font-size: 6px;
+    width: 7px;
+    top: 15%;
+    margin-left: 10px;
 }
