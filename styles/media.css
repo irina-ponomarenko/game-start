@@ -2803,10 +2803,10 @@
 		margin-right: 0;
 	}
 	.big-table-answer .top-title-table{
-		display: block;
+		display: table-header-group;
 	}
 	.big-table-answer tr{
-		display: inherit;
+		display: table-row;
 	}
 	.big-table-answer td{
 		display: table-cell;

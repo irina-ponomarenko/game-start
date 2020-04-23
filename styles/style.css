@@ -3252,3 +3252,6 @@ a:active{
 .scroll-custom-bottom{
     height: 100% !important;
 }
+.big-table-answer .top-title-table th{
+    text-align: center;
+}
