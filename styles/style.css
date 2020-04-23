@@ -147,15 +147,24 @@ a:active{
     0px 0px 1px rgba(110,77,30,.2);
     border: none;
 }
-.btn-profit{
+.btn-profit,
+.scroll-table,
+.scroll-table-reset{
     background: url("../images/dark-bg-btn.png")no-repeat;
     background-size: contain;
     height: 36px;
     width: 123px;
 }
-.btn-profit:hover{
+.btn-profit:hover,
+.scroll-table:hover,
+.scroll-table-reset:hover{
     background: url("../images/bg-btn.png")no-repeat;
     background-size: contain;
+}
+
+.control-table{
+    align-items: center;
+    display: none;
 }
 .input-profit{
     max-width: 105px;
@@ -3236,4 +3245,10 @@ a:active{
     width: 7px;
     top: 15%;
     margin-left: 10px;
+}
+.big-table-answer{
+    width: 85%;
+}
+.scroll-custom-bottom{
+    height: 100% !important;
 }

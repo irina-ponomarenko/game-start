@@ -45,7 +45,13 @@ $(document).ready(function() {
         railVisible: true,
         alwaysVisible: true
     });
-
+    $(".scroll-table").click(function(){
+        let value = $('.container-scroll-table').scrollLeft() + 100;
+        $('.container-scroll-table').scrollLeft(value);
+        $('.scroll-table-reset').click(function(){
+            $('.container-scroll-table').scrollLeft(0);
+        });
+    });
     //---------------------active slideToggle faq elements-------------//
 
     $('.header-faq').on('click', function () {
