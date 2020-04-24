@@ -161,7 +161,6 @@ a:active{
     background: url("../images/bg-btn.png")no-repeat;
     background-size: contain;
 }
-
 .control-table{
     align-items: center;
     display: none;
@@ -787,7 +786,7 @@ a:active{
     margin-left: 10px;
 }
 .balance{
-    max-width: 105px;
+    max-width: 145px;
     margin-right: 10px;
 }
 .center-hero{
@@ -1416,6 +1415,8 @@ a:active{
     background-size: 100% 100%;
     position: relative;
     padding: 5px 0 12px;
+    display: flex;
+    align-items: center;
 }
 .container-potion-choice::after{
     content: '';
@@ -1426,27 +1427,49 @@ a:active{
     right: 0;
     background: url("../images/line-bg.png")repeat-x;
 }
+.number-range{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 18px;
+    align-items: center;
+}
+.number-range span{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 5px 0;
+    font-family: 'Times New Roman';
+}
 .percent-choice{
     color: #ffffff;
     font-size: 21px;
+    margin: 5px 0;
 }
 .container-choice-potion img{
     width: 100%;
 }
 .container-choice-potion{
     max-width: 80px;
-    margin-right: 10px;
+    margin-right: 8px;
+}
+.container-percent-choice{
+    display: flex;
+    flex-direction: column;
 }
 .item-choice{
     display: flex;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 5px;
+}
+.item-choice:first-child{
+    margin-left: 0;
 }
 .choice-list{
     display: flex;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
+    margin-left: 8px;
 }
 .list-header-gildia{
     display: flex;

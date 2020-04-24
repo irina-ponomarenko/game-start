@@ -1,4 +1,7 @@
 @media screen and (max-width: 1800px) {
+    .number-range{
+        margin-left: 10px;
+    }
 	.potion-butl {
 	    max-width: 125px;
 	    height: 115px;
@@ -292,6 +295,9 @@
 	}
 }
 @media screen and (max-width: 1660px) {
+    .number-range span {
+        font-size: 21px;
+    }
 	.scale-item span{
 		font-size: 16px;
 	}
@@ -638,8 +644,6 @@
 	}
 
 }
-
-
 @media screen and (max-width: 1560px) {
 	.center-hero {
 	    max-width: 440px;
@@ -958,6 +962,9 @@
 	}
 }
 @media screen and (max-width: 1480px) {
+    .number-range span {
+        font-size: 17px;
+    }
 	.center-hero {
 	    max-width: 412px;
 	}
@@ -1032,6 +1039,12 @@
 	.percent-choice, .info-table span {
 	    font-size: 14px;
 	}
+    .number-range span{
+        margin: 3px 0;
+    }
+    .percent-choice{
+        margin: 3px 0;
+    }
 	.table-iven .slimScrollDiv, .body-table-gildia {
 	    height: 138px !important;
 	}
@@ -1505,6 +1518,9 @@
 	}
 }
 @media screen and (max-width: 1341px) and (orientation: landscape) {
+    .number-range span {
+        font-size: 15px;
+    }
 	.potion-butl {
 	    max-width: 97px;
 	    height: 82px;
@@ -2224,7 +2240,6 @@
 		margin-bottom: 14px;
 	}
 }
-
 @media screen and (max-width: 1024px) and (orientation: portrait){
 	.rotate-device-overlay {
 		display: block;
@@ -2264,6 +2279,9 @@
 	}
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    .number-range span {
+        font-size: 14px;
+    }
 	.table-answer{
 		width: 90%;
 		font-size: 8px;
@@ -2819,6 +2837,9 @@
 	}
 }
 @media screen and (max-width: 825px) and (orientation: landscape) {
+    .number-range span {
+        font-size: 11px;
+    }
 	.container-scroll-table {
 		max-width: 160px;
 	}
@@ -3560,7 +3581,12 @@
 	}
 }
 @media screen and (max-width: 768px) and (orientation: landscape) {
-
+    .number-range span {
+        font-size: 9px;
+    }
+    .number-range{
+        margin-left: 6px;
+    }
 	.wrapper-left-column,
 	.wrapper-right-column{
 		width: 30%;
