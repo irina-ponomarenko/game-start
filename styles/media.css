@@ -960,6 +960,10 @@
 	    width: 50px;
 	    height: 50px;
 	}
+	.achievements-wrapper-img{
+		margin-top: 20px;
+		max-width: 130px;
+	}
 }
 @media screen and (max-width: 1480px) {
     .number-range span {
@@ -1824,6 +1828,9 @@
 	.element-popup .text-popup {
 	    font-size: 16px;
 	    margin-top: 15px;
+	}
+	.achievements-wrapper-img{
+		max-width: 100px;
 	}
 
 }
@@ -3578,6 +3585,10 @@
 		width: 59px;
 		height: 20px;
 		margin: 5px 4px 0;
+	}
+	.achievements-wrapper-img{
+		margin-top: 10px;
+		max-width: 70px;
 	}
 }
 @media screen and (max-width: 768px) and (orientation: landscape) {

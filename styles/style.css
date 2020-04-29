@@ -3278,3 +3278,17 @@ a:active{
 .big-table-answer .top-title-table th{
     text-align: center;
 }
+
+/*--------------style window  achievements------------*/
+
+.achievements-wrapper-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 175px;
+}
+.achievements-wrapper-img img{
+    width: 100%;
+}
