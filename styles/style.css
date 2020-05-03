@@ -779,7 +779,7 @@ a:active{
 .name-player,
 .balance{
     white-space: nowrap;
-    max-width: 128px;
+    max-width: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: inline-block;
@@ -1621,12 +1621,17 @@ a:active{
 }
 .icon-raiting{
     width: 34px;
-    border-radius: 100%;
-    height: 100%;
+    height: 34px;
+    border-radius: 5%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1b978;
 }
 .icon-raiting img{
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 .item-block span{
     color: #ffffff;
@@ -2671,13 +2676,19 @@ a:active{
     padding-top: 33px;
 }
 .container-face{
-    border-radius: 100%;
-    max-width: 180px;
-    width: 100%;
+    border-radius: 5%;
+    width: 180px;
+    height: 160px;
     margin-right: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
 }
 .container-face img{
-    width: 100%;
+    height: 100%;
+    width: auto;
 }
 .content-popup-container{
     display: flex;
@@ -2742,7 +2753,8 @@ a:active{
     overflow: hidden;
 }
 .container-face-img img{
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 .list-face{
     display: flex;
@@ -3288,6 +3300,7 @@ a:active{
     margin: 0 auto;
     margin-top: 25px;
     max-width: 175px;
+    min-width: 80px;
 }
 .achievements-wrapper-img img{
     width: 100%;
