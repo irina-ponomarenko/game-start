@@ -4324,6 +4324,10 @@
         border: 2px solid #e2be70;
     }
 
+    .element-content{
+        border: 2px solid #1e131721;
+    }
+
     .content-elements {
         margin: 10px 0;
     }
