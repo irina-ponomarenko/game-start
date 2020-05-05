@@ -287,6 +287,9 @@ a:active {
 .potion-wrapper {
   background: url("../images/bg-2.jpg") no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .bottom-about-potion {
@@ -2873,7 +2876,7 @@ a:active {
   bottom: 0;
   background: #000;
   opacity: 0.7;
-  z-index: 100000000;
+  z-index: 1000000;
 }
 
 .popup {
@@ -2884,7 +2887,7 @@ a:active {
   left: 0;
   right: 0;
   width: 50%;
-  z-index: 1000000000;
+  z-index: 10000000;
   background: url('../images/bg-popup.jpg') no-repeat;
   background-size: cover;
   max-width: 500px;
@@ -2896,13 +2899,23 @@ a:active {
   -o-border-image: url(../images/border.png) 30 round round;
   border-image: url(../images/border.png) 30 round round;
 }
+#confirmationDialog{
+  z-index: 80000000;
+}
+#registrationDialog{
+  z-index: 90000000;
+}
 
 .succsess-popup,
 .succsess-popup2, .succsess-popup3 {
   -webkit-box-shadow: 0px 0px 39px 0px rgba(53, 203, 91, 0.68);
   -moz-box-shadow: 0px 0px 39px 0px rgba(53, 203, 91, 0.68);
   box-shadow: 0px 0px 39px 0px rgba(53, 203, 91, 0.68);
-  /*z-index: 99999999999;*/
+}
+
+#successDialog,
+#errorDialog{
+  z-index: 99999999999;
 }
 
 .none-shadow {
@@ -3005,7 +3018,6 @@ a:active {
   -webkit-box-shadow: 0px 0px 39px 0px rgba(254, 27, 27, 1);
   -moz-box-shadow: 0px 0px 39px 0px rgba(254, 27, 27, 1);
   box-shadow: 0px 0px 39px 0px rgba(254, 27, 27, 1);
-  /*z-index: 99999999999;*/
 }
 
 .negative-big .title-popup,

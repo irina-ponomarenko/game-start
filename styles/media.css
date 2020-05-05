@@ -1280,7 +1280,7 @@
     }
 
     .footer-action p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .item-awards img {
@@ -1788,7 +1788,7 @@
 
     .footer-action {
         margin-top: 2px;
-        max-width: 85%;
+        max-width: 95%;
     }
 
     .title-item, .title-rating {
