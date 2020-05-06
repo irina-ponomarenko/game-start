@@ -349,4 +349,8 @@ $(document).ready(function() {
         flagSounds = !flagSounds;
     });
 
+    //-----------------------блокирование клика по кнопкам------------------//
+
+    $('.blocked-btn').attr('disabled', 'disabled');
+
 });

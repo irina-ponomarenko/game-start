@@ -2899,11 +2899,13 @@ a:active {
   -o-border-image: url(../images/border.png) 30 round round;
   border-image: url(../images/border.png) 30 round round;
 }
+
 #confirmationDialog{
-  z-index: 80000000;
+  z-index: 20000000;
 }
+
 #registrationDialog{
-  z-index: 90000000;
+  z-index: 30000000;
 }
 
 .succsess-popup,
@@ -3357,7 +3359,7 @@ a:active {
 
 /*------------------------------------*/
 .list-control {
-  z-index: 100000000;
+  z-index: 100000;
   display: flex;
   align-items: center;
   max-width: 98px;
@@ -3768,4 +3770,20 @@ a:active {
 
 .achievements-wrapper-img img {
   width: 100%;
+}
+
+/*----------------style blocked button---------------*/
+
+.blocked-btn{
+  webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  filter: grayscale(1);
+  filter: gray;
+}
+.blocked-btn:hover{
+  background: url("../images/dark-bg-btn.png") no-repeat;
+  background-size: contain;
+  cursor: auto;
 }
