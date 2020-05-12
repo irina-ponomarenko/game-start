@@ -2502,8 +2502,22 @@ a:active {
   padding: 10px;
 }
 
+.header-table tr th:last-child{
+    text-align: right;
+}
+
 .body-table-events tr td {
-  padding: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.body-table-events tr td:last-child{
+    text-align: right;
+}
+
+.info-event .name,
+.info-event a{
+    color: #a6aba7;
 }
 
 .table-events thead, .table-events tbody {
