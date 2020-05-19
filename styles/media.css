@@ -1,5095 +1,5142 @@
 @media screen and (max-width: 1800px) {
-    .number-range {
-        margin-left: 10px;
-    }
+  .number-range {
+      margin-left: 10px;
+  }
 
-    .potion-butl {
-        max-width: 125px;
-        height: 115px;
-    }
+  .potion-butl {
+      max-width: 125px;
+      height: 115px;
+  }
 
-    .title-item, .title-rating {
-        font-size: 20px;
-    }
+  .title-item, .title-rating {
+      font-size: 20px;
+  }
 
-    .social-position-3 {
-        left: 258px;
-    }
+  .social-position-3 {
+      left: 258px;
+  }
 
-    .potion-butl img {
-        max-width: 125px;
-        bottom: inherit;
-    }
+  .potion-butl img {
+      max-width: 125px;
+      bottom: inherit;
+  }
 
-    .container-potion {
-        max-width: 163px;
-    }
+  .container-potion {
+      max-width: 163px;
+  }
 
-    .item-faq {
-        max-width: 90%;
-    }
+  .item-faq {
+      max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 1786px) {
-    .item-awards img {
-        width: 65px;
-    }
+  .item-awards img {
+      width: 65px;
+  }
 }
 
 @media screen and (max-width: 1738px) {
-    .container-image-hero {
-        max-width: 487px;
-        height: 487px;
-    }
+  .container-image-hero {
+      max-width: 487px;
+      height: 487px;
+  }
 
-    .center-hero {
-        max-width: 504px;
-    }
+  .center-hero {
+      max-width: 504px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 342px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 342px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 397px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 397px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 339px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 339px;
+  }
 
-    .social-position-5 {
-        bottom: 30px;
-    }
+  .social-position-5 {
+      bottom: 30px;
+  }
 
-    .social-position-1 {
-        bottom: 30px;
-    }
+  .social-position-1 {
+      bottom: 30px;
+  }
 
-    .social-position-2 {
-        bottom: -2px;
-    }
+  .social-position-2 {
+      bottom: -2px;
+  }
 
-    .social-position-3 {
-        left: 245px;
-    }
+  .social-position-3 {
+      left: 245px;
+  }
 
-    .social-position-4 {
-        right: 171px;
-        bottom: -1px;
-    }
+  .social-position-4 {
+      right: 171px;
+      bottom: -1px;
+  }
 }
 
 @media screen and (max-width: 1700px) {
-    .title-item, .title-rating {
-        font-size: 19px;
-    }
+  .title-item, .title-rating {
+      font-size: 19px;
+  }
 
-    .item-potion,
-    .potion-butl img {
-        max-width: 118px;
-    }
+  .item-potion,
+  .potion-butl img {
+      max-width: 118px;
+  }
 
-    .potion-butl {
-        max-width: 118px;
-        height: 103px;
-    }
+  .potion-butl {
+      max-width: 118px;
+      height: 103px;
+  }
 
-    .suma-potion {
-        font-size: 16px;
-    }
+  .suma-potion {
+      font-size: 16px;
+  }
 
-    .name-potion, .title-item-info {
-        font-size: 24px;
-    }
+  .name-potion, .title-item-info {
+      font-size: 24px;
+  }
 
-    .btn {
-        font-size: 16px;
-    }
+  .btn {
+      font-size: 16px;
+  }
 
-    .btn-success, .btn-cancel {
-        font-size: 19px;
-    }
+  .btn-success, .btn-cancel {
+      font-size: 19px;
+  }
 
-    .list-profit {
-        z-index: 100;
-        position: relative;
-    }
+  .list-profit {
+      z-index: 100;
+      position: relative;
+  }
 
-    .profit-container-right-block img {
-        max-width: 320px;
-        width: 100%;
-    }
+  .profit-container-right-block img {
+      max-width: 320px;
+      width: 100%;
+  }
 
-    .profit-wrapper {
-        padding: 18px 15px;
-    }
+  .profit-wrapper {
+      padding: 18px 15px;
+  }
 
-    .wrapper-bottle-info {
-        width: 90px;
-        height: 90px;
-    }
+  .wrapper-bottle-info {
+      width: 90px;
+      height: 90px;
+  }
 
-    .bottle-position-1 {
-        top: 12px;
-        left: 64px;
-    }
+  .bottle-position-1 {
+      top: 12px;
+      left: 64px;
+  }
 
-    .bottle-position-4 {
-        right: 60px;
-    }
+  .bottle-position-4 {
+      right: 60px;
+  }
 
-    .header-title-item {
-        margin-bottom: 10px;
-    }
+  .header-title-item {
+      margin-bottom: 10px;
+  }
 
-    .center-hero {
-        max-width: 485px;
-    }
+  .center-hero {
+      max-width: 485px;
+  }
 
-    .social-link {
-        width: 50px;
-        height: 50px;
-    }
+  .social-link {
+      width: 50px;
+      height: 50px;
+  }
 
-    .social-position-3 {
-        left: 242px;
-        bottom: -6px;
-    }
+  .social-position-3 {
+      left: 242px;
+      bottom: -6px;
+  }
 
-    .social-position-5 {
-        bottom: 36px;
-    }
+  .social-position-5 {
+      bottom: 36px;
+  }
 
-    .social-position-2 {
-        position: absolute;
-        left: 167px;
-        bottom: 6px;
-    }
+  .social-position-2 {
+      position: absolute;
+      left: 167px;
+      bottom: 6px;
+  }
 
-    .social-position-4 {
-        position: absolute;
-        right: 171px;
-        bottom: 4px;
-    }
+  .social-position-4 {
+      position: absolute;
+      right: 171px;
+      bottom: 4px;
+  }
 
-    .btn-center {
-        width: 70px;
-        height: 70px;
-    }
+  .btn-center {
+      width: 70px;
+      height: 70px;
+  }
 
-    .percent {
-        font-size: 15px;
-    }
+  .percent {
+      font-size: 15px;
+  }
 
-    .container-bottle-img img {
-        max-width: 45px;
-    }
+  .container-bottle-img img {
+      max-width: 45px;
+  }
 
-    .bottle-2 img {
-        max-width: 55px;
-    }
+  .bottle-2 img {
+      max-width: 55px;
+  }
 
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 24px;
-    }
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 24px;
+  }
 
-    .container-potion {
-        max-width: 155px;
-        height: 145px;
-    }
+  .container-potion {
+      max-width: 155px;
+      height: 145px;
+  }
 
-    .header-awards,
-    .title-action {
-        padding: 0 100px;
+  .header-awards,
+  .title-action {
+      padding: 0 100px;
 
-    }
+  }
 
-    .header-awards::before,
-    .header-awards::after,
-    .title-action::after,
-    .title-action::before {
-        width: 90px;
-    }
+  .header-awards::before,
+  .header-awards::after,
+  .title-action::after,
+  .title-action::before {
+      width: 90px;
+  }
 
-    .title-awards, .number-awards span {
-        font-size: 24px;
-    }
+  .title-awards, .number-awards span {
+      font-size: 24px;
+  }
 
-    .container-potion img {
-        max-width: 145px;
-    }
+  .container-potion img {
+      max-width: 145px;
+  }
 
-    .wrapper-left-column::after {
-        width: 91px;
-    }
+  .wrapper-left-column::after {
+      width: 91px;
+  }
 
-    .actions-wrapper::before {
-        height: 70px;
-    }
+  .actions-wrapper::before {
+      height: 70px;
+  }
 
-    .container-right-column::before {
-        height: 70px;
-        bottom: -32px;
-        left: -15px;
-        right: -7px;
-    }
+  .container-right-column::before {
+      height: 70px;
+      bottom: -32px;
+      left: -15px;
+      right: -7px;
+  }
 
-    .footer-action p {
-        font-size: 16px;
-    }
+  .footer-action p {
+      font-size: 16px;
+  }
 
-    .money-span, .count-span, .count-span span, .money-span span {
-        font-size: 16px;
-    }
+  .money-span, .count-span, .count-span span, .money-span span {
+      font-size: 16px;
+  }
 
-    .title-counter {
-        font-size: 16px;
-        margin-right: 5px;
-    }
+  .title-counter {
+      font-size: 16px;
+      margin-right: 5px;
+  }
 
-    .top-after::after,
-    .container-right-column::after {
-        height: 89px;
-    }
+  .top-after::after,
+  .container-right-column::after {
+      height: 89px;
+  }
 
-    .menu-link {
-        font-size: 21px;
-        width: 170px;
-        height: 39px;
-    }
+  .menu-link {
+      font-size: 21px;
+      width: 170px;
+      height: 39px;
+  }
 
-    .raiting::before,
-    .raiting.active-btn::before,
-    .fag-after::before,
-    .fag-after.active-btn::before {
-        bottom: -166px;
-    }
+  .raiting::before,
+  .raiting.active-btn::before,
+  .fag-after::before,
+  .fag-after.active-btn::before {
+      bottom: -166px;
+  }
 
-    .item-menu {
-        padding: 14px 5px;
-    }
+  .item-menu {
+      padding: 14px 5px;
+  }
 
-    .progress.active-btn::before,
-    .progress::before {
-        bottom: -31px;
-        width: 24px;
-    }
+  .progress.active-btn::before,
+  .progress::before {
+      bottom: -31px;
+      width: 24px;
+  }
 
-    .about-game::before,
-    .about-game.active-btn::before {
-        bottom: -31px;
-        width: 24px;
-    }
+  .about-game::before,
+  .about-game.active-btn::before {
+      bottom: -31px;
+      width: 24px;
+  }
 
-    .gildia::before,
-    .gildia.active-btn::before,
-    .ivents::before,
-    .ivents.active-btn::before {
-        bottom: -100px;
-        width: 15px;
-    }
+  .gildia::before,
+  .gildia.active-btn::before,
+  .ivents::before,
+  .ivents.active-btn::before {
+      bottom: -100px;
+      width: 15px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 420px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 420px;
+  }
 
-    .btn-contact-game {
-        width: 155px;
-        height: 45px;
-    }
+  .btn-contact-game {
+      width: 155px;
+      height: 45px;
+  }
 
-    .btn-contact-game span {
-        font-size: 16px;
-    }
+  .btn-contact-game span {
+      font-size: 16px;
+  }
 
-    .container-count-events {
-        max-width: 177px;
-    }
+  .container-count-events {
+      max-width: 177px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 367px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 367px;
+  }
 
-    .title-link {
-        margin-bottom: 10px;
-        font-size: 26px;
-    }
+  .title-link {
+      margin-bottom: 10px;
+      font-size: 26px;
+  }
 
-    .info-link {
-        font-size: 19px;
-        margin-top: 10px;
-    }
+  .info-link {
+      font-size: 19px;
+      margin-top: 10px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 386px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 386px;
+  }
 
-    .item-block {
-        min-width: 33px;
-    }
+  .item-block {
+      min-width: 33px;
+  }
 
-    .icon-raiting {
-        width: 33px;
-        height: 33px;
-    }
+  .icon-raiting {
+      width: 33px;
+      height: 33px;
+  }
 
-    .wrapper-right-column::after {
-        width: 91px;
-    }
+  .wrapper-right-column::after {
+      width: 91px;
+  }
 
-    .list-control {
-        top: -21px;
-    }
+  .list-control {
+      top: -21px;
+  }
 
-    .container-face {
-        width: 170px;
-        height: 150px;
-    }
+  .container-face {
+      width: 170px;
+      height: 150px;
+  }
 
-    .top-potion-variant::before {
-        top: -7px;
-    }
+  .top-potion-variant::before {
+      top: -7px;
+  }
 
-    .top-potion-variant::after {
-        bottom: -7px;
-    }
+  .top-potion-variant::after {
+      bottom: -7px;
+  }
 
-    .container-image-hero {
-        max-width: 469px;
-        height: 469px;
-    }
+  .container-image-hero {
+      max-width: 469px;
+      height: 469px;
+  }
 
-    .social-position-1 {
-        bottom: 34px;
-    }
+  .social-position-1 {
+      bottom: 34px;
+  }
 
 }
 
 @media screen and (max-width: 1690px) {
-    .item-awards img {
-        width: 60px;
-    }
+  .item-awards img {
+      width: 60px;
+  }
 
-    .container-awards .slimScrollDiv {
-        height: 168px !important;
-    }
+  .container-awards .slimScrollDiv {
+      height: 168px !important;
+  }
 }
 
 @media screen and (max-width: 1660px) {
-    .number-range span {
-        font-size: 21px;
-    }
+  .number-range span {
+      font-size: 21px;
+  }
 
-    .scale-item span {
-        font-size: 16px;
-    }
+  .scale-item span {
+      font-size: 16px;
+  }
 
-    .scale-item {
-        padding: 5px 7px;
-    }
+  .scale-item {
+      padding: 5px 7px;
+  }
 
-    .container-image-hero {
-        max-width: 455px;
-        height: 455px;
-    }
+  .container-image-hero {
+      max-width: 455px;
+      height: 455px;
+  }
 
-    .center-hero {
-        max-width: 478px;
-    }
+  .center-hero {
+      max-width: 478px;
+  }
 
-    .social-position-2 {
-        bottom: 2px;
-    }
+  .social-position-2 {
+      bottom: 2px;
+  }
 
-    .social-position-3 {
-        left: 236px;
-        bottom: -8px;
-    }
+  .social-position-3 {
+      left: 236px;
+      bottom: -8px;
+  }
 
-    .social-position-5 {
-        bottom: 34px;
-    }
+  .social-position-5 {
+      bottom: 34px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 360px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 360px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 343px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 343px;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 455px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 455px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 381px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 381px;
+  }
 
-    .container-faq-list .slimScrollDiv {
-        min-height: 456px;
-    }
+  .container-faq-list .slimScrollDiv {
+      min-height: 456px;
+  }
 }
 
 @media screen and (max-width: 1600px) {
-    .potion-butl {
-        max-width: 110px;
-        height: 95px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 110px;
-    }
-
-    .list-profit {
-        margin-bottom: 15px;
-    }
-
-    .title-item, .title-rating {
-        font-size: 18px;
-    }
-
-    .cursor-draggable {
-        width: 20px;
-        height: 17px;
-    }
-
-    .center-hero {
-        max-width: 460px;
-    }
-
-    .counter-input {
-        font-size: 16px;
-    }
-
-    .number-counter {
-        width: 90px;
-        height: 33px;
-    }
-
-    .btn-counter {
-        width: 18px;
-        height: 16px;
-    }
-
-    .btn-action,
-    .btn-profit {
-        width: 105px;
-        height: 31px;
-    }
-
-    .input {
-        font-size: 16px;
-    }
-
-    .input-profit {
-        max-width: 86px;
-    }
-
-    .profit-container-right-block img {
-        max-width: 285px;
-        width: 100%;
-    }
-
-    .container-potion {
-        max-width: 148px;
-        height: 138px;
-    }
-
-    .container-potion img {
-        max-width: 138px;
-    }
-
-    .wrapper-list-about-potion {
-        min-height: 152px;
-    }
-
-    .wrapper-center-column::before {
-        left: 19px;
-        right: 20px;
-    }
-
-    .social-position-1 {
-        left: 88px;
-        bottom: 29px;
-    }
-
-    .social-position-5 {
-        bottom: 29px;
-        right: 99px;
-    }
-
-    .social-position-2 {
-        left: 151px;
-        bottom: -2px;
-    }
-
-    .social-position-3 {
-        left: 223px;
-        bottom: -15px;
-    }
-
-    .social-position-4 {
-        right: 161px;
-        bottom: -2px;
-    }
-
-    .bottle-position-1 {
-        left: 59px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 24px;
-    }
-
-    .item-awards img {
-        width: 59px;
-    }
-
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        font-size: 28px;
-        padding-left: 53px;
-    }
-
-    .title-popup {
-        padding-left: 0;
-    }
-
-    .container-face {
-        width: 150px;
-        height: 130px;
-    }
-
-    .form-input {
-        border-radius: 15px;
-        padding: 8px 12px;
-        font-size: 18px;
-    }
-
-    .container-face-img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .uploadButton {
-        width: 28px;
-        height: 24px;
-    }
-
-    .element-content {
-        width: 85px;
-        height: 85px;
-    }
-
-    .name-element {
-        font-size: 18px;
-    }
-
-    .btn-center {
-        width: 60px;
-        height: 60px;
-    }
-
-    .progress-line-wrapper span {
-        font-size: 14px;
-    }
-
-    .progress-line-wrapper {
-        padding: 21px 0;
-    }
-
-    .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after,
-    .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after,
-    .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after,
-    .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
-        width: 55px;
-        height: 55px;
-    }
-
-    .position-number {
-        width: 35px;
-        height: 35px;
-    }
-
-    .readiness,
-    .done-mix {
-        width: 50px;
-        height: 50px;
-    }
-
-    .green-progress .line::before, .apgrade-green-progress .line::before,
-    .red-progress .line::before, .apgrade-red-progress .line::before,
-    .blue-progress .line::before, .apgrade-blue-progress .line::before,
-    .pink-progress .line::before, .apgrade-pink-progress .line::before,
-    .progress-line {
-        height: 15px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 445px;
-    }
-
-    .container-choice-potion {
-        max-width: 65px;
-    }
-
-    .percent-choice,
-    .info-table span {
-        font-size: 18px;
-    }
-
-    .list-table-ivent li {
-        padding: 3px;
-    }
-
-    .table-iven .slimScrollDiv,
-    .body-table-gildia {
-        height: 162px !important;
-    }
-
-    .item-block span {
-        font-size: 16px;
-    }
-
-    .item-raiting {
-        margin-bottom: 5px;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 324px;
-    }
-
-    .icon-raiting {
-        width: 31px;
-        height: 31px;
-    }
-
-    .item-block {
-        min-width: 31px;
-    }
-
-    .menu-link {
-        font-size: 19px;
-        width: 156px;
-        height: 35px;
-    }
-
-    .progress.active-btn::before, .progress::before {
-        bottom: -30px;
-        width: 24px;
-    }
-
-    .about-game::before, .about-game.active-btn::before {
-        bottom: -30px;
-        width: 24px;
-    }
-
-    .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
-        bottom: -93px;
-        width: 15px;
-    }
-
-    .gildia::before, .gildia.active-btn::before {
-        right: 12px;
-    }
-
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        width: 15px;
-        bottom: -157px;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 382px;
-    }
-
-    .title-about-game {
-        font-size: 24px;
-        padding: 0 100px;
-    }
-
-    .title-about-game::before,
-    .title-about-game::after {
-        width: 90px;
-    }
-
-    .btn-contact-game {
-        width: 145px;
-        height: 42px;
-    }
-
-    .container-count-events {
-        max-width: 160px;
-        height: 35px;
-    }
-
-    .header-events {
-        margin-bottom: 10px;
-    }
-
-    .body-table-events tr td {
-        padding: 7px;
-    }
-
-    .info-event {
-        font-size: 16px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 330px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 465px;
-    }
-
-    .container-answer p {
-        font-size: 16px;
-    }
-
-    .header-faq h3 {
-        font-size: 19px;
-    }
-
-    .btn-popup {
-        width: 50px;
-        height: 50px;
-    }
-
-    .start-form input {
-        border-radius: 20px;
-        padding: 12px;
-        font-size: 19px;
-        margin: 30px 0;
-    }
-
-    .btn-start {
-        width: 180px;
-        height: 52px;
-        font-size: 19px;
-    }
-
-    .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after,
-    .negative-big .title-popup::after, .negative .title-popup::after {
-        width: 40px;
-        height: 40px;
-        top: -7px;
-    }
-
-    .text-popup {
-        color: #ffffff;
-        font-size: 24px;
-    }
-
-    .text-popup {
-        font-size: 21px;
-    }
-
-    .btn-control {
-        width: 28px;
-        height: 28px;
-    }
-
-    .sound-btn {
-        width: 20px;
-        height: 20px;
-    }
-
-    .list-control {
-        top: -19px;
-    }
-
-    .list-header-gildia li {
-        font-size: 19px;
-    }
-
-    .container-image-hero {
-        max-width: 440px;
-        height: 440px;
-    }
-
-    .center-hero {
-        max-width: 460px;
-    }
-
-    .social-position-1 {
-        bottom: 33px;
-    }
-
-    #c {
-        width: 460px;
-        height: 460px;
-    }
+  .potion-butl {
+      max-width: 110px;
+      height: 95px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 110px;
+  }
+
+  .list-profit {
+      margin-bottom: 15px;
+  }
+
+  .title-item, .title-rating {
+      font-size: 18px;
+  }
+
+  .cursor-draggable {
+      width: 20px;
+      height: 17px;
+  }
+
+  .center-hero {
+      max-width: 460px;
+  }
+
+  .counter-input {
+      font-size: 16px;
+  }
+
+  .number-counter {
+      width: 90px;
+      height: 33px;
+  }
+
+  .btn-counter {
+      width: 18px;
+      height: 16px;
+  }
+
+  .btn-action,
+  .btn-profit {
+      width: 105px;
+      height: 31px;
+  }
+
+  .input {
+      font-size: 16px;
+  }
+
+  .input-profit {
+      max-width: 86px;
+  }
+
+  .profit-container-right-block img {
+      max-width: 285px;
+      width: 100%;
+  }
+
+  .container-potion {
+      max-width: 148px;
+      height: 138px;
+  }
+
+  .container-potion img {
+      max-width: 138px;
+  }
+
+  .wrapper-list-about-potion {
+      min-height: 152px;
+  }
+
+  .wrapper-center-column::before {
+      left: 19px;
+      right: 20px;
+  }
+
+  .social-position-1 {
+      left: 88px;
+      bottom: 29px;
+  }
+
+  .social-position-5 {
+      bottom: 29px;
+      right: 99px;
+  }
+
+  .social-position-2 {
+      left: 151px;
+      bottom: -2px;
+  }
+
+  .social-position-3 {
+      left: 223px;
+      bottom: -15px;
+  }
+
+  .social-position-4 {
+      right: 161px;
+      bottom: -2px;
+  }
+
+  .bottle-position-1 {
+      left: 59px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 24px;
+  }
+
+  .item-awards img {
+      width: 59px;
+  }
+
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      font-size: 28px;
+      padding-left: 53px;
+  }
+
+  .title-popup {
+      padding-left: 0;
+  }
+
+  .container-face {
+      width: 150px;
+      height: 130px;
+  }
+
+  .form-input {
+      border-radius: 15px;
+      padding: 8px 12px;
+      font-size: 18px;
+  }
+
+  .container-face-img {
+      width: 60px;
+      height: 60px;
+  }
+
+  .uploadButton {
+      width: 28px;
+      height: 24px;
+  }
+
+  .element-content {
+      width: 85px;
+      height: 85px;
+  }
+
+  .name-element {
+      font-size: 18px;
+  }
+
+  .btn-center {
+      width: 60px;
+      height: 60px;
+  }
+
+  .progress-line-wrapper span {
+      font-size: 14px;
+  }
+
+  .progress-line-wrapper {
+      padding: 21px 0;
+  }
+
+  .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after,
+  .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after,
+  .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after,
+  .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
+      width: 55px;
+      height: 55px;
+  }
+
+  .position-number {
+      width: 35px;
+      height: 35px;
+  }
+
+  .readiness,
+  .readiness-without-hover,
+  .done-mix {
+      width: 50px;
+      height: 50px;
+  }
+
+  .green-progress .line::before, .apgrade-green-progress .line::before,
+  .red-progress .line::before, .apgrade-red-progress .line::before,
+  .blue-progress .line::before, .apgrade-blue-progress .line::before,
+  .pink-progress .line::before, .apgrade-pink-progress .line::before,
+  .progress-line {
+      height: 15px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 445px;
+  }
+
+  .container-choice-potion {
+      max-width: 65px;
+  }
+
+  .percent-choice,
+  .info-table span {
+      font-size: 18px;
+  }
+
+  .list-table-ivent li {
+      padding: 3px;
+  }
+
+  .table-iven .slimScrollDiv,
+  .body-table-gildia {
+      height: 162px !important;
+  }
+
+  .item-block span {
+      font-size: 16px;
+  }
+
+  .item-raiting {
+      margin-bottom: 5px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 324px;
+  }
+
+  .icon-raiting {
+      width: 31px;
+      height: 31px;
+  }
+
+  .item-block {
+      min-width: 31px;
+  }
+
+  .menu-link {
+      font-size: 19px;
+      width: 156px;
+      height: 35px;
+  }
+
+  .progress.active-btn::before, .progress::before {
+      bottom: -30px;
+      width: 24px;
+  }
+
+  .about-game::before, .about-game.active-btn::before {
+      bottom: -30px;
+      width: 24px;
+  }
+
+  .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+      bottom: -93px;
+      width: 15px;
+  }
+
+  .gildia::before, .gildia.active-btn::before {
+      right: 12px;
+  }
+
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      width: 15px;
+      bottom: -157px;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 382px;
+  }
+
+  .title-about-game {
+      font-size: 24px;
+      padding: 0 100px;
+  }
+
+  .title-about-game::before,
+  .title-about-game::after {
+      width: 90px;
+  }
+
+  .btn-contact-game {
+      width: 145px;
+      height: 42px;
+  }
+
+  .container-count-events {
+      max-width: 160px;
+      height: 35px;
+  }
+
+  .header-events {
+      margin-bottom: 10px;
+  }
+
+  .body-table-events tr td,
+  .header-table tr th{
+      padding: 7px;
+  }
+
+  .info-event {
+      font-size: 16px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 330px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 465px;
+  }
+
+  .container-answer p {
+      font-size: 16px;
+  }
+
+  .header-faq h3 {
+      font-size: 19px;
+  }
+
+  .btn-popup {
+      width: 50px;
+      height: 50px;
+  }
+
+  .start-form input {
+      border-radius: 20px;
+      padding: 12px;
+      font-size: 19px;
+      margin: 30px 0;
+  }
+
+  .btn-start {
+      width: 180px;
+      height: 52px;
+      font-size: 19px;
+  }
+
+  .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after,
+  .negative-big .title-popup::after, .negative .title-popup::after {
+      width: 40px;
+      height: 40px;
+      top: -7px;
+  }
+
+  .text-popup {
+      color: #ffffff;
+      font-size: 24px;
+  }
+
+  .text-popup {
+      font-size: 21px;
+  }
+
+  .btn-control {
+      width: 28px;
+      height: 28px;
+  }
+
+  .play, .pause{
+      width: 22px;
+      height: 22px;
+  }
+
+  .sound-btn {
+      width: 20px;
+      height: 20px;
+  }
+
+  .list-control {
+      top: -19px;
+  }
+
+  .list-header-gildia li {
+      font-size: 19px;
+  }
+
+  .container-image-hero {
+      max-width: 440px;
+      height: 440px;
+  }
+
+  .center-hero {
+      max-width: 460px;
+  }
+
+  .social-position-1 {
+      bottom: 33px;
+  }
+
+  #c {
+      width: 460px;
+      height: 460px;
+  }
 
 }
 
 @media screen and (max-width: 1560px) {
-    .center-hero {
-        max-width: 440px;
-    }
-
-    #c {
-        width: 435px;
-        height: 435px;
-    }
-
-    .container-image-hero {
-        max-width: 414px;
-        height: 414px;
-    }
-
-    .btn-center {
-        width: 50px;
-        height: 50px;
-    }
-
-    .wrapper-bottle-info {
-        width: 75px;
-        height: 75px;
-    }
-
-    .container-bottle-img img {
-        max-width: 35px;
-    }
-
-    .percent {
-        font-size: 14px;
-    }
-
-    .bottle-2 img {
-        max-width: 45px;
-    }
-
-    .bottle-position-1 {
-        left: 53px;
-    }
-
-    .bottle-position-4 {
-        right: 58px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 22px;
-    }
-
-    .item-awards img {
-        width: 54px;
-    }
-
-    .potion-butl {
-        max-width: 103px;
-        height: 89px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 103px;
-    }
-
-    .wrapper-left-column::after {
-        width: 82px;
-        left: -46px;
-    }
-
-    .actions-wrapper::before {
-        height: 63px;
-        left: -10px;
-        right: -21px;
-    }
-
-    .suma-potion {
-        font-size: 14px;
-    }
-
-    .title-item, .title-rating {
-        font-size: 16px;
-    }
-
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 21px;
-    }
-
-    .information-btn {
-        width: 15px;
-        height: 15px;
-    }
-
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 20px;
-    }
-
-    .container-right-column::before {
-        height: 63px;
-    }
-
-    .name-potion, .title-item-info {
-        font-size: 21px;
-    }
-
-    .time-potion, .price-porion, .info-text-potion {
-        font-size: 16px;
-    }
-
-    .info-text-potion {
-        margin-bottom: 6px;
-    }
-
-    .profit-container-right-block img {
-        max-width: 241px;
-    }
-
-    .profit-wrapper {
-        padding: 15px 15px;
-    }
-
-    .wrapper-list-about-potion {
-        min-height: 143px;
-    }
-
-    .container-potion img {
-        max-width: 130px;
-    }
-
-    .container-potion {
-        max-width: 138px;
-        height: 132px;
-    }
-
-    .footer-action {
-        margin-top: 5px;
-    }
-
-    .social-link {
-        width: 45px;
-        height: 45px;
-    }
-
-    .social-position-3 {
-        left: 215px;
-        bottom: -13px;
-    }
-
-    .social-position-2 {
-        left: 146px;
-        bottom: -2px;
-    }
-
-    .social-position-4 {
-        right: 151px;
-    }
-
-    .container-center-content::after,
-    .container-center-content::before {
-        height: 78px;
-        width: 53px;
-    }
-
-    .container-awards .slimScrollDiv {
-        height: 152px !important;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 414px;
-    }
-
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 148px !important;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 317px;
-    }
-
-    .item-block {
-        min-width: 27px;
-    }
-
-    .icon-raiting {
-        width: 27px;
-        height: 27px;
-    }
-
-    .item-block span {
-        font-size: 14px;
-    }
-
-    .item-about-game p {
-        font-size: 16px;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 355px;
-    }
-
-    .btn-contact-game {
-        width: 138px;
-        height: 40px;
-    }
-
-    .title-about-game {
-        font-size: 22px;
-    }
-
-    .body-table-events tr td {
-        padding: 6px 7px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 305px;
-    }
-
-    .header-table tr th {
-        font-size: 18px;
-    }
-
-    .container-count-events span {
-        font-size: 17px;
-    }
-
-    .container-count-events {
-        max-width: 156px;
-        height: 31px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 435px;
-    }
-
-    .header-faq {
-        padding: 12px 20px;
-        padding-right: 22px;
-    }
-
-    .header-faq::before {
-        width: 17px;
-        height: 10px;
-    }
-
-    .container-icon-table {
-        width: 25px;
-        height: 25px;
-    }
-
-    .percent-choice, .info-table span {
-        font-size: 16px;
-    }
-
-    .list-header-gildia li {
-        font-size: 17px;
-    }
-
-    .counter-input {
-        font-size: 14px;
-    }
-
-    .number-counter {
-        width: 85px;
-        height: 30px;
-    }
-
-    .btn-counter {
-        width: 17px;
-        height: 15px;
-    }
-
-    .money-span, .count-span, .count-span span, .money-span span {
-        font-size: 14px;
-    }
-
-    .btn {
-        font-size: 14px;
-    }
-
-    .btn-success, .btn-cancel {
-        font-size: 16px;
-        width: 150px;
-        height: 44px;
-    }
-
-    .wrapper-right-column::after {
-        width: 82px;
-        right: -50px;
-    }
-
-    .container-face {
-        width: 135px;
-        height: 110px;
-    }
-
-    .element-popup .text-popup {
-        font-size: 18px;
-    }
-
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        font-size: 24px;
-    }
-
-    .popup {
-        max-width: 432px;
-    }
-
-    .setting-popup .text-popup {
-        font-size: 16px;
-    }
-
-    .btn-form {
-        height: 32px;
-        width: 112px;
-    }
-
-    .container-form label {
-        font-size: 16px;
-    }
-
-    .name-element {
-        font-size: 16px;
-    }
-
-    .btn-start {
-        width: 165px;
-        height: 48px;
-        font-size: 16px;
-    }
-
-    .text-popup {
-        font-size: 18px;
-    }
-
-    .info-popup .text-popup, .negative-big .text-popup {
-        font-size: 16px;
-    }
-
-    .text-popup {
-        max-height: 180px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 9;
-        -webkit-box-orient: vertical;
-        display: -webkit-box;
-    }
-
-    .btn-popup {
-        width: 45px;
-        height: 45px;
-    }
-
-    .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
-        width: 35px;
-        height: 35px;
-        top: -5px;
-    }
-
-    .negative-big .title-popup, .negative .title-popup,
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        padding-left: 48px;
-    }
-
-    .title-popup {
-        padding-left: 0;
-    }
-
-    .progress.active-btn::before, .progress::before,
-    .about-game::before, .about-game.active-btn::before {
-        width: 21px;
-    }
-
-    .gildia::before, .gildia.active-btn::before {
-        right: 6px;
-        width: 14px;
-    }
-
-    .ivents::before,
-    .ivents.active-btn::before {
-        left: 6px;
-    }
-
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        width: 12px;
-    }
-
-    .raiting::before, .raiting.active-btn::before {
-        right: 10px;
-    }
-
-    .fag-after::before, .fag-after.active-btn::before {
-        left: 10px;
-    }
-
-    .title-progress-block {
-        font-size: 18px;
-    }
-
-    .position-number {
-        width: 30px;
-        height: 30px;
-    }
-
-    .position-number span {
-        font-size: 16px;
-    }
-
-    .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
-        width: 50px;
-        height: 50px;
-    }
-
-    .achievements-wrapper-img {
-        margin-top: 20px;
-        max-width: 130px;
-    }
+  .center-hero {
+      max-width: 440px;
+  }
+
+  #c {
+      width: 435px;
+      height: 435px;
+  }
+
+  .container-image-hero {
+      max-width: 414px;
+      height: 414px;
+  }
+
+  .btn-center {
+      width: 50px;
+      height: 50px;
+  }
+
+  .wrapper-bottle-info {
+      width: 75px;
+      height: 75px;
+  }
+
+  .container-bottle-img img {
+      max-width: 35px;
+  }
+
+  .percent {
+      font-size: 14px;
+  }
+
+  .bottle-2 img {
+      max-width: 45px;
+  }
+
+  .bottle-position-1 {
+      left: 53px;
+  }
+
+  .bottle-position-4 {
+      right: 58px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 22px;
+  }
+
+  .item-awards img {
+      width: 54px;
+  }
+
+  .potion-butl {
+      max-width: 103px;
+      height: 89px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 103px;
+  }
+
+  .wrapper-left-column::after {
+      width: 82px;
+      left: -46px;
+  }
+
+  .actions-wrapper::before {
+      height: 63px;
+      left: -10px;
+      right: -21px;
+  }
+
+  .suma-potion {
+      font-size: 14px;
+  }
+
+  .title-item, .title-rating {
+      font-size: 16px;
+  }
+
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 21px;
+  }
+
+  .information-btn {
+      width: 15px;
+      height: 15px;
+  }
+
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 20px;
+  }
+
+  .container-right-column::before {
+      height: 63px;
+  }
+
+  .name-potion, .title-item-info {
+      font-size: 21px;
+  }
+
+  .time-potion, .price-porion, .info-text-potion {
+      font-size: 16px;
+  }
+
+  .info-text-potion {
+      margin-bottom: 6px;
+  }
+
+  .profit-container-right-block img {
+      max-width: 241px;
+  }
+
+  .profit-wrapper {
+      padding: 15px 15px;
+  }
+
+  .wrapper-list-about-potion {
+      min-height: 143px;
+  }
+
+  .container-potion img {
+      max-width: 130px;
+  }
+
+  .container-potion {
+      max-width: 138px;
+      height: 132px;
+  }
+
+  .footer-action {
+      margin-top: 5px;
+  }
+
+  .social-link {
+      width: 45px;
+      height: 45px;
+  }
+
+  .social-position-3 {
+      left: 215px;
+      bottom: -13px;
+  }
+
+  .social-position-2 {
+      left: 146px;
+      bottom: -2px;
+  }
+
+  .social-position-4 {
+      right: 151px;
+  }
+
+  .container-center-content::after,
+  .container-center-content::before {
+      height: 78px;
+      width: 53px;
+  }
+
+  .container-awards .slimScrollDiv {
+      height: 152px !important;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 414px;
+  }
+
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 148px !important;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 317px;
+  }
+
+  .item-block {
+      min-width: 27px;
+  }
+
+  .icon-raiting {
+      width: 27px;
+      height: 27px;
+  }
+
+  .item-block span {
+      font-size: 14px;
+  }
+
+  .item-about-game p {
+      font-size: 16px;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 355px;
+  }
+
+  .btn-contact-game {
+      width: 138px;
+      height: 40px;
+  }
+
+  .title-about-game {
+      font-size: 22px;
+  }
+
+  .body-table-events tr td,
+  .header-table tr th{
+      padding: 6px 7px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 305px;
+  }
+
+  .header-table tr th {
+      font-size: 18px;
+  }
+
+  .container-count-events span {
+      font-size: 17px;
+  }
+
+  .container-count-events {
+      max-width: 156px;
+      height: 31px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 435px;
+  }
+
+  .header-faq {
+      padding: 12px 20px;
+      padding-right: 22px;
+  }
+
+  .header-faq::before {
+      width: 17px;
+      height: 10px;
+  }
+
+  .container-icon-table {
+      width: 25px;
+      height: 25px;
+  }
+
+  .percent-choice, .info-table span {
+      font-size: 16px;
+  }
+
+  .list-header-gildia li {
+      font-size: 17px;
+  }
+
+  .counter-input {
+      font-size: 14px;
+  }
+
+  .number-counter {
+      width: 85px;
+      height: 30px;
+  }
+
+  .btn-counter {
+      width: 17px;
+      height: 15px;
+  }
+
+  .money-span, .count-span, .count-span span, .money-span span {
+      font-size: 14px;
+  }
+
+  .btn {
+      font-size: 14px;
+  }
+
+  .btn-success, .btn-cancel {
+      font-size: 16px;
+      width: 150px;
+      height: 44px;
+  }
+
+  .wrapper-right-column::after {
+      width: 82px;
+      right: -50px;
+  }
+
+  .container-face {
+      width: 135px;
+      height: 110px;
+  }
+
+  .element-popup .text-popup {
+      font-size: 18px;
+  }
+
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      font-size: 24px;
+  }
+
+  .popup {
+      max-width: 432px;
+  }
+
+  .setting-popup .text-popup {
+      font-size: 16px;
+  }
+
+  .btn-form {
+      height: 32px;
+      width: 112px;
+  }
+
+  .container-form label {
+      font-size: 16px;
+  }
+
+  .name-element {
+      font-size: 16px;
+  }
+
+  .btn-start {
+      width: 165px;
+      height: 48px;
+      font-size: 16px;
+  }
+
+  .text-popup {
+      font-size: 18px;
+  }
+
+  .info-popup .text-popup, .negative-big .text-popup {
+      font-size: 16px;
+  }
+
+  .text-popup {
+      max-height: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 9;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+  }
+
+  .btn-popup {
+      width: 45px;
+      height: 45px;
+  }
+
+  .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
+      width: 35px;
+      height: 35px;
+      top: -5px;
+  }
+
+  .negative-big .title-popup, .negative .title-popup,
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      padding-left: 48px;
+  }
+
+  .title-popup {
+      padding-left: 0;
+  }
+
+  .progress.active-btn::before, .progress::before,
+  .about-game::before, .about-game.active-btn::before {
+      width: 21px;
+  }
+
+  .gildia::before, .gildia.active-btn::before {
+      right: 6px;
+      width: 14px;
+  }
+
+  .ivents::before,
+  .ivents.active-btn::before {
+      left: 6px;
+  }
+
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      width: 12px;
+  }
+
+  .raiting::before, .raiting.active-btn::before {
+      right: 10px;
+  }
+
+  .fag-after::before, .fag-after.active-btn::before {
+      left: 10px;
+  }
+
+  .title-progress-block {
+      font-size: 18px;
+  }
+
+  .position-number {
+      width: 30px;
+      height: 30px;
+  }
+
+  .position-number span {
+      font-size: 16px;
+  }
+
+  .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
+      width: 50px;
+      height: 50px;
+  }
+
+  .achievements-wrapper-img {
+      margin-top: 20px;
+      max-width: 130px;
+  }
 }
 
 @media screen and (max-width: 1480px) {
-    .number-range span {
-        font-size: 17px;
-    }
+  .number-range span {
+      font-size: 17px;
+  }
 
-    .center-hero {
-        max-width: 412px;
-    }
+  .center-hero {
+      max-width: 412px;
+  }
 
-    .wrapper-rating-container::after {
-        width: 30px;
-        height: 45px;
-    }
+  .wrapper-rating-container::after {
+      width: 30px;
+      height: 45px;
+  }
 
-    .social-position-2 {
-        left: 140px;
-        bottom: -1px;
-    }
+  .social-position-2 {
+      left: 140px;
+      bottom: -1px;
+  }
 
-    .social-position-3 {
-        left: 203px;
-        bottom: -13px;
-    }
+  .social-position-3 {
+      left: 203px;
+      bottom: -13px;
+  }
 
-    .container-potion {
-        max-width: 130px;
-        height: 122px;
-    }
+  .container-potion {
+      max-width: 130px;
+      height: 122px;
+  }
 
-    .container-potion img {
-        max-width: 122px;
-    }
+  .container-potion img {
+      max-width: 122px;
+  }
 
-    .wrapper-list-about-potion {
-        min-height: 135px;
-    }
+  .wrapper-list-about-potion {
+      min-height: 135px;
+  }
 
-    .active-butl-frame::after {
-        border-radius: 20px;
-    }
+  .active-butl-frame::after {
+      border-radius: 20px;
+  }
 
-    .footer-action p {
-        font-size: 13px;
-    }
+  .footer-action p {
+      font-size: 13px;
+  }
 
-    .item-awards img {
-        width: 49px;
-    }
+  .item-awards img {
+      width: 49px;
+  }
 
-    .container-awards .slimScrollDiv {
-        height: 172px !important;
-    }
+  .container-awards .slimScrollDiv {
+      height: 172px !important;
+  }
 
-    .item-menu {
-        padding: 13px 5px;
-    }
+  .item-menu {
+      padding: 13px 5px;
+  }
 
-    .item-awards {
-        margin: 5px;
-    }
+  .item-awards {
+      margin: 5px;
+  }
 
-    .input {
-        font-size: 14px;
-    }
+  .input {
+      font-size: 14px;
+  }
 
-    .top-potion-variant::after,
-    .bottom-about-potion::after {
-        bottom: -5px;
-        height: 5px;
-    }
+  .top-potion-variant::after,
+  .bottom-about-potion::after {
+      bottom: -5px;
+      height: 5px;
+  }
 
-    .top-potion-variant::before {
-        top: -5px;
-        height: 5px;
-    }
+  .top-potion-variant::before {
+      top: -5px;
+      height: 5px;
+  }
 
-    .potion-container {
-        padding: 5px;
-    }
+  .potion-container {
+      padding: 5px;
+  }
 
-    .footer-action {
-        margin-top: 5px;
-    }
+  .footer-action {
+      margin-top: 5px;
+  }
 
-    .social-link {
-        width: 40px;
-        height: 40px;
-    }
+  .social-link {
+      width: 40px;
+      height: 40px;
+  }
 
-    .settings, .poems {
-        top: 152px;
-    }
+  .settings, .poems {
+      top: 152px;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 389px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 389px;
+  }
 
-    .percent-choice, .info-table span {
-        font-size: 14px;
-    }
+  .percent-choice, .info-table span {
+      font-size: 14px;
+  }
 
-    .number-range span {
-        margin: 3px 0;
-    }
+  .number-range span {
+      margin: 3px 0;
+  }
 
-    .percent-choice {
-        margin: 3px 0;
-    }
+  .percent-choice {
+      margin: 3px 0;
+  }
 
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 138px !important;
-    }
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 138px !important;
+  }
 
-    .container-icon-table {
-        width: 23px;
-        height: 23px;
-    }
+  .container-icon-table {
+      width: 23px;
+      height: 23px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 287px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 287px;
+  }
 
-    .item-about-game {
-        padding: 10px 0;
-    }
+  .item-about-game {
+      padding: 10px 0;
+  }
 
-    .header-raiting h3::before,
-    .header-raiting h3::after {
-        width: 58px;
-    }
+  .header-raiting h3::before,
+  .header-raiting h3::after {
+      width: 58px;
+  }
 
-    .item-about-game p {
-        font-size: 14px;
-    }
+  .item-about-game p {
+      font-size: 14px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 325px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 325px;
+  }
 
-    .btn-contact-game span {
-        font-size: 14px;
-    }
+  .btn-contact-game span {
+      font-size: 14px;
+  }
 
-    .audit span:after, .smartcontract span:after {
-        width: 22px;
-        height: 22px;
-    }
+  .audit span:after, .smartcontract span:after {
+      width: 22px;
+      height: 22px;
+  }
 
-    .btn-contact-game span {
-        font-size: 14px;
-        padding-left: 26px;
-    }
+  .btn-contact-game span {
+      font-size: 14px;
+      padding-left: 26px;
+  }
 
-    .btn-contact-game {
-        width: 131px;
-        height: 38px;
-    }
+  .btn-contact-game {
+      width: 131px;
+      height: 38px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 290px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 290px;
+  }
 
-    .container-count-events {
-        max-width: 150px;
-        height: 29px;
-    }
+  .container-count-events {
+      max-width: 150px;
+      height: 29px;
+  }
 
-    .title-events {
-        font-size: 18px;
-    }
+  .title-events {
+      font-size: 18px;
+  }
 
-    .container-faq-list .slimScrollDiv {
-        min-height: 400px;
-    }
+  .container-faq-list .slimScrollDiv {
+      min-height: 400px;
+  }
 
-    .header-table-gildia::after,
-    .container-potion-choice::after,
-    .wrapper-center-column::after,
-    .wrapper-awards::after,
-    .container-body-raiting::after,
-    .menu-container::after,
-    .container-link::before {
-        height: 5px;
-    }
+  .header-table-gildia::after,
+  .container-potion-choice::after,
+  .wrapper-center-column::after,
+  .wrapper-awards::after,
+  .container-body-raiting::after,
+  .menu-container::after,
+  .container-link::before {
+      height: 5px;
+  }
 
-    .container-center-column::after,
-    .container-center-column::before {
-        width: 5px;
-    }
+  .container-center-column::after,
+  .container-center-column::before {
+      width: 5px;
+  }
 
-    .container-input-link input {
-        padding: 7px 10px;
-    }
+  .container-input-link input {
+      padding: 7px 10px;
+  }
 
-    .copy-btn {
-        height: 40px;
-        width: 121px;
-    }
+  .copy-btn {
+      height: 40px;
+      width: 121px;
+  }
 
-    .title-link {
-        font-size: 22px;
-    }
+  .title-link {
+      font-size: 22px;
+  }
 
-    .info-link {
-        font-size: 16px;
-    }
+  .info-link {
+      font-size: 16px;
+  }
 
-    .title-awards, .number-awards span {
-        font-size: 22px;
-    }
+  .title-awards, .number-awards span {
+      font-size: 22px;
+  }
 
-    .potion-butl {
-        max-width: 102px;
-        height: 84px;
-    }
+  .potion-butl {
+      max-width: 102px;
+      height: 84px;
+  }
 
-    .item-potion, .potion-butl img {
-        max-width: 102px;
-    }
+  .item-potion, .potion-butl img {
+      max-width: 102px;
+  }
 
-    .btn-start {
-        width: 151px;
-        height: 44px;
-    }
+  .btn-start {
+      width: 151px;
+      height: 44px;
+  }
 
-    .start-form input {
-        padding: 10px;
-        font-size: 18px;
-        margin: 25px 0;
-    }
+  .start-form input {
+      padding: 10px;
+      font-size: 18px;
+      margin: 25px 0;
+  }
 
-    .popup {
-        padding: 25px;
-        max-width: 390px;
-    }
+  .popup {
+      padding: 25px;
+      max-width: 390px;
+  }
 
-    .setting-popup {
-        padding: 0;
-        padding-top: 20px;
-    }
+  .setting-popup {
+      padding: 0;
+      padding-top: 20px;
+  }
 
-    .btn-popup {
-        width: 40px;
-        height: 40px;
-        right: -30px;
-        top: -30px;
-    }
+  .btn-popup {
+      width: 40px;
+      height: 40px;
+      right: -30px;
+      top: -30px;
+  }
 
-    #c {
-        width: 425px;
-        height: 425px;
-    }
+  #c {
+      width: 425px;
+      height: 425px;
+  }
 
-    .container-image-hero {
-        max-width: 390px;
-        height: 390px;
-    }
+  .container-image-hero {
+      max-width: 390px;
+      height: 390px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .scale-item {
-        padding: 5px;
-    }
+  .scale-item {
+      padding: 5px;
+  }
 
-    .list-control {
-        right: 60px;
-    }
+  .list-control {
+      right: 60px;
+  }
 
-    .active-butl-frame::after {
-        border-radius: 20px;
-    }
+  .active-butl-frame::after {
+      border-radius: 20px;
+  }
 
-    .center-hero {
-        max-width: 395px;
-    }
+  .center-hero {
+      max-width: 395px;
+  }
 
-    .social-position-2 {
-        left: 136px;
-    }
+  .social-position-2 {
+      left: 136px;
+  }
 
-    .social-position-3 {
-        left: 195px;
-    }
+  .social-position-3 {
+      left: 195px;
+  }
 
-    .social-position-4 {
-        right: 145px;
-    }
+  .social-position-4 {
+      right: 145px;
+  }
 
-    .progress-line-wrapper span {
-        font-size: 13px;
-    }
+  .progress-line-wrapper span {
+      font-size: 13px;
+  }
 
-    .progress-line-wrapper {
-        padding: 18px 0;
-    }
+  .progress-line-wrapper {
+      padding: 18px 0;
+  }
 
-    .readiness,
-    .done-mix {
-        width: 45px;
-        height: 45px;
-    }
+  .readiness,
+  .readiness-without-hover,
+  .done-mix {
+      width: 45px;
+      height: 45px;
+  }
 
-    .table-raiting {
-        padding: 5px 0 10px;
-        padding-right: 25px;
-    }
+  .table-raiting {
+      padding: 5px 0 10px;
+      padding-right: 25px;
+  }
 
-    .container-count-events {
-        max-width: 137px;
-        height: 27px;
-    }
+  .container-count-events {
+      max-width: 137px;
+      height: 27px;
+  }
 
-    .body-table-events tr td {
-        padding: 5px;
-    }
+  .body-table-events tr td,
+  .header-table tr th{
+      padding: 5px;
+  }
 
-    .header-faq {
-        padding: 10px 18px;
-        padding-right: 21px;
-    }
+  .header-faq {
+      padding: 10px 18px;
+      padding-right: 21px;
+  }
 
-    .container-faq-list .slimScrollDiv {
-        min-height: 416px;
-    }
+  .container-faq-list .slimScrollDiv {
+      min-height: 416px;
+  }
 
-    .menu-link {
-        font-size: 18px;
-        width: 142px;
-        height: 33px;
-    }
+  .menu-link {
+      font-size: 18px;
+      width: 142px;
+      height: 33px;
+  }
 
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        width: 15px;
-        bottom: -149px;
-    }
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      width: 15px;
+      bottom: -149px;
+  }
 
-    .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
-        bottom: -88px;
-    }
+  .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+      bottom: -88px;
+  }
 
-    .name-potion, .title-item-info {
-        font-size: 19px;
-    }
+  .name-potion, .title-item-info {
+      font-size: 19px;
+  }
 
-    .number-counter {
-        width: 77px;
-        height: 28px;
-    }
+  .number-counter {
+      width: 77px;
+      height: 28px;
+  }
 
-    .btn-counter {
-        width: 16px;
-        height: 14px;
-    }
+  .btn-counter {
+      width: 16px;
+      height: 14px;
+  }
 
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 18px;
-    }
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 18px;
+  }
 
-    .first-title-action .result-action, .first-title-action .result-action span {
-        font-size: 16px;
-    }
+  .first-title-action .result-action, .first-title-action .result-action span {
+      font-size: 16px;
+  }
 
-    .settings, .poems {
-        top: 140px;
-    }
+  .settings, .poems {
+      top: 140px;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 397px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 397px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 317px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 317px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 344px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 344px;
+  }
 
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 148px !important;
-    }
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 148px !important;
+  }
 
-    .container-image-hero {
-        max-width: 380px;
-        height: 380px;
-    }
+  .container-image-hero {
+      max-width: 380px;
+      height: 380px;
+  }
 
-    #c {
-        width: 390px;
-        height: 390px;
-    }
+  #c {
+      width: 390px;
+      height: 390px;
+  }
 
-    .social-position-5 {
-        bottom: 20px;
-        right: 95px;
-    }
+  .social-position-5 {
+      bottom: 20px;
+      right: 95px;
+  }
 
-    .social-position-1 {
-        bottom: 25px;
-    }
+  .social-position-1 {
+      bottom: 25px;
+  }
 
 }
 
 @media screen and (max-width: 1375px) and (orientation: landscape) {
-    .wrapper-list-about-potion {
-        min-height: 125px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .container-awards .slimScrollDiv {
-        height: 150px !important;
-    }
-
-    .scale-item span {
-        font-size: 14px;
-    }
-
-    .btn-action, .btn-profit {
-        width: 100px;
-        height: 29px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 20px;
-    }
-
-    .center-hero {
-        max-width: 350px;
-    }
-
-    #c {
-        width: 335px;
-        height: 335px;
-    }
-
-    .container-image-hero {
-        max-width: 330px;
-        height: 330px;
-    }
-
-    .item-awards img {
-        width: 42px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 328px;
-    }
-
-    .title-link {
-        margin-bottom: 5px;
-    }
-
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 86px !important;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 256px;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 281px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 238px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 350px;
-    }
-
-    .container-potion img {
-        max-width: 115px;
-    }
-
-    .container-potion {
-        max-width: 123px;
-        height: 122px;
-    }
-
-    .potion-butl {
-        max-width: 93px;
-        height: 76px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 93px;
-    }
-
-    .list-header-gildia li {
-        padding: 6px 0px 14px;
-    }
-
-    .list-header-gildia li:first-child {
-        padding-left: 20px;
-    }
-
-    .header-raiting h3 {
-        font-size: 19px;
-    }
-
-    .header-faq {
-        padding: 8px 18px;
-        padding-right: 21px;
-    }
-
-    .settings, .poems {
-        top: 118px;
-    }
-
-    .container-center-content::after, .container-center-content::before {
-        height: 67px;
-        width: 41px;
-    }
-
-    .container-center-content::after {
-        left: 10px;
-    }
-
-    .container-center-content::before {
-        right: 11px;
-    }
-
-    .actions-wrapper::before,
-    .container-right-column::before {
-        height: 57px;
-    }
-
-    .header-title-item span {
-        font-size: 14px;
-    }
-
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 16px;
-    }
-
-    .first-title-action .result-action, .first-title-action .result-action span {
-        font-size: 14px;
-    }
-
-    .money-span, .count-span, .count-span span, .money-span span {
-        margin-top: 0px;
-    }
-
-    .footer-action {
-        margin-top: 2px;
-        max-width: 95%;
-    }
-
-    .title-item, .title-rating {
-        margin-bottom: 5px;
-    }
-
-    .item-info {
-        align-items: baseline;
-    }
-
-    .item-info:last-child .title-item-info {
-        margin-bottom: 0;
-    }
-
-    .top-after::after, .container-right-column::after {
-        height: 74px;
-    }
-
-    .top-after::after,
-    .container-right-column::after {
-        top: -17px;
-    }
-
-    .list-control {
-        top: -11px;
-    }
-
-    .scale-item {
-        padding: 3px;
-    }
-
-    .wrapper-rating-container::after {
-        width: 27px;
-        height: 41px;
-    }
-
-    .header-awards, .title-action {
-        padding: 0 94px;
-    }
-
-    .wrapper-awards {
-        padding: 27px 10px 10px;
-    }
-
-    .center-hero::after {
-        left: -23px;
-        right: -23px;
-        top: -30px;
-        bottom: -23px;
-    }
-
-    .wrapper-center-column {
-        width: 30%;
-    }
-
-    .wrapper-left-column::after {
-        width: 68px;
-        left: -41px;
-    }
-
-    .wrapper-right-column::after {
-        width: 68px;
-        right: -41px;
-        bottom: -20px;
-        top: 48px;
-    }
-
-    .name-potion, .title-item-info {
-        font-size: 18px;
-    }
-
-    .wrapper-bottle-info {
-        width: 70px;
-        height: 70px;
-    }
-
-    .bottle-position-1 {
-        left: 49px;
-        top: 6px;
-    }
-
-    .bottle-position-4 {
-        right: 50px;
-        top: 6px;
-    }
-
-    .social-position-1 {
-        left: 80px;
-        bottom: 21px;
-    }
-
-    .social-position-5 {
-        bottom: 26px;
-        right: 83px;
-    }
-
-    .social-position-2 {
-        left: 128px;
-    }
-
-    .social-position-3 {
-        left: 181px;
-    }
-
-    .social-position-4 {
-        right: 128px;
-        bottom: 0px;
-    }
-
-    .item-action {
-        margin: 6px 19px;
-    }
-
-    .number-counter {
-        width: 72px;
-        height: 25px;
-    }
-
-    .btn-counter {
-        width: 15px;
-        height: 13px;
-    }
-
-    .item-menu {
-        padding: 12px 5px;
-    }
-
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        bottom: -143px;
-    }
-
-    .gildia::before, .gildia.active-btn::before {
-        right: 8px;
-        width: 14px;
-    }
-
-    .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
-        bottom: -83px;
-    }
-
-    .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
-        bottom: -28px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 18px;
-    }
-
-    .header-center-block {
-        padding: 15px 16px 19px;
-    }
-
-    .bottle-position-2,
-    .bottle-position-3 {
-        top: -42px;
-    }
-
-    .wrapper-first-title {
-        margin-bottom: 5px;
-    }
+  .wrapper-list-about-potion {
+      min-height: 125px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .container-awards .slimScrollDiv {
+      height: 150px !important;
+  }
+
+  .scale-item span {
+      font-size: 14px;
+  }
+
+  .btn-action, .btn-profit {
+      width: 100px;
+      height: 29px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 20px;
+  }
+
+  .center-hero {
+      max-width: 350px;
+  }
+
+  #c {
+      width: 335px;
+      height: 335px;
+  }
+
+  .container-image-hero {
+      max-width: 330px;
+      height: 330px;
+  }
+
+  .item-awards img {
+      width: 42px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 328px;
+  }
+
+  .title-link {
+      margin-bottom: 5px;
+  }
+
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 86px !important;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 256px;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 281px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 238px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 350px;
+  }
+
+  .container-potion img {
+      max-width: 115px;
+  }
+
+  .container-potion {
+      max-width: 123px;
+      height: 122px;
+  }
+
+  .potion-butl {
+      max-width: 93px;
+      height: 76px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 93px;
+  }
+
+  .list-header-gildia li {
+      padding: 6px 0px 14px;
+  }
+
+  .list-header-gildia li:first-child {
+      padding-left: 20px;
+  }
+
+  .header-raiting h3 {
+      font-size: 19px;
+  }
+
+  .header-faq {
+      padding: 8px 18px;
+      padding-right: 21px;
+  }
+
+  .settings, .poems {
+      top: 118px;
+  }
+
+  .container-center-content::after, .container-center-content::before {
+      height: 67px;
+      width: 41px;
+  }
+
+  .container-center-content::after {
+      left: 10px;
+  }
+
+  .container-center-content::before {
+      right: 11px;
+  }
+
+  .actions-wrapper::before,
+  .container-right-column::before {
+      height: 57px;
+  }
+
+  .header-title-item span {
+      font-size: 14px;
+  }
+
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 16px;
+  }
+
+  .first-title-action .result-action, .first-title-action .result-action span {
+      font-size: 14px;
+  }
+
+  .money-span, .count-span, .count-span span, .money-span span {
+      margin-top: 0px;
+  }
+
+  .footer-action {
+      margin-top: 2px;
+      max-width: 95%;
+  }
+
+  .title-item, .title-rating {
+      margin-bottom: 5px;
+  }
+
+  .item-info {
+      align-items: baseline;
+  }
+
+  .item-info:last-child .title-item-info {
+      margin-bottom: 0;
+  }
+
+  .top-after::after, .container-right-column::after {
+      height: 74px;
+  }
+
+  .top-after::after,
+  .container-right-column::after {
+      top: -17px;
+  }
+
+  .list-control {
+      top: -11px;
+  }
+
+  .scale-item {
+      padding: 3px;
+  }
+
+  .wrapper-rating-container::after {
+      width: 27px;
+      height: 41px;
+  }
+
+  .header-awards, .title-action {
+      padding: 0 94px;
+  }
+
+  .wrapper-awards {
+      padding: 27px 10px 10px;
+  }
+
+  .center-hero::after {
+      left: -23px;
+      right: -23px;
+      top: -30px;
+      bottom: -23px;
+  }
+
+  .wrapper-center-column {
+      width: 30%;
+  }
+
+  .wrapper-left-column::after {
+      width: 68px;
+      left: -41px;
+  }
+
+  .wrapper-right-column::after {
+      width: 68px;
+      right: -41px;
+      bottom: -20px;
+      top: 48px;
+  }
+
+  .name-potion, .title-item-info {
+      font-size: 18px;
+  }
+
+  .wrapper-bottle-info {
+      width: 70px;
+      height: 70px;
+  }
+
+  .bottle-position-1 {
+      left: 49px;
+      top: 6px;
+  }
+
+  .bottle-position-4 {
+      right: 50px;
+      top: 6px;
+  }
+
+  .social-position-1 {
+      left: 80px;
+      bottom: 21px;
+  }
+
+  .social-position-5 {
+      bottom: 26px;
+      right: 83px;
+  }
+
+  .social-position-2 {
+      left: 128px;
+  }
+
+  .social-position-3 {
+      left: 181px;
+  }
+
+  .social-position-4 {
+      right: 128px;
+      bottom: 0px;
+  }
+
+  .item-action {
+      margin: 6px 19px;
+  }
+
+  .number-counter {
+      width: 72px;
+      height: 25px;
+  }
+
+  .btn-counter {
+      width: 15px;
+      height: 13px;
+  }
+
+  .item-menu {
+      padding: 12px 5px;
+  }
+
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      bottom: -143px;
+  }
+
+  .gildia::before, .gildia.active-btn::before {
+      right: 8px;
+      width: 14px;
+  }
+
+  .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+      bottom: -83px;
+  }
+
+  .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
+      bottom: -28px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 18px;
+  }
+
+  .header-center-block {
+      padding: 15px 16px 19px;
+  }
+
+  .bottle-position-2,
+  .bottle-position-3 {
+      top: -42px;
+  }
+
+  .wrapper-first-title {
+      margin-bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 1341px) and (orientation: landscape) {
-    .number-range span {
-        font-size: 15px;
-    }
+  .number-range span {
+      font-size: 15px;
+  }
 
-    .potion-butl {
-        max-width: 97px;
-        height: 82px;
-    }
+  .potion-butl {
+      max-width: 97px;
+      height: 82px;
+  }
 
-    .wrapper-left-column {
-        width: 30%;
-    }
+  .wrapper-left-column {
+      width: 30%;
+  }
 
-    .draggable-container {
-        margin-right: 10px;
-    }
+  .draggable-container {
+      margin-right: 10px;
+  }
 
-    .input-profit {
-        max-width: 82px;
-    }
+  .input-profit {
+      max-width: 82px;
+  }
 
-    .wrapper-list-about-potion {
-        min-height: 126px;
-    }
+  .wrapper-list-about-potion {
+      min-height: 126px;
+  }
 }
 
 @media screen and (max-width: 1325px) and (orientation: landscape) {
-    .social-position-3 {
-        left: 176px;
-    }
+  .social-position-3 {
+      left: 176px;
+  }
+
+  .body-table-events tr td:first-child,
+  .header-table tr th:first-child{
+    margin-left: 20px;
+  }
+
 }
 
 @media screen and (max-width: 1300px) and (orientation: landscape) {
-    .center-hero {
-        max-width: 355px;
-    }
-
-    .settings, .poems {
-        top: 115px;
-    }
-
-    .wrapper-bottle-info {
-        width: 70px;
-        height: 70px;
-    }
-
-    .bottle-position-1 {
-        left: 47px;
-    }
-
-    .percent {
-        font-size: 12px;
-    }
-
-    .bottle-position-4 {
-        right: 51px;
-    }
-
-    .bottle-position-2 {
-        left: 3px;
-    }
-
-    .bottle-position-3 {
-        right: 3px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 19px;
-    }
-
-    .social-position-1 {
-        left: 70px;
-        bottom: 22px;
-    }
-
-    .social-position-5 {
-        bottom: 22px;
-        right: 75px;
-    }
-
-    .social-position-2 {
-        left: 117px;
-        bottom: -4px;
-    }
-
-    .social-position-3 {
-        left: 169px;
-        bottom: -12px;
-    }
-
-    .social-position-4 {
-        right: 122px;
-        bottom: -1px;
-    }
-
-    .btn-action, .btn-profit {
-        width: 95px;
-        height: 28px;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 245px;
-    }
-
-    .icon-raiting {
-        width: 26px;
-        height: 26px;
-    }
-
-    .item-block {
-        min-width: 26px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 386px;
-    }
-
-    .potion-container {
-        padding: 5px 0;
-    }
-
-    .title-awards, .number-awards span {
-        font-size: 20px;
-    }
-
-    .number-counter {
-        width: 70px;
-        height: 24px;
-    }
-
-    .header-title-item span {
-        font-size: 14px;
-    }
-
-    .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
-        width: 65px;
-    }
-
-    .header-awards, .title-action {
-        padding: 0 75px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 337px;
-    }
-
-    .active-block {
-        z-index: 1;
-    }
-
-    .container-right-column::before {
-        z-index: 10;
-    }
-
-    .header-title-item {
-        margin-bottom: 5px;
-    }
-
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 141px !important;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 282px;
-    }
-
-    .title-about-game {
-        font-size: 20px;
-    }
-
-    .title-about-game {
-        padding: 0 70px;
-    }
-
-    .title-about-game::before, .title-about-game::after {
-        width: 65px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 237px;
-    }
-
-    .container-count-events {
-        max-width: 125px;
-        height: 24px;
-    }
-
-    .container-count-events span {
-        font-size: 15px;
-    }
-
-    .title-events {
-        font-size: 17px;
-    }
-
-    .header-faq h3 {
-        font-size: 18px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 340px;
-    }
-
-    .info-link {
-        font-size: 14px;
-    }
-
-    .container-input-link input {
-        padding: 5px 7px;
-        font-size: 16px;
-    }
-
-    .copy-btn {
-        height: 34px;
-        width: 99px;
-    }
-
-    .scale-list::before {
-        top: -3px;
-        height: 3px;
-    }
-
-    .scale-list::after {
-        bottom: -3px;
-        height: 3px;
-    }
-
-    .container-potion-choice {
-        padding: 3px 0 9px;
-    }
-
-    .list-header-gildia li {
-        font-size: 16px;
-    }
-
-    .container-awards .list-awards {
-        height: 172px !important;
-    }
-
-    .menu-link {
-        width: 137px;
-        height: 31px;
-    }
-
-    .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
-        width: 18px;
-    }
-
-    .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
-        bottom: -85px;
-        width: 13px;
-    }
-
-    .gildia::before, .gildia.active-btn::before {
-        right: 5px;
-    }
-
-    .ivents::before, .ivents.active-btn::before {
-        left: 5px;
-    }
-
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        width: 12px;
-        bottom: -142px;
-    }
-
-    .raiting::before, .raiting.active-btn::before {
-        right: 8px;
-    }
-
-    .fag-after::before, .fag-after.active-btn::before {
-        left: 8px;
-    }
-
-    .container-center-content::after, .container-center-content::before {
-        height: 66px;
-        width: 42px;
-    }
-
-    .container-center-content::after {
-        left: 12px;
-    }
-
-    .container-center-content::before {
-        right: 12px;
-    }
-
-    .input-profit {
-        max-width: 78px;
-    }
-
-    .container-answer p {
-        font-size: 14px;
-    }
-
-    .btn-control {
-        width: 25px;
-        height: 25px;
-    }
-
-    .sound-btn {
-        width: 18px;
-        height: 18px;
-    }
-
-    .list-lang, .list-control-sound {
-        padding-top: 13px;
-    }
-
-    .lang, .item-lang {
-        font-size: 12px;
-    }
-
-    .btn-counter {
-        width: 15px;
-        height: 13px;
-    }
-
-    .tooltipe p, .tippy-content,
-    .tippy-content span {
-        font-size: 14px;
-    }
-
-    .tippy-content h2 {
-        font-size: 16px;
-    }
-
-    .btn-start {
-        width: 141px;
-        height: 40px;
-    }
-
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        font-size: 22px;
-    }
-
-    .start-form input {
-        font-size: 16px;
-        margin: 20px 0;
-    }
-
-    .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        padding-left: 35px;
-    }
-
-    .title-popup {
-        padding-left: 0;
-    }
-
-    .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
-        width: 30px;
-        height: 30px;
-        top: -3px;
-    }
-
-    .popup {
-        padding: 20px;
-        max-width: 370px;
-    }
-
-    .text-popup {
-        font-size: 16px;
-    }
-
-    .setting-popup {
-        padding: 0;
-        padding-top: 20px;
-    }
-
-    .container-face-img {
-        width: 45px;
-        height: 45px;
-    }
-
-    .uploadButton {
-        width: 21px;
-        height: 17px;
-    }
-
-    .setting-popup .text-popup {
-        font-size: 14px;
-    }
-
-    .btn-form {
-        height: 29px;
-        width: 105px;
-    }
-
-    .element-content {
-        width: 75px;
-        height: 75px;
-    }
-
-    .element-popup .text-popup {
-        font-size: 16px;
-        margin-top: 15px;
-    }
-
-    .achievements-wrapper-img {
-        max-width: 100px;
-    }
+  .center-hero {
+      max-width: 355px;
+  }
+
+  .settings, .poems {
+      top: 115px;
+  }
+
+  .wrapper-bottle-info {
+      width: 70px;
+      height: 70px;
+  }
+
+  .bottle-position-1 {
+      left: 47px;
+  }
+
+  .percent {
+      font-size: 12px;
+  }
+
+  .bottle-position-4 {
+      right: 51px;
+  }
+
+  .bottle-position-2 {
+      left: 3px;
+  }
+
+  .bottle-position-3 {
+      right: 3px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 19px;
+  }
+
+  .social-position-1 {
+      left: 70px;
+      bottom: 22px;
+  }
+
+  .social-position-5 {
+      bottom: 22px;
+      right: 75px;
+  }
+
+  .social-position-2 {
+      left: 117px;
+      bottom: -4px;
+  }
+
+  .social-position-3 {
+      left: 169px;
+      bottom: -12px;
+  }
+
+  .social-position-4 {
+      right: 122px;
+      bottom: -1px;
+  }
+
+  .btn-action, .btn-profit {
+      width: 95px;
+      height: 28px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 245px;
+  }
+
+  .icon-raiting {
+      width: 26px;
+      height: 26px;
+  }
+
+  .item-block {
+      min-width: 26px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 386px;
+  }
+
+  .potion-container {
+      padding: 5px 0;
+  }
+
+  .title-awards, .number-awards span {
+      font-size: 20px;
+  }
+
+  .number-counter {
+      width: 70px;
+      height: 24px;
+  }
+
+  .header-title-item span {
+      font-size: 14px;
+  }
+
+  .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+      width: 65px;
+  }
+
+  .header-awards, .title-action {
+      padding: 0 75px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 337px;
+  }
+
+  .active-block {
+      z-index: 1;
+  }
+
+  .container-right-column::before {
+      z-index: 10;
+  }
+
+  .header-title-item {
+      margin-bottom: 5px;
+  }
+
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 141px !important;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 282px;
+  }
+
+  .title-about-game {
+      font-size: 20px;
+  }
+
+  .title-about-game {
+      padding: 0 70px;
+  }
+
+  .title-about-game::before, .title-about-game::after {
+      width: 65px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 237px;
+  }
+
+  .container-count-events {
+      max-width: 125px;
+      height: 24px;
+  }
+
+  .container-count-events span {
+      font-size: 15px;
+  }
+
+  .title-events {
+      font-size: 17px;
+  }
+
+  .header-faq h3 {
+      font-size: 18px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 340px;
+  }
+
+  .info-link {
+      font-size: 14px;
+  }
+
+  .container-input-link input {
+      padding: 5px 7px;
+      font-size: 16px;
+  }
+
+  .copy-btn {
+      height: 34px;
+      width: 99px;
+  }
+
+  .scale-list::before {
+      top: -3px;
+      height: 3px;
+  }
+
+  .scale-list::after {
+      bottom: -3px;
+      height: 3px;
+  }
+
+  .container-potion-choice {
+      padding: 3px 0 9px;
+  }
+
+  .list-header-gildia li {
+      font-size: 16px;
+  }
+
+  .container-awards .list-awards {
+      height: 172px !important;
+  }
+
+  .menu-link {
+      width: 137px;
+      height: 31px;
+  }
+
+  .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
+      width: 18px;
+  }
+
+  .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+      bottom: -85px;
+      width: 13px;
+  }
+
+  .gildia::before, .gildia.active-btn::before {
+      right: 5px;
+  }
+
+  .ivents::before, .ivents.active-btn::before {
+      left: 5px;
+  }
+
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      width: 12px;
+      bottom: -142px;
+  }
+
+  .raiting::before, .raiting.active-btn::before {
+      right: 8px;
+  }
+
+  .fag-after::before, .fag-after.active-btn::before {
+      left: 8px;
+  }
+
+  .container-center-content::after, .container-center-content::before {
+      height: 66px;
+      width: 42px;
+  }
+
+  .container-center-content::after {
+      left: 12px;
+  }
+
+  .container-center-content::before {
+      right: 12px;
+  }
+
+  .input-profit {
+      max-width: 78px;
+  }
+
+  .container-answer p {
+      font-size: 14px;
+  }
+
+  .btn-control {
+      width: 25px;
+      height: 25px;
+  }
+
+  .sound-btn {
+      width: 18px;
+      height: 18px;
+  }
+
+  .list-lang, .list-control-sound {
+      padding-top: 13px;
+  }
+
+  .lang, .item-lang {
+      font-size: 12px;
+  }
+
+  .btn-counter {
+      width: 15px;
+      height: 13px;
+  }
+
+  .tooltipe p, .tippy-content,
+  .tippy-content span {
+      font-size: 14px;
+  }
+
+  .tippy-content h2 {
+      font-size: 16px;
+  }
+
+  .btn-start {
+      width: 141px;
+      height: 40px;
+  }
+
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      font-size: 22px;
+  }
+
+  .start-form input {
+      font-size: 16px;
+      margin: 20px 0;
+  }
+
+  .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      padding-left: 35px;
+  }
+
+  .title-popup {
+      padding-left: 0;
+  }
+
+  .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
+      width: 30px;
+      height: 30px;
+      top: -3px;
+  }
+
+  .popup {
+      padding: 20px;
+      max-width: 370px;
+  }
+
+  .text-popup {
+      font-size: 16px;
+  }
+
+  .setting-popup {
+      padding: 0;
+      padding-top: 20px;
+  }
+
+  .container-face-img {
+      width: 45px;
+      height: 45px;
+  }
+
+  .uploadButton {
+      width: 21px;
+      height: 17px;
+  }
+
+  .setting-popup .text-popup {
+      font-size: 14px;
+  }
+
+  .btn-form {
+      height: 29px;
+      width: 105px;
+  }
+
+  .element-content {
+      width: 75px;
+      height: 75px;
+  }
+
+  .element-popup .text-popup {
+      font-size: 16px;
+      margin-top: 15px;
+  }
+
+  .achievements-wrapper-img {
+      max-width: 100px;
+  }
 
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
-    .title-rating {
-        font-size: 14px;
-        max-width: 90%;
-        margin-right: 5px;
-    }
+  .title-rating {
+      font-size: 14px;
+      max-width: 90%;
+      margin-right: 5px;
+  }
 
-    .list-control {
-        top: -15px;
-    }
+  .list-control {
+      top: -15px;
+  }
 
-    .center-hero {
-        max-width: 335px;
-    }
+  .center-hero {
+      max-width: 335px;
+  }
 
-    .potion-butl {
-        max-width: 92px;
-        height: 76px;
-    }
+  .potion-butl {
+      max-width: 92px;
+      height: 76px;
+  }
 
-    .suma-potion {
-        font-size: 12px;
-    }
+  .suma-potion {
+      font-size: 12px;
+  }
 
-    .item-potion, .potion-butl img {
-        max-width: 92px;
-    }
+  .item-potion, .potion-butl img {
+      max-width: 92px;
+  }
 
-    .container-potion {
-        max-width: 122px;
-        height: 115px;
-    }
+  .container-potion {
+      max-width: 122px;
+      height: 115px;
+  }
 
-    .container-potion img {
-        max-width: 112px;
-    }
+  .container-potion img {
+      max-width: 112px;
+  }
 
-    .title-item {
-        margin-bottom: 7px;
-    }
+  .title-item {
+      margin-bottom: 7px;
+  }
 
-    .btn {
-        font-size: 13px;
-    }
+  .btn {
+      font-size: 13px;
+  }
 
-    .btn-success, .btn-cancel {
-        font-size: 16px;
-        width: 135px;
-        height: 39px;
-    }
+  .btn-success, .btn-cancel {
+      font-size: 16px;
+      width: 135px;
+      height: 39px;
+  }
 
-    .wrapper-list-about-potion {
-        min-height: 122px;
-    }
+  .wrapper-list-about-potion {
+      min-height: 122px;
+  }
 
-    .name-potion, .title-item-info {
-        font-size: 18px;
-    }
+  .name-potion, .title-item-info {
+      font-size: 18px;
+  }
 
-    .time-potion, .price-porion, .info-text-potion {
-        font-size: 14px;
-    }
+  .time-potion, .price-porion, .info-text-potion {
+      font-size: 14px;
+  }
 
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 16px;
-    }
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 16px;
+  }
 
-    .title-counter {
-        font-size: 14px;
-    }
+  .title-counter {
+      font-size: 14px;
+  }
 
-    .information-btn {
-        width: 12px;
-        height: 12px;
-    }
+  .information-btn {
+      width: 12px;
+      height: 12px;
+  }
 
-    .btn-action, .btn-profit {
-        width: 92px;
-        height: 27px;
-    }
+  .btn-action, .btn-profit {
+      width: 92px;
+      height: 27px;
+  }
 
-    .progress-line::before {
-        content: '';
-        position: absolute;
-        left: -4px;
-        top: -4px;
-        bottom: -4px;
-        right: -4px;
-    }
+  .progress-line::before {
+      content: '';
+      position: absolute;
+      left: -4px;
+      top: -4px;
+      bottom: -4px;
+      right: -4px;
+  }
 
-    .progress-block {
-        padding-left: 44px;
-    }
+  .progress-block {
+      padding-left: 44px;
+  }
 
-    .readiness,
-    .done-mix {
-        width: 40px;
-        height: 40px;
-    }
+  .readiness,
+  .readiness-without-hover,
+  .done-mix {
+      width: 40px;
+      height: 40px;
+  }
 
-    .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
-        width: 45px;
-        height: 45px;
-    }
+  .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
+      width: 45px;
+      height: 45px;
+  }
 
-    .progress-line-wrapper span {
-        font-size: 12px;
-    }
+  .progress-line-wrapper span {
+      font-size: 12px;
+  }
 
-    .progress-line-wrapper {
-        padding: 16px 0;
-    }
+  .progress-line-wrapper {
+      padding: 16px 0;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 325px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 325px;
+  }
 
-    .table-iven .slimScrollDiv, .body-table-gildia {
-        height: 116px !important;
-    }
+  .table-iven .slimScrollDiv, .body-table-gildia {
+      height: 116px !important;
+  }
 
-    .list-header-gildia li {
-        padding: 6px 0px 13px;
-    }
+  .list-header-gildia li {
+      padding: 6px 0px 13px;
+  }
 
-    .item-raiting {
-        margin-bottom: 4px;
-    }
+  .item-raiting {
+      margin-bottom: 4px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 240px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 240px;
+  }
 
-    .header-raiting h3 {
-        font-size: 18px;
-    }
+  .header-raiting h3 {
+      font-size: 18px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 269px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 269px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 228px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 228px;
+  }
 
-    .btn-contact-game {
-        width: 120px;
-        height: 35px;
-        margin: 0 7px;
-    }
+  .btn-contact-game {
+      width: 120px;
+      height: 35px;
+      margin: 0 7px;
+  }
 
-    .container-count-events {
-        max-width: 120px;
-        height: 22px;
-    }
+  .container-count-events {
+      max-width: 120px;
+      height: 22px;
+  }
 
-    .container-faq-list .slimScrollDiv {
-        min-height: 337px;
-    }
+  .container-faq-list .slimScrollDiv {
+      min-height: 337px;
+  }
 
-    .balance {
-        margin-right: 5px;
-    }
+  .balance {
+      margin-right: 5px;
+  }
 
-    .name-player, .balance {
-        margin-left: 5px;
-    }
+  .name-player, .balance {
+      margin-left: 5px;
+  }
 
-    .wrapper-left-column::after,
-    .wrapper-right-column::after {
-        width: 73px;
-    }
+  .wrapper-left-column::after,
+  .wrapper-right-column::after {
+      width: 73px;
+  }
 
-    .actions-wrapper::before,
-    .container-right-column::before {
-        height: 56px;
-    }
+  .actions-wrapper::before,
+  .container-right-column::before {
+      height: 56px;
+  }
 
-    .top-after::after, .container-right-column::after {
-        height: 82px;
-    }
+  .top-after::after, .container-right-column::after {
+      height: 82px;
+  }
 
-    .wrapper-right-column::after {
-        right: -43px;
-    }
+  .wrapper-right-column::after {
+      right: -43px;
+  }
 
-    .wrapper-left-column::after {
-        left: -42px;
-    }
+  .wrapper-left-column::after {
+      left: -42px;
+  }
 
-    .top-after::after,
-    .container-right-column::after {
-        top: -24px;
-    }
+  .top-after::after,
+  .container-right-column::after {
+      top: -24px;
+  }
 
-    .container-image-hero {
-        max-width: 318px;
-        height: 318px;
-    }
+  .container-image-hero {
+      max-width: 318px;
+      height: 318px;
+  }
 
-    #c {
-        width: 315px;
-        height: 315px;
-    }
+  #c {
+      width: 315px;
+      height: 315px;
+  }
 
-    .social-position-4 {
-        right: 117px;
-    }
+  .social-position-4 {
+      right: 117px;
+  }
 
-    .social-position-2 {
-        left: 113px;
-    }
+  .social-position-2 {
+      left: 113px;
+  }
 
-    .social-position-3 {
-        left: 164px;
-        bottom: -12px;
-    }
+  .social-position-3 {
+      left: 164px;
+      bottom: -12px;
+  }
 
 }
 
 @media screen and (max-width: 1220px) and (orientation: landscape) {
-    .social-position-2 {
-        left: 109px;
-    }
+  .social-position-2 {
+      left: 109px;
+  }
 
-    .social-position-3 {
-        left: 156px;
-    }
+  .social-position-3 {
+      left: 156px;
+  }
 
-    .social-position-4 {
-        right: 115px;
-    }
+  .social-position-4 {
+      right: 115px;
+  }
 
-    .social-position-5 {
-        bottom: 18px;
-        right: 70px;
-    }
+  .social-position-5 {
+      bottom: 18px;
+      right: 70px;
+  }
 
-    .social-position-1 {
-        left: 66px;
-        bottom: 19px;
-    }
+  .social-position-1 {
+      left: 66px;
+      bottom: 19px;
+  }
 
 }
 
 @media screen and (max-width: 1200px) and (orientation: landscape) {
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 17px;
-    }
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 17px;
+  }
 
-    .title-rating {
-        font-size: 13px;
-    }
+  .title-rating {
+      font-size: 13px;
+  }
 
-    .footer-action p {
-        font-size: 13px;
-    }
+  .footer-action p {
+      font-size: 13px;
+  }
 
-    .center-hero {
-        max-width: 314px;
-    }
+  .center-hero {
+      max-width: 314px;
+  }
 
-    .social-link {
-        width: 35px;
-        height: 35px;
-    }
+  .social-link {
+      width: 35px;
+      height: 35px;
+  }
 
-    .social-position-2 {
-        left: 110px;
-        bottom: 7px;
-    }
+  .social-position-2 {
+      left: 110px;
+      bottom: 7px;
+  }
 
-    .social-position-3 {
-        left: 158px;
-        bottom: -1px;
-    }
+  .social-position-3 {
+      left: 158px;
+      bottom: -1px;
+  }
 
-    .social-position-4 {
-        right: 112px;
-        bottom: 8px;
-    }
+  .social-position-4 {
+      right: 112px;
+      bottom: 8px;
+  }
 
-    .social-position-5 {
-        bottom: 27px;
-    }
+  .social-position-5 {
+      bottom: 27px;
+  }
 
-    .social-position-1 {
-        bottom: 30px;
-    }
+  .social-position-1 {
+      bottom: 30px;
+  }
 
-    .wrapper-bottle-info {
-        width: 65px;
-        height: 65px;
-    }
+  .wrapper-bottle-info {
+      width: 65px;
+      height: 65px;
+  }
 
-    .bottle-position-1 {
-        left: 44px;
-        top: -8px;
-    }
+  .bottle-position-1 {
+      left: 44px;
+      top: -8px;
+  }
 
-    .bottle-position-4 {
-        right: 45px;
-        top: -3px;
-    }
+  .bottle-position-4 {
+      right: 45px;
+      top: -3px;
+  }
 
-    .bottle-position-2 {
-        left: 8px;
-    }
+  .bottle-position-2 {
+      left: 8px;
+  }
 
-    .bottle-position-3 {
-        right: 10px;
-    }
+  .bottle-position-3 {
+      right: 10px;
+  }
 
-    .settings, .poems {
-        top: 102px;
-    }
+  .settings, .poems {
+      top: 102px;
+  }
 
-    .item-awards img {
-        width: 42px;
-    }
+  .item-awards img {
+      width: 42px;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 335px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 335px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 237px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 237px;
+  }
 
-    .header-table tr th {
-        font-size: 16px;
-    }
+  .header-table tr th {
+      font-size: 16px;
+  }
 
-    .container-count-events {
-        max-width: 114px;
-        height: 18px;
-    }
+  .container-count-events {
+      max-width: 114px;
+      height: 18px;
+  }
 
-    .header-faq h3 {
-        font-size: 16px;
-    }
+  .header-faq h3 {
+      font-size: 16px;
+  }
 
-    .header-faq::before {
-        width: 14px;
-        height: 8px;
-    }
+  .header-faq::before {
+      width: 14px;
+      height: 8px;
+  }
 
-    .header-faq {
-        padding: 8px 18px;
-        padding-right: 18px;
-    }
+  .header-faq {
+      padding: 8px 18px;
+      padding-right: 18px;
+  }
 
-    .container-answer p {
-        font-size: 13px;
-    }
+  .container-answer p {
+      font-size: 13px;
+  }
 
-    .menu-link {
-        width: 128px;
-        height: 30px;
-    }
+  .menu-link {
+      width: 128px;
+      height: 30px;
+  }
 
-    .container-image-hero {
-        max-width: 308px;
-        height: 308px;
-    }
+  .container-image-hero {
+      max-width: 308px;
+      height: 308px;
+  }
 
-    #c {
-        width: 308px;
-        height: 308px;
-    }
+  #c {
+      width: 308px;
+      height: 308px;
+  }
 
-    .container-awards .slimScrollDiv {
-        height: 160px !important;
-    }
+  .container-awards .slimScrollDiv {
+      height: 160px !important;
+  }
 
-    .table-answer {
-        width: 90%;
-        font-size: 12px;
-    }
+  .table-answer {
+      width: 90%;
+      font-size: 12px;
+  }
 
 }
 
 @media screen and (max-width: 1170px) and (orientation: landscape) {
-    .scale-item span {
-        font-size: 12px;
-    }
+  .scale-item span {
+      font-size: 12px;
+  }
 
-    .cursor-draggable {
-        width: 18px;
-        height: 15px;
-        top: -8px;
-    }
+  .cursor-draggable {
+      width: 18px;
+      height: 15px;
+      top: -8px;
+  }
 
-    .input-profit {
-        max-width: 73px;
-        padding: 5px;
-        font-size: 13px;
-    }
+  .input-profit {
+      max-width: 73px;
+      padding: 5px;
+      font-size: 13px;
+  }
 
-    .wrapper-rating-container::after {
-        width: 28px;
-        height: 41px;
-        top: -5px;
-    }
+  .wrapper-rating-container::after {
+      width: 28px;
+      height: 41px;
+      top: -5px;
+  }
 
-    .title-item, .title-rating {
-        font-size: 15px;
-    }
+  .title-item, .title-rating {
+      font-size: 15px;
+  }
 
-    .header-title-item span {
-        font-size: 13px;
-    }
+  .header-title-item span {
+      font-size: 13px;
+  }
 
-    .center-hero {
-        max-width: 305px;
-    }
+  .center-hero {
+      max-width: 305px;
+  }
 
-    .social-position-4 {
-        right: 108px;
-    }
+  .social-position-4 {
+      right: 108px;
+  }
 
-    .social-position-2 {
-        left: 108px;
-    }
+  .social-position-2 {
+      left: 108px;
+  }
 
-    .social-position-3 {
-        left: 155px;
-    }
+  .social-position-3 {
+      left: 155px;
+  }
 
-    .title-awards, .number-awards span {
-        font-size: 16px;
-    }
+  .title-awards, .number-awards span {
+      font-size: 16px;
+  }
 
-    .top-progress-block .slimScrollDiv {
-        min-height: 325px;
-    }
+  .top-progress-block .slimScrollDiv {
+      min-height: 325px;
+  }
 
-    .btn-contact-game {
-        width: 116px;
-        height: 34px;
-    }
+  .btn-contact-game {
+      width: 116px;
+      height: 34px;
+  }
 
-    .btn-contact-game span {
-        font-size: 13px;
-        padding-left: 23px;
-    }
+  .btn-contact-game span {
+      font-size: 13px;
+      padding-left: 23px;
+  }
 
-    .audit span:after, .smartcontract span:after {
-        width: 20px;
-        height: 20px;
-    }
+  .audit span:after, .smartcontract span:after {
+      width: 20px;
+      height: 20px;
+  }
 
-    .money-span, .count-span, .count-span span, .money-span span {
-        font-size: 13px;
-    }
+  .money-span, .count-span, .count-span span, .money-span span {
+      font-size: 13px;
+  }
 
-    .title-counter {
-        font-size: 13px;
-    }
+  .title-counter {
+      font-size: 13px;
+  }
 
-    .btn-contact-game {
-        width: 106px;
-        height: 31px;
-    }
+  .btn-contact-game {
+      width: 106px;
+      height: 31px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 265px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 265px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 228px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 228px;
+  }
 
-    .slimScrollDiv > .slimScrollBar {
-        width: 9px !important;
-    }
+  .slimScrollDiv > .slimScrollBar {
+      width: 9px !important;
+  }
 
-    .slimScrollRail {
-        width: 2px !important;
-        right: 4px !important;
-    }
+  .slimScrollRail {
+      width: 2px !important;
+      right: 4px !important;
+  }
 
-    .container-count-events {
-        max-width: 118px;
-        height: 26px;
-        padding: 7px 11px;
-    }
+  .container-count-events {
+      max-width: 118px;
+      height: 26px;
+      padding: 7px 11px;
+  }
 
-    .list-control {
-        top: -16px;
-    }
+  .list-control {
+      top: -16px;
+  }
 
-    .menu-link {
-        font-size: 17px;
-    }
+  .menu-link {
+      font-size: 17px;
+  }
 
-    .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
-        width: 17px;
-        bottom: -27px;
-    }
+  .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
+      width: 17px;
+      bottom: -27px;
+  }
 
-    .footer-action {
-        max-width: 89%;
-    }
+  .footer-action {
+      max-width: 89%;
+  }
 
-    .container-image-hero {
-        max-width: 300px;
-        height: 300px;
-    }
+  .container-image-hero {
+      max-width: 300px;
+      height: 300px;
+  }
 
-    #c {
-        width: 300px;
-        height: 300px;
-    }
+  #c {
+      width: 300px;
+      height: 300px;
+  }
 }
 
 @media screen and (max-width: 1112px) and (orientation: landscape) {
-    .wrapper-center-column {
-        width: 32%;
-    }
+  .wrapper-center-column {
+      width: 32%;
+  }
 
-    .footer-action {
-        max-width: 92%;
-        margin-bottom: 14px;
-    }
+  .footer-action {
+      max-width: 92%;
+      margin-bottom: 14px;
+  }
 }
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
-    .rotate-device-overlay {
-        display: block;
-        z-index: 1000000000;
-    }
+  .rotate-device-overlay {
+      display: block;
+      z-index: 1000000000;
+  }
 
-    .footer-action {
-        margin-bottom: 3px;
-    }
+  .footer-action {
+      margin-bottom: 3px;
+  }
 
-    .wrapper-center-column {
-        width: 30%;
-    }
+  .wrapper-center-column {
+      width: 30%;
+  }
 
-    .popup,
-    .overlay_popup {
-        display: none !important;
-    }
+  .popup,
+  .overlay_popup {
+      display: none !important;
+  }
 
-    .body {
-        overflow: hidden;
-        height: 100%;
-        width: 100%;
-        display: block;
-        position: fixed;
-    }
+  .body {
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      display: block;
+      position: fixed;
+  }
 
-    .rotate-device-overlay .phone {
-        -webkit-animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;
-        animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;
-    }
+  .rotate-device-overlay .phone {
+      -webkit-animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;
+      animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;
+  }
 
-    .rotate-device-overlay .phone i {
-        -webkit-animation: fadeIn .5s .8s forwards ease;
-        animation: fadeIn .5s .8s forwards ease;
-    }
+  .rotate-device-overlay .phone i {
+      -webkit-animation: fadeIn .5s .8s forwards ease;
+      animation: fadeIn .5s .8s forwards ease;
+  }
 
-    .rotate-device-overlay p {
-        -webkit-animation: fadeIn .5s 1.3s forwards ease;
-        animation: fadeIn .5s 1.3s forwards ease;
-    }
+  .rotate-device-overlay p {
+      -webkit-animation: fadeIn .5s 1.3s forwards ease;
+      animation: fadeIn .5s 1.3s forwards ease;
+  }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
-    .number-range span {
-        font-size: 14px;
-    }
-
-    .table-answer {
-        width: 90%;
-        font-size: 8px;
-    }
-
-    .name-player, .balance {
-        max-width: 96px;
-    }
-
-    .title-item, .title-rating {
-        font-size: 12px;
-    }
-
-    .bottle-position-4 {
-        right: 41px;
-        top: -9px;
-    }
-
-    .header-title-item span {
-        font-size: 11px;
-    }
-
-    .center-hero {
-        max-width: 262px;
-    }
-
-    .wrapper-bottle-info {
-        width: 55px;
-        height: 55px;
-    }
-
-    .percent {
-        font-size: 11px;
-    }
-
-    .container-bottle-img img {
-        max-width: 25px;
-    }
-
-    .bottle-2 img {
-        max-width: 30px;
-    }
-
-    .social-link {
-        width: 30px;
-        height: 30px;
-    }
-
-    .social-position-1 {
-        left: 65px;
-        bottom: 21px;
-    }
-
-    .social-position-2 {
-        left: 103px;
-        bottom: 3px;
-    }
-
-    .social-position-3 {
-        left: 146px;
-        bottom: -4px;
-    }
-
-    .social-position-4 {
-        right: 100px;
-        bottom: 6px;
-    }
-
-    .social-position-5 {
-        bottom: 22px;
-        right: 65px;
-    }
-
-    .settings, .poems {
-        top: 69px;
-    }
-
-    .btn-center {
-        width: 45px;
-        height: 45px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 74px;
-    }
-
-    .potion-butl {
-        max-width: 74px;
-        height: 64px;
-    }
-
-    .active-butl-frame::after {
-        border-radius: 15px;
-    }
-
-    .suma {
-        right: inherit;
-        left: 50%;
-        top: 2px;
-        transform: translateX(-50%);
-    }
-
-    .suma-potion {
-        font-size: 10px;
-    }
-
-    .name-potion, .title-item-info {
-        font-size: 16px;
-    }
-
-    .time-potion, .price-porion, .info-text-potion {
-        font-size: 13px;
-    }
-
-    .container-potion img {
-        max-width: 100px;
-    }
-
-    .container-potion {
-        max-width: 105px;
-        height: 100px;
-    }
-
-    .input-profit {
-        max-width: 59px;
-        padding: 5px;
-        font-size: 12px;
-    }
-
-    .btn-action, .btn-profit {
-        width: 71px;
-        height: 21px;
-        font-size: 11px;
-    }
-
-    .scale-list::before {
-        top: -2px;
-        height: 2px;
-    }
-
-    .scale-list::after {
-        bottom: -2px;
-        height: 2px;
-    }
-
-    .scale-item span {
-        font-size: 11px;
-    }
-
-    .title-item, .title-rating {
-        font-size: 13px;
-    }
-
-    .draggable-container {
-        margin-right: 19px;
-    }
-
-    .item-info {
-        align-items: baseline;
-    }
-
-    .item-action {
-        margin: 9px 6px;
-    }
-
-    .footer-action p {
-        font-size: 11px;
-    }
-
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 13px;
-    }
-
-    .title-awards, .number-awards span {
-        font-size: 14px;
-    }
-
-    .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
-        width: 50px;
-    }
-
-    .header-awards, .title-action {
-        padding: 0 60px;
-    }
-
-    .counter-input {
-        font-size: 12px;
-    }
-
-    .number-counter {
-        width: 63px;
-        height: 21px;
-    }
-
-    .btn-counter {
-        width: 13px;
-        height: 11px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 15px;
-    }
-
-    .container-awards .list-awards,
-    .container-awards .slimScrollDiv {
-        height: 191px !important;
-    }
-
-    .item-awards img {
-        width: 35px;
-    }
-
-    .menu-link {
-        width: 105px;
-        height: 25px;
-    }
-
-    .menu-link {
-        font-size: 14px;
-    }
-
-    .title-progress-block {
-        font-size: 14px;
-    }
-
-    .readiness,
-    .done-mix {
-        width: 34px;
-        height: 31px;
-        border-radius: 5px;
-    }
-
-    .green-progress .line::before, .apgrade-green-progress .line::before, .red-progress .line::before, .apgrade-red-progress .line::before, .blue-progress .line::before, .apgrade-blue-progress .line::before, .pink-progress .line::before, .apgrade-pink-progress .line::before, .progress-line {
-        height: 12px;
-    }
-
-    .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
-        width: 40px;
-        height: 40px;
-    }
-
-    .progress-block {
-        padding-left: 39px;
-    }
-
-    .progress-line-wrapper span {
-        font-size: 11px;
-    }
-
-    .position-number {
-        width: 25px;
-        height: 25px;
-    }
-
-    .body .slimScrollDiv > .slimScrollBar {
-        width: 9px !important;
-    }
-
-    .body .slimScrollRail {
-        width: 2px !important;
-        right: 4px !important;
-    }
-
-    .container-center-content::after, .container-center-content::before {
-        height: 55px;
-        width: 33px;
-    }
-
-    .actions-wrapper::before, .container-right-column::before {
-        height: 43px;
-        bottom: -27px;
-    }
-
-    .actions-wrapper::before, .container-right-column::before {
-        height: 43px;
-        bottom: -27px;
-    }
-
-    .container-center-content::after {
-        left: 20px;
-    }
-
-    .container-center-content::before {
-        right: 16px;
-    }
-
-    .money-span, .count-span, .count-span span, .money-span span {
-        font-size: 12px;
-    }
-
-    .top-after::after, .container-right-column::after {
-        height: 69px;
-    }
-
-    .wrapper-left-column::after {
-        left: -44px;
-        top: 26px;
-        width: 68px;
-    }
-
-    .wrapper-right-column::after {
-        right: -44px;
-        width: 68px;
-        top: 26px;
-    }
-
-    .title-link {
-        font-size: 17px;
-    }
-
-    .btn {
-        font-size: 12px;
-    }
-
-    .btn-success, .btn-cancel {
-        font-size: 14px;
-        width: 115px;
-        height: 34px;
-        margin: 0 10px;
-    }
-
-    .copy-btn {
-        height: 28px;
-        width: 93px;
-    }
-
-    .container-input-link input {
-        font-size: 12px;
-    }
-
-    .info-link {
-        font-size: 12px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 303px;
-    }
-
-    .table-iven .slimScrollDiv {
-        width: 84% !important;
-    }
-
-    .wrapper-list-about-potion {
-        min-height: 110px;
-    }
-
-    .list-header-gildia li {
-        font-size: 14px;
-    }
-
-    .percent-choice, .info-table span {
-        font-size: 13px;
-    }
-
-    .header-raiting h3 {
-        font-size: 14px;
-    }
-
-    .item-block span {
-        font-size: 12px;
-    }
-
-    .item-block {
-        min-width: 22px;
-    }
-
-    .icon-raiting {
-        width: 22px;
-        height: 22px;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 234px;
-    }
-
-    .title-about-game {
-        font-size: 16px;
-    }
-
-    .item-about-game p {
-        font-size: 13px;
-    }
-
-    .item-about-game::before {
-        background-size: 30%;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 272px;
-    }
-
-    .btn-contact-game span {
-        font-size: 12px;
-        padding-left: 20px;
-    }
-
-    .btn-contact-game {
-        width: 92px;
-        height: 27px;
-    }
-
-    .audit span:after, .smartcontract span:after {
-        width: 17px;
-        height: 17px;
-    }
-
-    .title-events {
-        font-size: 14px;
-    }
-
-    .container-count-events span {
-        font-size: 12px;
-    }
-
-    .container-count-events {
-        max-width: 98px;
-        height: 20px;
-    }
-
-    .header-table tr th {
-        font-size: 14px;
-        padding: 7px;
-    }
-
-    .info-event {
-        font-size: 13px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 229px;
-    }
-
-    .header-faq h3 {
-        font-size: 14px;
-    }
-
-    .container-answer p {
-        font-size: 12px;
-    }
-
-    .container-answer {
-        padding: 10px 15px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 329px;
-    }
-
-    .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
-        bottom: -24px;
-    }
-
-    .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
-        bottom: -76px;
-        width: 12px;
-    }
-
-    .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
-        width: 12px;
-        bottom: -127px;
-    }
-
-    .header-table-gildia::after, .container-potion-choice::after, .wrapper-center-column::after, .wrapper-awards::after, .container-body-raiting::after, .menu-container::after, .container-link::before {
-        height: 3px;
-    }
-
-    .top-potion-variant::before {
-        top: -3px;
-        height: 3px;
-    }
-
-    .top-potion-variant::after, .bottom-about-potion::after {
-        bottom: -3px;
-        height: 3px;
-    }
-
-    .potion-container {
-        padding: 3px 0;
-    }
-
-    .active-butl-frame::after {
-        right: -6px;
-        top: -6px;
-        bottom: -6px;
-    }
-
-    .footer-action {
-        max-width: 94%;
-        margin-bottom: 3px;
-    }
-
-    .btn-control {
-        width: 22px;
-        height: 22px;
-    }
-
-    .sound-btn {
-        width: 17px;
-        height: 17px;
-    }
-
-    .list-control {
-        top: -18px;
-    }
-
-    .lang, .item-lang {
-        font-size: 11px;
-    }
-
-    .list-lang {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        top: 15px;
-        border: 2px solid #4c473a;
-    }
-
-    .tooltipe p, .tippy-content, .tippy-content span {
-        font-size: 12px;
-    }
-
-    .tippy-content h2 {
-        font-size: 13px;
-    }
-
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        font-size: 18px;
-    }
-
-    .element-content {
-        width: 65px;
-        height: 65px;
-    }
-
-    .name-element {
-        font-size: 13px;
-    }
-
-    .element-item {
-        margin: 13px;
-    }
-
-    .element-popup .text-popup {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-
-    .popup {
-        padding: 15px;
-        max-width: 330px;
-    }
-
-    .btn-popup {
-        width: 35px;
-        height: 35px;
-        right: -25px;
-        top: -25px;
-    }
-
-    .form-input {
-        border-radius: 10px;
-        padding: 5px 8px;
-        font-size: 13px;
-    }
-
-    .container-face {
-        width: 100px;
-        height: 80px;
-    }
-
-    .btn-form {
-        height: 26px;
-        width: 92px;
-    }
-
-    .container-face-img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .uploadButton {
-        width: 16px;
-        height: 15px;
-    }
-
-    .setting-popup .text-popup {
-        font-size: 13px;
-    }
-
-    .setting-popup {
-        padding: 0;
-        padding-top: 15px;
-    }
-
-    .btn-start {
-        width: 125px;
-        height: 36px;
-    }
-
-    .start-form input {
-        font-size: 14px;
-        margin: 15px 0;
-    }
-
-    .text-popup {
-        font-size: 13px;
-    }
-
-    .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
-        width: 25px;
-        height: 25px;
-        top: -3px;
-    }
-
-    .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        padding-left: 31px;
-    }
-
-    .text-popup {
-        margin-top: 15px;
-    }
-
-    .info-popup .text-popup, .negative-big .text-popup {
-        font-size: 13px;
-        margin: 15px 0;
-    }
-
-    .container-image-hero, #c {
-        max-width: 255px;
-        height: 255px;
-    }
+  .number-range span {
+      font-size: 14px;
+  }
+
+  .name {
+    max-width: 100px;
+  }
+
+  .table-answer {
+      width: 90%;
+      font-size: 8px;
+  }
+
+  .name-player, .balance {
+      max-width: 96px;
+  }
+
+  .title-item, .title-rating {
+      font-size: 12px;
+  }
+
+  .bottle-position-4 {
+      right: 41px;
+      top: -9px;
+  }
+
+  .header-title-item span {
+      font-size: 11px;
+  }
+
+  .center-hero {
+      max-width: 262px;
+  }
+
+  .wrapper-bottle-info {
+      width: 55px;
+      height: 55px;
+  }
+
+  .percent {
+      font-size: 11px;
+  }
+
+  .container-bottle-img img {
+      max-width: 25px;
+  }
+
+  .bottle-2 img {
+      max-width: 30px;
+  }
+
+  .social-link {
+      width: 30px;
+      height: 30px;
+  }
+
+  .social-position-1 {
+      left: 65px;
+      bottom: 21px;
+  }
+
+  .social-position-2 {
+      left: 103px;
+      bottom: 3px;
+  }
+
+  .social-position-3 {
+      left: 146px;
+      bottom: -4px;
+  }
+
+  .social-position-4 {
+      right: 100px;
+      bottom: 6px;
+  }
+
+  .social-position-5 {
+      bottom: 22px;
+      right: 65px;
+  }
+
+  .settings, .poems {
+      top: 69px;
+  }
+
+  .btn-center {
+      width: 45px;
+      height: 45px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 74px;
+  }
+
+  .potion-butl {
+      max-width: 74px;
+      height: 64px;
+  }
+
+  .active-butl-frame::after {
+      border-radius: 15px;
+  }
+
+  .suma {
+      right: inherit;
+      left: 50%;
+      top: 2px;
+      transform: translateX(-50%);
+  }
+
+  .suma-potion {
+      font-size: 10px;
+  }
+
+  .name-potion, .title-item-info {
+      font-size: 16px;
+  }
+
+  .time-potion, .price-porion, .info-text-potion {
+      font-size: 13px;
+  }
+
+  .container-potion img {
+      max-width: 100px;
+  }
+
+  .container-potion {
+      max-width: 105px;
+      height: 100px;
+  }
+
+  .input-profit {
+      max-width: 59px;
+      padding: 5px;
+      font-size: 12px;
+  }
+
+  .btn-action, .btn-profit {
+      width: 71px;
+      height: 21px;
+      font-size: 11px;
+  }
+
+  .scale-list::before {
+      top: -2px;
+      height: 2px;
+  }
+
+  .scale-list::after {
+      bottom: -2px;
+      height: 2px;
+  }
+
+  .scale-item span {
+      font-size: 11px;
+  }
+
+  .title-item, .title-rating {
+      font-size: 13px;
+  }
+
+  .draggable-container {
+      margin-right: 19px;
+  }
+
+  .item-info {
+      align-items: baseline;
+  }
+
+  .item-action {
+      margin: 9px 6px;
+  }
+
+  .footer-action p {
+      font-size: 11px;
+  }
+
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 13px;
+  }
+
+  .title-awards, .number-awards span {
+      font-size: 14px;
+  }
+
+  .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+      width: 50px;
+  }
+
+  .header-awards, .title-action {
+      padding: 0 60px;
+  }
+
+  .counter-input {
+      font-size: 12px;
+  }
+
+  .number-counter {
+      width: 63px;
+      height: 21px;
+  }
+
+  .btn-counter {
+      width: 13px;
+      height: 11px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 15px;
+  }
+
+  .container-awards .list-awards,
+  .container-awards .slimScrollDiv {
+      height: 191px !important;
+  }
+
+  .item-awards img {
+      width: 35px;
+  }
+
+  .menu-link {
+      width: 105px;
+      height: 25px;
+  }
+
+  .menu-link {
+      font-size: 14px;
+  }
+
+  .title-progress-block {
+      font-size: 14px;
+  }
+
+  .readiness,
+  .readiness-without-hover,
+  .done-mix {
+      width: 34px;
+      height: 31px;
+      border-radius: 5px;
+  }
+
+  .green-progress .line::before, .apgrade-green-progress .line::before, .red-progress .line::before, .apgrade-red-progress .line::before, .blue-progress .line::before, .apgrade-blue-progress .line::before, .pink-progress .line::before, .apgrade-pink-progress .line::before, .progress-line {
+      height: 12px;
+  }
+
+  .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
+      width: 40px;
+      height: 40px;
+  }
+
+  .progress-block {
+      padding-left: 39px;
+  }
+
+  .progress-line-wrapper span {
+      font-size: 11px;
+  }
+
+  .position-number {
+      width: 25px;
+      height: 25px;
+  }
+
+  .body .slimScrollDiv > .slimScrollBar {
+      width: 9px !important;
+  }
+
+  .body .slimScrollRail {
+      width: 2px !important;
+      right: 4px !important;
+  }
+
+  .container-center-content::after, .container-center-content::before {
+      height: 55px;
+      width: 33px;
+  }
+
+  .actions-wrapper::before, .container-right-column::before {
+      height: 43px;
+      bottom: -27px;
+  }
+
+  .actions-wrapper::before, .container-right-column::before {
+      height: 43px;
+      bottom: -27px;
+  }
+
+  .container-center-content::after {
+      left: 20px;
+  }
+
+  .container-center-content::before {
+      right: 16px;
+  }
+
+  .money-span, .count-span, .count-span span, .money-span span {
+      font-size: 12px;
+  }
+
+  .top-after::after, .container-right-column::after {
+      height: 69px;
+  }
+
+  .wrapper-left-column::after {
+      left: -44px;
+      top: 26px;
+      width: 68px;
+  }
+
+  .wrapper-right-column::after {
+      right: -44px;
+      width: 68px;
+      top: 26px;
+  }
+
+  .title-link {
+      font-size: 17px;
+  }
+
+  .btn {
+      font-size: 12px;
+  }
+
+  .btn-success, .btn-cancel {
+      font-size: 14px;
+      width: 115px;
+      height: 34px;
+      margin: 0 10px;
+  }
+
+  .copy-btn {
+      height: 28px;
+      width: 93px;
+  }
+
+  .container-input-link input {
+      font-size: 12px;
+  }
+
+  .info-link {
+      font-size: 12px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 303px;
+  }
+
+  .table-iven .slimScrollDiv {
+      width: 84% !important;
+  }
+
+  .wrapper-list-about-potion {
+      min-height: 110px;
+  }
+
+  .list-header-gildia li {
+      font-size: 14px;
+  }
+
+  .percent-choice, .info-table span {
+      font-size: 13px;
+  }
+
+  .header-raiting h3 {
+      font-size: 14px;
+  }
+
+  .item-block span {
+      font-size: 12px;
+  }
+
+  .item-block {
+      min-width: 22px;
+  }
+
+  .icon-raiting {
+      width: 22px;
+      height: 22px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 234px;
+  }
+
+  .title-about-game {
+      font-size: 16px;
+  }
+
+  .item-about-game p {
+      font-size: 13px;
+  }
+
+  .item-about-game::before {
+      background-size: 30%;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 272px;
+  }
+
+  .btn-contact-game span {
+      font-size: 12px;
+      padding-left: 20px;
+  }
+
+  .btn-contact-game {
+      width: 92px;
+      height: 27px;
+  }
+
+  .audit span:after, .smartcontract span:after {
+      width: 17px;
+      height: 17px;
+  }
+
+  .title-events {
+      font-size: 14px;
+  }
+
+  .container-count-events span {
+      font-size: 12px;
+  }
+
+  .container-count-events {
+      max-width: 98px;
+      height: 20px;
+  }
+
+  .header-table tr th {
+      font-size: 14px;
+  }
+
+  .info-event {
+      font-size: 13px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 229px;
+  }
+
+  .header-faq h3 {
+      font-size: 14px;
+  }
+
+  .container-answer p {
+      font-size: 12px;
+  }
+
+  .container-answer {
+      padding: 10px 15px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 329px;
+  }
+
+  .progress.active-btn::before, .progress::before, .about-game::before, .about-game.active-btn::before {
+      bottom: -24px;
+  }
+
+  .gildia::before, .gildia.active-btn::before, .ivents::before, .ivents.active-btn::before {
+      bottom: -76px;
+      width: 12px;
+  }
+
+  .raiting::before, .raiting.active-btn::before, .fag-after::before, .fag-after.active-btn::before {
+      width: 12px;
+      bottom: -127px;
+  }
+
+  .header-table-gildia::after, .container-potion-choice::after, .wrapper-center-column::after, .wrapper-awards::after, .container-body-raiting::after, .menu-container::after, .container-link::before {
+      height: 3px;
+  }
+
+  .top-potion-variant::before {
+      top: -3px;
+      height: 3px;
+  }
+
+  .top-potion-variant::after, .bottom-about-potion::after {
+      bottom: -3px;
+      height: 3px;
+  }
+
+  .potion-container {
+      padding: 3px 0;
+  }
+
+  .active-butl-frame::after {
+      right: -6px;
+      top: -6px;
+      bottom: -6px;
+  }
+
+  .footer-action {
+      max-width: 94%;
+      margin-bottom: 3px;
+  }
+
+  .btn-control {
+      width: 22px;
+      height: 22px;
+  }
+
+  .sound-btn {
+      width: 17px;
+      height: 17px;
+  }
+
+  .list-control {
+      top: -18px;
+  }
+
+  .lang, .item-lang {
+      font-size: 11px;
+  }
+
+  .list-lang {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      top: 15px;
+      border: 2px solid #4c473a;
+  }
+
+  .tooltipe p, .tippy-content, .tippy-content span {
+      font-size: 12px;
+  }
+
+  .tippy-content h2 {
+      font-size: 13px;
+  }
+
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      font-size: 18px;
+  }
+
+  .element-content {
+      width: 65px;
+      height: 65px;
+  }
+
+  .name-element {
+      font-size: 13px;
+  }
+
+  .element-item {
+      margin: 13px;
+  }
+
+  .element-popup .text-popup {
+      font-size: 14px;
+      margin-top: 10px;
+  }
+
+  .popup {
+      padding: 15px;
+      max-width: 330px;
+  }
+
+  .btn-popup {
+      width: 35px;
+      height: 35px;
+      right: -25px;
+      top: -25px;
+  }
+
+  .form-input {
+      border-radius: 10px;
+      padding: 5px 8px;
+      font-size: 13px;
+  }
+
+  .container-face {
+      width: 100px;
+      height: 80px;
+  }
+
+  .btn-form {
+      height: 26px;
+      width: 92px;
+  }
+
+  .container-face-img {
+      width: 40px;
+      height: 40px;
+  }
+
+  .uploadButton {
+      width: 16px;
+      height: 15px;
+  }
+
+  .setting-popup .text-popup {
+      font-size: 13px;
+  }
+
+  .setting-popup {
+      padding: 0;
+      padding-top: 15px;
+  }
+
+  .btn-start {
+      width: 125px;
+      height: 36px;
+  }
+
+  .start-form input {
+      font-size: 14px;
+      margin: 15px 0;
+  }
+
+  .text-popup {
+      font-size: 13px;
+  }
+
+  .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
+      width: 25px;
+      height: 25px;
+      top: -3px;
+  }
+
+  .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      padding-left: 31px;
+  }
+
+  .text-popup {
+      margin-top: 15px;
+  }
+
+  .info-popup .text-popup, .negative-big .text-popup {
+      font-size: 13px;
+      margin: 15px 0;
+  }
+
+  .container-image-hero, #c {
+      max-width: 255px;
+      height: 255px;
+  }
 
 }
 
 @media screen and (max-width: 970px) and (orientation: landscape) {
-    .container-scroll-table {
-        overflow-x: scroll;
-        max-width: 215px;
-    }
+  .container-scroll-table {
+      overflow-x: scroll;
+      max-width: 215px;
+  }
 
-    .control-table {
-        display: flex;
-    }
+  .control-table {
+      display: flex;
+  }
 
-    .scroll-table,
-    .scroll-table-reset {
-        height: 24px;
-        width: 82px;
-        margin: 5px;
-    }
+  .body-table-events tr td:first-child,
+  .header-table tr th:first-child{
+    margin-left: 10px;
+  }
+
+  .name {
+    max-width: 74px;
+  }
+
+  .scroll-table,
+  .scroll-table-reset {
+      height: 24px;
+      width: 82px;
+      margin: 5px;
+  }
+}
+
+@media screen and (max-width: 940px) and (orientation: landscape) {
+  .list-control {
+      right: 20px;
+  }
+
+  .play, .pause {
+      width: 16px;
+      height: 16px;
+  }
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape) {
-    .top-title-table {
-        display: none;
-    }
+  .top-title-table {
+      display: none;
+  }
 
-    .table-answer {
-        font-size: 7px;
-        width: 100%;
-    }
+  .table-answer {
+      font-size: 7px;
+      width: 100%;
+  }
 
-    .title-body {
-        border: 1px solid #ccc;
-    }
+  .title-body {
+      border: 1px solid #ccc;
+  }
 
-    .title-body span {
-        margin: 0 auto;
-    }
+  .title-body span {
+      margin: 0 auto;
+  }
 
-    .table-answer tr {
-        display: block;
-    }
+  .table-answer tr {
+      display: block;
+  }
 
-    .table-answer td {
-        display: flex;
-        justify-content: space-between;
-        font-size: 9px;
-    }
+  .table-answer td {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9px;
+  }
 
-    .table-answer td::before {
-        content: attr(data-label);
-        margin-right: 10px;
-        font-size: 9px;
-    }
+  .table-answer td::before {
+      content: attr(data-label);
+      margin-right: 10px;
+      font-size: 9px;
+  }
 
-    .table-answer td:first-child::before {
-        margin-right: 0;
-    }
+  .table-answer td:first-child::before {
+      margin-right: 0;
+  }
 
-    .big-table-answer .top-title-table {
-        display: table-header-group;
-    }
+  .big-table-answer .top-title-table {
+      display: table-header-group;
+  }
 
-    .big-table-answer tr {
-        display: table-row;
-    }
+  .big-table-answer tr {
+      display: table-row;
+  }
 
-    .big-table-answer td {
-        display: table-cell;
-    }
+  .big-table-answer td {
+      display: table-cell;
+  }
 
-    .big-table-answer td::before {
-        display: none;
-    }
+  .big-table-answer td::before {
+      display: none;
+  }
 
-    .container-scroll-table {
-        max-width: 190px;
-    }
+  .container-scroll-table {
+      max-width: 190px;
+  }
 }
 
 @media screen and (max-width: 825px) and (orientation: landscape) {
-    .number-range span {
-        font-size: 11px;
-    }
-
-    .container-scroll-table {
-        max-width: 160px;
-    }
-
-    .tooltipe {
-        bottom: 14px;
-        right: -13px;
-        opacity: 0.8;
-        min-width: 53px;
-    }
-
-    .btn.copy-btn {
-        margin: 0;
-    }
-
-    .item-choice {
-        margin: 0 5px;
-    }
-
-    .item-awards img {
-        width: 23px;
-    }
-
-    .wrapper-center-column {
-        width: 30%;
-    }
-
-    .header-awards {
-        display: flex;
-        margin-bottom: 2px;
-    }
-
-    .title-awards, .number-awards span {
-        font-size: 12px;
-    }
-
-    .center-hero {
-        max-width: 206px;
-    }
-
-    .name-potion, .title-item-info {
-        font-size: 10px;
-    }
-
-    .time-potion, .price-porion, .info-text-potion {
-        font-size: 8px;
-    }
-
-    .info-text-potion {
-        margin-bottom: 0;
-    }
-
-    .container-potion img {
-        max-width: 58px;
-    }
-
-    .container-potion {
-        max-width: 59px;
-        height: 61px;
-    }
-
-    .wrapper-list-about-potion {
-        min-height: 62px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 55px;
-    }
-
-    .potion-butl {
-        max-width: 55px;
-        height: 47px;
-    }
-
-    .suma-potion {
-        font-size: 8px;
-    }
-
-    .active-butl-frame::after {
-        border-radius: 14px;
-    }
-
-    .active-butl-frame::after {
-        right: -4px;
-        top: -4px;
-        bottom: -4px;
-    }
-
-    .title-item, .title-rating {
-        font-size: 8px;
-    }
-
-    .scale-item span {
-        font-size: 8px;
-    }
-
-    .scale-item {
-        padding: 1px 2px;
-        line-height: 10px;
-    }
-
-    .wrapper-rating-container::after {
-        width: 17px;
-        top: -3px;
-        height: 24px;
-        right: -12px;
-    }
-
-    .first-title-action .result-action, .first-title-action .result-action span {
-        font-size: 9px;
-    }
-
-    .first-title-action, .first-title-action span, .title-action {
-        font-size: 9px;
-    }
-
-    .title-counter {
-        font-size: 8px;
-        margin-right: 2px;
-        margin-bottom: 3px;
-    }
-
-    .item-action {
-        margin: 4px 7px 2px;
-    }
-
-    .number-counter {
-        width: 39px;
-        height: 12px;
-    }
-
-    .btn-counter {
-        width: 8px;
-        height: 7px;
-    }
-
-    .btn {
-        font-size: 8px;
-        width: 51px;
-        height: 15px;
-        margin: 0 4px;
-    }
-
-    .btn-success, .btn-cancel {
-        font-size: 10px;
-        width: 75px;
-        height: 22px;
-        margin: 0 7px;
-    }
-
-    .money-span, .count-span, .count-span span, .money-span span {
-        font-size: 7px;
-        margin-top: 2px;
-    }
-
-    .counter-input {
-        font-size: 9px;
-        padding: 1px 3px;
-    }
-
-    .about-potion {
-        padding-top: 2px;
-    }
-
-    .container-awards .list-awards, .container-awards .slimScrollDiv {
-        height: 62px !important;
-    }
-
-    .name-potion, .title-item-info {
-        margin-bottom: 0;
-    }
-
-    .footer-action p {
-        font-size: 8px;
-    }
-
-    .wrapper-left-column::after {
-        left: -25px;
-        top: 23px;
-        width: 44px;
-        bottom: -12px;
-    }
-
-    .title-progress-block {
-        font-size: 9px;
-        margin-bottom: 2px;
-    }
-
-    .green-progress .line::before, .apgrade-green-progress .line::before, .red-progress .line::before, .apgrade-red-progress .line::before, .blue-progress .line::before, .apgrade-blue-progress .line::before, .pink-progress .line::before, .apgrade-pink-progress .line::before, .progress-line {
-        height: 9px;
-    }
-
-    .progress-line::before {
-        content: '';
-        position: absolute;
-        left: -3px;
-        top: -3px;
-        bottom: -3px;
-        right: -3px;
-    }
-
-    .progress-line {
-        border-radius: 3px;
-    }
-
-    .progress-line-wrapper {
-        margin-right: 8px;
-    }
-
-    .progress-line-wrapper span {
-        font-size: 9px;
-    }
-
-    .progress-line-wrapper {
-        padding: 11px 0;
-    }
-
-    .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
-        width: 30px;
-        height: 30px;
-    }
-
-    .position-number {
-        width: 20px;
-        height: 20px;
-    }
-
-    .position-number span {
-        font-size: 10px;
-    }
-
-    .readiness,
-    .done-mix {
-        width: 30px;
-        height: 24px;
-    }
-
-    .wrapper-content-progress {
-        padding: 5px 15px 5px 0;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 213px;
-    }
-
-    .item-menu {
-        padding: 0;
-        margin: 5px 10px;
-    }
-
-    .menu-link {
-        font-size: 11px;
-        width: 82px;
-        height: 18px;
-    }
-
-    .item-menu::before {
-        display: none;
-    }
-
-    .input-profit {
-        max-width: 42px;
-        padding: 3px;
-        font-size: 8px;
-        margin-top: 2px;
-    }
-
-    .header-title-item span {
-        font-size: 8px;
-    }
-
-    .profit-wrapper {
-        padding: 7px 8px;
-    }
-
-    .wrapper-bottle-info {
-        width: 43px;
-        height: 43px;
-    }
-
-    .container-bottle-img img {
-        max-width: 18px;
-    }
-
-    .percent {
-        font-size: 9px;
-        bottom: 5px;
-    }
-
-    .btn-center {
-        width: 30px;
-        height: 30px;
-        top: 62px;
-    }
-
-    .social-link {
-        width: 22px;
-        height: 22px;
-    }
-
-    .social-position-1 {
-        left: 53px;
-        bottom: 18px;
-    }
-
-    .social-position-2 {
-        left: 80px;
-        bottom: 5px;
-    }
-
-    .social-position-4 {
-        right: 85px;
-        bottom: 4px;
-    }
-
-    .social-position-5 {
-        bottom: 17px;
-        right: 57px;
-    }
-
-    .social-position-3 {
-        left: 110px;
-        bottom: -1px;
-    }
-
-    .wrapper-game {
-        padding: 0;
-    }
-
-    .list-profit {
-        margin-bottom: 5px;
-    }
-
-    .wrapper-awards {
-        padding: 20px 10px 0px;
-    }
-
-    .container-awards {
-        width: 91%;
-    }
-
-    .wrapper-right-column::after {
-        right: -26px;
-        width: 44px;
-        top: 23px;
-        bottom: -12px;
-    }
-
-    .actions-wrapper::before, .container-right-column::before {
-        height: 34px;
-        bottom: -22px;
-    }
-
-    .cursor-draggable {
-        width: 12px;
-        height: 10px;
-        top: -5px;
-    }
-
-    .wrapper-first-title {
-        margin-bottom: 3px;
-    }
-
-    .header-title-item {
-        margin-bottom: 0;
-    }
-
-    .title-item {
-        margin-bottom: 1px;
-    }
-
-    .bottle-position-1 {
-        left: 30px;
-        top: -3px;
-    }
-
-    .bottle-position-4 {
-        right: 37px;
-        top: -3px;
-    }
-
-    .bottle-position-2 {
-        left: 4px;
-        top: -26px;
-    }
-
-    .bottle-position-3 {
-        right: 12px;
-        top: -26px;
-    }
-
-    .balance {
-        max-width: 68px;
-        margin-right: 5px;
-    }
-
-    .name-player, .balance {
-        margin-left: 5px;
-    }
-
-    .container-center-content::after, .container-center-content::before {
-        height: 39px;
-        width: 24px;
-        bottom: -18px;
-    }
-
-    .container-center-content::before {
-        right: 17px;
-    }
-
-    .container-right-column::before {
-        left: -11px;
-    }
-
-    .actions-wrapper::before {
-        right: -17px;
-    }
-
-    .information-btn {
-        width: 8px;
-        height: 8px;
-        top: -2px;
-    }
-
-    .footer-action {
-        margin-top: 1px;
-        max-width: 97%;
-    }
-
-    .menu-container {
-        padding: 10px 0 9px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 11px;
-    }
-
-    .header-center-block {
-        padding: 9px 10px 18px;
-        top: -8px;
-    }
-
-    .top-after::after, .container-right-column::after {
-        height: 43px;
-        top: -10px;
-    }
-
-    .container-right-column::after {
-        left: 9px;
-        right: -28px;
-    }
-
-    .top-after::after {
-        left: -26px;
-    }
-
-    .header-awards, .title-action {
-        padding: 0 40px;
-    }
-
-    .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
-        width: 33px;
-        height: 2px;
-    }
-
-    .scale-list::before {
-        top: -1px;
-        height: 1px;
-    }
-
-    .scale-list::after {
-        bottom: -1px;
-        height: 1px;
-    }
-
-    .suma {
-        line-height: 8px;
-    }
-
-    .btn-control {
-        width: 15px;
-        height: 15px;
-    }
-
-    .sound-btn {
-        width: 13px;
-        height: 13px;
-    }
-
-    .list-control {
-        right: 20px;
-        top: -6px;
-    }
-
-    .lang, .item-lang {
-        font-size: 8px;
-        padding: 3px;
-    }
-
-    .item-progress {
-        padding: 2px 11px 0;
-    }
-
-    .progress-block {
-        padding-left: 30px;
-    }
-
-    .list-lang {
-        top: 11px;
-        border: 1px solid #4c473a;
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
-    }
-
-    .center-hero::after {
-        left: -18px;
-        right: -18px;
-        top: -18px;
-        bottom: -18px;
-    }
-
-    .item-profit {
-        margin: 3px;
-    }
-
-    .profit-container-right-block img {
-        max-width: 113px;
-        width: 100%;
-    }
-
-    .body .slimScrollDiv > .slimScrollBar {
-        width: 7px !important;
-    }
-
-    .body .slimScrollRail {
-        right: 3px !important;
-    }
-
-    .top-potion-variant::after, .bottom-about-potion::after {
-        bottom: -2px;
-        height: 2px;
-    }
-
-    .top-potion-variant::before {
-        top: -2px;
-        height: 2px;
-    }
-
-    .potion-container {
-        padding: 2px 0;
-    }
-
-    .header-table-gildia::after, .container-potion-choice::after, .wrapper-center-column::after, .wrapper-awards::after, .container-body-raiting::after, .menu-container::after, .container-link::before {
-        height: 2px;
-    }
-
-    .container-center-column::after, .container-center-column::before {
-        width: 2px;
-    }
-
-    .wrapper-left-column {
-        width: 28%;
-    }
-
-    .wrapper-right-column {
-        width: 28%;
-    }
-
-    .item-awards {
-        margin: 4px;
-    }
-
-    .poems {
-        right: 2px;
-    }
-
-    .btn-start {
-        width: 101px;
-        height: 29px;
-        font-size: 12px;
-    }
-
-    .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        font-size: 14px;
-    }
-
-    .start-form input {
-        font-size: 11px;
-        margin: 10px 0;
-    }
-
-    .popup {
-        padding: 10px;
-        max-width: 282px;
-        border: 2px solid #40c4c8;
-        -moz-border-image: url("../images/border.png") 30 round round;
-        -webkit-border-image: url("../images/border.png") 30 round round;
-        -o-border-image: url("../images/border.png") 30 round round;
-        border-image: url("../images/border.png") 30 round round;
-    }
-
-    .popup::before {
-        width: 2px;
-        left: -2px;
-    }
-
-    .popup::after {
-        width: 2px;
-        right: -2px;
-    }
-
-    .text-popup {
-        margin-top: 10px;
-        font-size: 9px;
-    }
-
-    .btn-popup {
-        width: 30px;
-        height: 30px;
-        right: -20px;
-        top: -20px;
-    }
-
-    .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
-        width: 20px;
-        height: 20px;
-        top: -3px;
-    }
-
-    .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
-        padding-left: 25px;
-    }
-
-    .info-popup .text-popup, .negative-big .text-popup {
-        font-size: 9px;
-        margin: 10px 0;
-    }
-
-    .container-form label {
-        font-size: 10px;
-        margin-left: 7px;
-        margin-bottom: 5px;
-    }
-
-    .form-input {
-        border-radius: 6px;
-        padding: 4px 7px;
-        font-size: 9px;
-    }
-
-    .container-face {
-        width: 75px;
-        height: 65px;
-    }
-
-    .container-face-img {
-        width: 35px;
-        height: 35px;
-    }
-
-    .setting-popup .text-popup {
-        font-size: 9px;
-    }
-
-    .element-content {
-        width: 50px;
-        height: 50px;
-    }
-
-    .name-element {
-        font-size: 10px;
-        margin-top: 10px;
-    }
-
-    .active-element .element-content {
-        border: 2px solid #e2be70;
-    }
-
-    .element-content{
-        border: 2px solid #1e131721;
-    }
-
-    .content-elements {
-        margin: 10px 0;
-    }
-
-    .element-popup .text-popup {
-        font-size: 10px;
-        margin-top: 0;
-    }
-
-    .footer-popup {
-        padding: 10px 23px;
-    }
-
-    .content-popup-container {
-        padding: 10px 23px 5px;
-    }
-
-    .setting-popup {
-        padding: 0;
-        padding-top: 10px;
-    }
-
-    .title-link {
-        font-size: 11px;
-        margin-bottom: 5px;
-    }
-
-    .container-input-link input {
-        font-size: 9px;
-        padding: 2px 5px;
-    }
-
-    .copy-btn {
-        width: 55px;
-    }
-
-    .info-link {
-        font-size: 9px;
-        margin-top: 5px;
-    }
-
-    .container-link {
-        padding: 5px 0 8px;
-    }
-
-    .percent-choice, .info-table span {
-        font-size: 9px;
-    }
-
-    .container-choice-potion {
-        margin-right: 4px;
-        max-width: 25px;
-        flex: none;
-    }
-
-    .list-header-gildia li {
-        font-size: 10px;
-    }
-
-    .container-icon-table {
-        width: 15px;
-        height: 15px;
-    }
-
-    .table-iven .slimScrollDiv {
-        padding: 0 11px 3px;
-        margin-top: 5px;
-        height: 74px !important;
-    }
-
-    .list-header-gildia li {
-        padding: 3px 0px 7px;
-    }
-
-    .list-header-gildia li:first-child {
-        padding-left: 12px;
-    }
-
-    .header-raiting h3 {
-        font-size: 10px;
-        padding: 0 35px;
-    }
-
-    .header-raiting h3::before, .header-raiting h3::after {
-        width: 33px;
-        height: 2px;
-    }
-
-    .header-raiting {
-        padding: 5px 0;
-    }
-
-    .icon-raiting {
-        width: 17px;
-        height: 17px;
-    }
-
-    .item-block {
-        min-width: 17px;
-    }
-
-    .item-block span {
-        font-size: 9px;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 132px;
-        height: 140px !important;
-
-    }
-
-    .title-about-game {
-        font-size: 11px;
-        padding: 0 37px;
-    }
-
-    .item-raiting {
-        margin-bottom: 2px;
-    }
-
-    .list-table-ivent li {
-        padding: 2px 3px;
-    }
-
-    .title-about-game::before, .title-about-game::after {
-        width: 30px;
-        height: 2px;
-    }
-
-    .item-about-game p {
-        font-size: 9px;
-    }
-
-    .item-about-game {
-        padding: 5px 0;
-    }
-
-    .item-about-game:first-child {
-        padding-top: 5px;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 145px;
-        height: 148px !important;
-    }
-
-    .btn-contact-game span {
-        font-size: 9px;
-        padding-left: 15px;
-    }
-
-    .audit span:after, .smartcontract span:after {
-        width: 12px;
-        height: 12px;
-        top: -2px;
-    }
-
-    .btn-contact-game {
-        width: 75px;
-        height: 21px;
-        background-size: 100% 100%;
-    }
-
-    .title-events {
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-
-    .container-count-events {
-        max-width: 65px;
-        height: 10px;
-    }
-
-    .container-count-events span {
-        font-size: 8px;
-    }
-
-    .wrapper-content-events {
-        padding: 5px 15px 5px 0;
-    }
-
-    .header-table tr th {
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    .body-table-events tr td {
-        padding: 3px;
-    }
-
-    .info-event {
-        font-size: 9px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 140px;
-        height: 144px !important;
-    }
-
-    .header-faq h3 {
-        font-size: 10px;
-    }
-
-    .header-faq::before {
-        width: 10px;
-        height: 6px;
-    }
-
-    .header-faq {
-        padding: 5px 22px;
-        padding-right: 12px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 196px;
-    }
-
-    .container-answer p {
-        font-size: 9px;
-    }
-
-    .container-answer {
-        padding: 5px 12px;
-        padding-left: 20px;
-    }
-
-    .tooltipe p, .tippy-content, .tippy-content span {
-        font-size: 9px;
-    }
-
-    .tippy-content h2 {
-        font-size: 10px;
-    }
-
-    .tippy-tooltip, .tooltipe {
-        padding: 5px 3px;
-    }
-
-    .btn, .title-item, .title-rating, .first-title-action, .first-title-action span, .title-action,
-    .title-progress-block, .list-header-gildia li, .title-about-game, .header-faq h3 {
-        text-shadow: none;
-    }
-
-    .container-image-hero, #c {
-        max-width: 206px;
-        height: 206px;
-    }
-
-    .list-lang, .list-control-sound {
-        top: 6px;
-        padding-top: 8px;
-    }
-
-    .scroll-table,
-    .scroll-table-reset {
-        width: 59px;
-        height: 20px;
-        margin: 5px 4px 0;
-    }
-
-    .achievements-wrapper-img {
-        margin-top: 10px;
-        max-width: 70px;
-    }
+  .number-range span {
+      font-size: 11px;
+  }
+
+  .container-scroll-table {
+      max-width: 160px;
+  }
+
+  .tooltipe {
+      bottom: 14px;
+      right: -13px;
+      opacity: 0.8;
+      min-width: 53px;
+  }
+
+  .btn.copy-btn {
+      margin: 0;
+  }
+
+  .item-choice {
+      margin: 0 5px;
+  }
+
+  .item-awards img {
+      width: 23px;
+  }
+
+  .wrapper-center-column {
+      width: 30%;
+  }
+
+  .header-awards {
+      display: flex;
+      margin-bottom: 2px;
+  }
+
+  .title-awards, .number-awards span {
+      font-size: 12px;
+  }
+
+  .center-hero {
+      max-width: 206px;
+  }
+
+  .name-potion, .title-item-info {
+      font-size: 10px;
+  }
+
+  .time-potion, .price-porion, .info-text-potion {
+      font-size: 8px;
+  }
+
+  .info-text-potion {
+      margin-bottom: 0;
+  }
+
+  .container-potion img {
+      max-width: 58px;
+  }
+
+  .container-potion {
+      max-width: 59px;
+      height: 61px;
+  }
+
+  .wrapper-list-about-potion {
+      min-height: 62px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 55px;
+  }
+
+  .potion-butl {
+      max-width: 55px;
+      height: 47px;
+  }
+
+  .suma-potion {
+      font-size: 8px;
+  }
+
+  .active-butl-frame::after {
+      border-radius: 14px;
+  }
+
+  .active-butl-frame::after {
+      right: -4px;
+      top: -4px;
+      bottom: -4px;
+  }
+
+  .title-item, .title-rating {
+      font-size: 8px;
+  }
+
+  .scale-item span {
+      font-size: 8px;
+  }
+
+  .scale-item {
+      padding: 1px 2px;
+      line-height: 10px;
+  }
+
+  .wrapper-rating-container::after {
+      width: 17px;
+      top: -3px;
+      height: 24px;
+      right: -12px;
+  }
+
+  .first-title-action .result-action, .first-title-action .result-action span {
+      font-size: 9px;
+  }
+
+  .first-title-action, .first-title-action span, .title-action {
+      font-size: 9px;
+  }
+
+  .title-counter {
+      font-size: 8px;
+      margin-right: 2px;
+      margin-bottom: 3px;
+  }
+
+  .item-action {
+      margin: 4px 7px 2px;
+  }
+
+  .number-counter {
+      width: 39px;
+      height: 12px;
+  }
+
+  .btn-counter {
+      width: 8px;
+      height: 7px;
+  }
+
+  .btn {
+      font-size: 8px;
+      width: 51px;
+      height: 15px;
+      margin: 0 4px;
+  }
+
+  .btn-success, .btn-cancel {
+      font-size: 10px;
+      width: 75px;
+      height: 22px;
+      margin: 0 7px;
+  }
+
+  .money-span, .count-span, .count-span span, .money-span span {
+      font-size: 7px;
+      margin-top: 2px;
+  }
+
+  .counter-input {
+      font-size: 9px;
+      padding: 1px 3px;
+  }
+
+  .about-potion {
+      padding-top: 2px;
+  }
+
+  .container-awards .list-awards, .container-awards .slimScrollDiv {
+      height: 62px !important;
+  }
+
+  .name-potion, .title-item-info {
+      margin-bottom: 0;
+  }
+
+  .footer-action p {
+      font-size: 8px;
+  }
+
+  .wrapper-left-column::after {
+      left: -25px;
+      top: 23px;
+      width: 44px;
+      bottom: -12px;
+  }
+
+  .title-progress-block {
+      font-size: 9px;
+      margin-bottom: 2px;
+  }
+
+  .green-progress .line::before, .apgrade-green-progress .line::before, .red-progress .line::before, .apgrade-red-progress .line::before, .blue-progress .line::before, .apgrade-blue-progress .line::before, .pink-progress .line::before, .apgrade-pink-progress .line::before, .progress-line {
+      height: 9px;
+  }
+
+  .progress-line::before {
+      content: '';
+      position: absolute;
+      left: -3px;
+      top: -3px;
+      bottom: -3px;
+      right: -3px;
+  }
+
+  .progress-line {
+      border-radius: 3px;
+  }
+
+  .progress-line-wrapper {
+      margin-right: 8px;
+  }
+
+  .progress-line-wrapper span {
+      font-size: 9px;
+  }
+
+  .progress-line-wrapper {
+      padding: 11px 0;
+  }
+
+  .green-progress .progress-block::after, .apgrade-green-progress .progress-block::after, .red-progress .progress-block::after, .apgrade-red-progress .progress-block::after, .blue-progress .progress-block::after, .apgrade-blue-progress .progress-block::after, .pink-progress .progress-block::after, .apgrade-pink-progress .progress-block::after {
+      width: 30px;
+      height: 30px;
+  }
+
+  .position-number {
+      width: 20px;
+      height: 20px;
+  }
+
+  .position-number span {
+      font-size: 10px;
+  }
+
+  .readiness,
+  .readiness-without-hover,
+  .done-mix {
+      width: 30px;
+      height: 24px;
+  }
+
+  .wrapper-content-progress {
+      padding: 5px 15px 5px 0;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 213px;
+  }
+
+  .item-menu {
+      padding: 0;
+      margin: 5px 10px;
+  }
+
+  .menu-link {
+      font-size: 11px;
+      width: 82px;
+      height: 18px;
+  }
+
+  .item-menu::before {
+      display: none;
+  }
+
+  .input-profit {
+      max-width: 42px;
+      padding: 3px;
+      font-size: 8px;
+      margin-top: 2px;
+  }
+
+  .header-title-item span {
+      font-size: 8px;
+  }
+
+  .profit-wrapper {
+      padding: 7px 8px;
+  }
+
+  .wrapper-bottle-info {
+      width: 43px;
+      height: 43px;
+  }
+
+  .container-bottle-img img {
+      max-width: 18px;
+  }
+
+  .percent {
+      font-size: 9px;
+      bottom: 5px;
+  }
+
+  .btn-center {
+      width: 30px;
+      height: 30px;
+      top: 62px;
+  }
+
+  .social-link {
+      width: 22px;
+      height: 22px;
+  }
+
+  .social-position-1 {
+      left: 53px;
+      bottom: 18px;
+  }
+
+  .social-position-2 {
+      left: 80px;
+      bottom: 5px;
+  }
+
+  .social-position-4 {
+      right: 85px;
+      bottom: 4px;
+  }
+
+  .social-position-5 {
+      bottom: 17px;
+      right: 57px;
+  }
+
+  .social-position-3 {
+      left: 110px;
+      bottom: -1px;
+  }
+
+  .wrapper-game {
+      padding: 0;
+  }
+
+  .list-profit {
+      margin-bottom: 5px;
+  }
+
+  .wrapper-awards {
+      padding: 20px 10px 0px;
+  }
+
+  .container-awards {
+      width: 91%;
+  }
+
+  .wrapper-right-column::after {
+      right: -26px;
+      width: 44px;
+      top: 23px;
+      bottom: -12px;
+  }
+
+  .actions-wrapper::before, .container-right-column::before {
+      height: 34px;
+      bottom: -22px;
+  }
+
+  .cursor-draggable {
+      width: 12px;
+      height: 10px;
+      top: -5px;
+  }
+
+  .wrapper-first-title {
+      margin-bottom: 3px;
+  }
+
+  .header-title-item {
+      margin-bottom: 0;
+  }
+
+  .title-item {
+      margin-bottom: 1px;
+  }
+
+  .bottle-position-1 {
+      left: 30px;
+      top: -3px;
+  }
+
+  .bottle-position-4 {
+      right: 37px;
+      top: -3px;
+  }
+
+  .bottle-position-2 {
+      left: 4px;
+      top: -26px;
+  }
+
+  .bottle-position-3 {
+      right: 12px;
+      top: -26px;
+  }
+
+  .balance {
+      max-width: 68px;
+      margin-right: 5px;
+  }
+
+  .name-player, .balance {
+      margin-left: 5px;
+  }
+
+  .container-center-content::after, .container-center-content::before {
+      height: 39px;
+      width: 24px;
+      bottom: -18px;
+  }
+
+  .container-center-content::before {
+      right: 17px;
+  }
+
+  .container-right-column::before {
+      left: -11px;
+  }
+
+  .actions-wrapper::before {
+      right: -17px;
+  }
+
+  .information-btn {
+      width: 8px;
+      height: 8px;
+      top: -2px;
+  }
+
+  .footer-action {
+      margin-top: 1px;
+      max-width: 97%;
+  }
+
+  .menu-container {
+      padding: 10px 0 9px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 11px;
+  }
+
+  .header-center-block {
+      padding: 9px 10px 18px;
+      top: -8px;
+  }
+
+  .top-after::after, .container-right-column::after {
+      height: 43px;
+      top: -10px;
+  }
+
+  .container-right-column::after {
+      left: 9px;
+      right: -28px;
+  }
+
+  .top-after::after {
+      left: -26px;
+  }
+
+  .header-awards, .title-action {
+      padding: 0 40px;
+  }
+
+  .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+      width: 33px;
+      height: 2px;
+  }
+
+  .scale-list::before {
+      top: -1px;
+      height: 1px;
+  }
+
+  .scale-list::after {
+      bottom: -1px;
+      height: 1px;
+  }
+
+  .suma {
+      line-height: 8px;
+  }
+
+  .btn-control {
+      width: 15px;
+      height: 15px;
+  }
+
+  .sound-btn {
+      width: 13px;
+      height: 13px;
+  }
+
+  .play, .pause{
+      width: 12px;
+      height: 12px;
+  }
+
+  .list-control {
+      right: 20px;
+      top: -6px;
+  }
+
+  .lang, .item-lang {
+      font-size: 8px;
+      padding: 3px;
+  }
+
+  .item-progress {
+      padding: 2px 11px 0;
+  }
+
+  .progress-block {
+      padding-left: 30px;
+  }
+
+  .list-lang {
+      top: 11px;
+      border: 1px solid #4c473a;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+  }
+
+  .center-hero::after {
+      left: -18px;
+      right: -18px;
+      top: -18px;
+      bottom: -18px;
+  }
+
+  .item-profit {
+      margin: 3px;
+  }
+
+  .profit-container-right-block img {
+      max-width: 113px;
+      width: 100%;
+  }
+
+  .body .slimScrollDiv > .slimScrollBar {
+      width: 7px !important;
+  }
+
+  .body .slimScrollRail {
+      right: 3px !important;
+  }
+
+  .top-potion-variant::after, .bottom-about-potion::after {
+      bottom: -2px;
+      height: 2px;
+  }
+
+  .top-potion-variant::before {
+      top: -2px;
+      height: 2px;
+  }
+
+  .potion-container {
+      padding: 2px 0;
+  }
+
+  .header-table-gildia::after, .container-potion-choice::after, .wrapper-center-column::after, .wrapper-awards::after, .container-body-raiting::after, .menu-container::after, .container-link::before {
+      height: 2px;
+  }
+
+  .container-center-column::after, .container-center-column::before {
+      width: 2px;
+  }
+
+  .wrapper-left-column {
+      width: 28%;
+  }
+
+  .wrapper-right-column {
+      width: 28%;
+  }
+
+  .item-awards {
+      margin: 4px;
+  }
+
+  .poems {
+      right: 2px;
+  }
+
+  .btn-start {
+      width: 101px;
+      height: 29px;
+      font-size: 12px;
+  }
+
+  .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      font-size: 14px;
+  }
+
+  .start-form input {
+      font-size: 11px;
+      margin: 10px 0;
+  }
+
+  .popup {
+      padding: 10px;
+      max-width: 282px;
+      border: 2px solid #40c4c8;
+      -moz-border-image: url("../images/border.png") 30 round round;
+      -webkit-border-image: url("../images/border.png") 30 round round;
+      -o-border-image: url("../images/border.png") 30 round round;
+      border-image: url("../images/border.png") 30 round round;
+  }
+
+  .popup::before {
+      width: 2px;
+      left: -2px;
+  }
+
+  .popup::after {
+      width: 2px;
+      right: -2px;
+  }
+
+  .text-popup {
+      margin-top: 10px;
+      font-size: 9px;
+  }
+
+  .btn-popup {
+      width: 30px;
+      height: 30px;
+      right: -20px;
+      top: -20px;
+  }
+
+  .succsess-popup .title-popup::after, .succsess-popup2 .title-popup::after, .succsess-popup3 .title-popup::after, .negative-big .title-popup::after, .negative .title-popup::after {
+      width: 20px;
+      height: 20px;
+      top: -3px;
+  }
+
+  .negative-big .title-popup, .negative .title-popup, .succsess-popup .title-popup, .succsess-popup2 .title-popup, .succsess-popup3 .title-popup, .title-popup {
+      padding-left: 25px;
+  }
+
+  .info-popup .text-popup, .negative-big .text-popup {
+      font-size: 9px;
+      margin: 10px 0;
+  }
+
+  .container-form label {
+      font-size: 10px;
+      margin-left: 7px;
+      margin-bottom: 5px;
+  }
+
+  .form-input {
+      border-radius: 6px;
+      padding: 4px 7px;
+      font-size: 9px;
+  }
+
+  .container-face {
+      width: 75px;
+      height: 65px;
+  }
+
+  .container-face-img {
+      width: 35px;
+      height: 35px;
+  }
+
+  .setting-popup .text-popup {
+      font-size: 9px;
+  }
+
+  .element-content {
+      width: 50px;
+      height: 50px;
+  }
+
+  .name-element {
+      font-size: 10px;
+      margin-top: 10px;
+  }
+
+  .active-element .element-content {
+      border: 2px solid #e2be70;
+  }
+
+  .element-content{
+      border: 2px solid #1e131721;
+  }
+
+  .content-elements {
+      margin: 10px 0;
+  }
+
+  .element-popup .text-popup {
+      font-size: 10px;
+      margin-top: 0;
+  }
+
+  .footer-popup {
+      padding: 10px 23px;
+  }
+
+  .content-popup-container {
+      padding: 10px 23px 5px;
+  }
+
+  .setting-popup {
+      padding: 0;
+      padding-top: 10px;
+  }
+
+  .title-link {
+      font-size: 11px;
+      margin-bottom: 5px;
+  }
+
+  .container-input-link input {
+      font-size: 9px;
+      padding: 2px 5px;
+  }
+
+  .copy-btn {
+      width: 55px;
+  }
+
+  .info-link {
+      font-size: 9px;
+      margin-top: 5px;
+  }
+
+  .container-link {
+      padding: 5px 0 8px;
+  }
+
+  .percent-choice, .info-table span {
+      font-size: 9px;
+  }
+
+  .container-choice-potion {
+      margin-right: 4px;
+      max-width: 25px;
+      flex: none;
+  }
+
+  .list-header-gildia li {
+      font-size: 10px;
+  }
+
+  .container-icon-table {
+      width: 15px;
+      height: 15px;
+  }
+
+  .table-iven .slimScrollDiv {
+      padding: 0 11px 3px;
+      margin-top: 5px;
+      height: 74px !important;
+  }
+
+  .list-header-gildia li {
+      padding: 3px 0px 7px;
+  }
+
+  .list-header-gildia li:first-child {
+      padding-left: 12px;
+  }
+
+  .header-raiting h3 {
+      font-size: 10px;
+      padding: 0 35px;
+  }
+
+  .header-raiting h3::before, .header-raiting h3::after {
+      width: 33px;
+      height: 2px;
+  }
+
+  .header-raiting {
+      padding: 5px 0;
+  }
+
+  .icon-raiting {
+      width: 17px;
+      height: 17px;
+  }
+
+  .item-block {
+      min-width: 17px;
+  }
+
+  .item-block span {
+      font-size: 9px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 132px;
+      height: 140px !important;
+
+  }
+
+  .title-about-game {
+      font-size: 11px;
+      padding: 0 37px;
+  }
+
+  .item-raiting {
+      margin-bottom: 2px;
+  }
+
+  .list-table-ivent li {
+      padding: 2px 3px;
+  }
+
+  .title-about-game::before, .title-about-game::after {
+      width: 30px;
+      height: 2px;
+  }
+
+  .item-about-game p {
+      font-size: 9px;
+  }
+
+  .item-about-game {
+      padding: 5px 0;
+  }
+
+  .item-about-game:first-child {
+      padding-top: 5px;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 145px;
+      height: 148px !important;
+  }
+
+  .btn-contact-game span {
+      font-size: 9px;
+      padding-left: 15px;
+  }
+
+  .audit span:after, .smartcontract span:after {
+      width: 12px;
+      height: 12px;
+      top: -2px;
+  }
+
+  .btn-contact-game {
+      width: 75px;
+      height: 21px;
+      background-size: 100% 100%;
+  }
+
+  .title-events {
+      font-size: 10px;
+      margin-bottom: 5px;
+  }
+
+  .container-count-events {
+      max-width: 65px;
+      height: 10px;
+  }
+
+  .container-count-events span {
+      font-size: 8px;
+  }
+
+  .wrapper-content-events {
+      padding: 5px 15px 5px 0;
+  }
+
+  .header-table tr th {
+      font-size: 10px;
+  }
+
+  .body-table-events tr td,
+  .header-table tr th{
+      padding: 3px;
+  }
+
+  .info-event {
+      font-size: 9px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 140px;
+      height: 144px !important;
+  }
+
+  .header-faq h3 {
+      font-size: 10px;
+  }
+
+  .header-faq::before {
+      width: 10px;
+      height: 6px;
+  }
+
+  .header-faq {
+      padding: 5px 22px;
+      padding-right: 12px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 196px;
+  }
+
+  .container-answer p {
+      font-size: 9px;
+  }
+
+  .container-answer {
+      padding: 5px 12px;
+      padding-left: 20px;
+  }
+
+  .tooltipe p, .tippy-content, .tippy-content span {
+      font-size: 9px;
+  }
+
+  .tippy-content h2 {
+      font-size: 10px;
+  }
+
+  .tippy-tooltip, .tooltipe {
+      padding: 5px 3px;
+  }
+
+  .btn, .title-item, .title-rating, .first-title-action, .first-title-action span, .title-action,
+  .title-progress-block, .list-header-gildia li, .title-about-game, .header-faq h3 {
+      text-shadow: none;
+  }
+
+  .container-image-hero, #c {
+      max-width: 206px;
+      height: 206px;
+  }
+
+  .list-lang, .list-control-sound {
+      top: 6px;
+      padding-top: 8px;
+  }
+
+  .scroll-table,
+  .scroll-table-reset {
+      width: 59px;
+      height: 20px;
+      margin: 5px 4px 0;
+  }
+
+  .achievements-wrapper-img {
+      margin-top: 10px;
+      max-width: 70px;
+  }
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
-    .number-range span {
-        font-size: 9px;
-    }
+  .number-range span {
+      font-size: 9px;
+  }
 
-    .number-range {
-        margin-left: 6px;
-    }
+  .number-range {
+      margin-left: 6px;
+  }
 
-    .wrapper-left-column,
-    .wrapper-right-column {
-        width: 30%;
-    }
+  .wrapper-left-column,
+  .wrapper-right-column {
+      width: 30%;
+  }
 
-    .header-awards {
-        margin-top: 5px;
-    }
+  .header-awards {
+      margin-top: 5px;
+  }
 
-    .wrapper-center-column {
-        width: 32%;
-    }
+  .wrapper-center-column {
+      width: 32%;
+  }
 
-    .social-position-4 {
-        right: 80px;
-        bottom: 6px;
-    }
+  .social-position-4 {
+      right: 80px;
+      bottom: 6px;
+  }
 
-    .social-position-3 {
-        left: 112px;
-        bottom: 0px;
-    }
+  .social-position-3 {
+      left: 112px;
+      bottom: 0px;
+  }
 
-    .social-position-5 {
-        bottom: 19px;
-        right: 52px;
-    }
+  .social-position-5 {
+      bottom: 19px;
+      right: 52px;
+  }
 
-    .item-potion, .potion-butl img {
-        max-width: 52px;
-    }
+  .item-potion, .potion-butl img {
+      max-width: 52px;
+  }
 
-    .active-butl-frame::after {
-        border-radius: 10px;
-    }
+  .active-butl-frame::after {
+      border-radius: 10px;
+  }
 
-    .active-butl-frame .wrapper-potion-butl .potion-butl .active-butl {
-        border-radius: 10px;
-    }
+  .active-butl-frame .wrapper-potion-butl .potion-butl .active-butl {
+      border-radius: 10px;
+  }
 
-    .wrapper-right-column::after,
-    .wrapper-left-column::after {
-        width: 38px;
-    }
+  .wrapper-right-column::after,
+  .wrapper-left-column::after {
+      width: 38px;
+  }
 
-    .wrapper-awards {
-        padding: 10px 0 0px;
-    }
+  .wrapper-awards {
+      padding: 10px 0 0px;
+  }
 
-    .container-awards {
-        width: 76%;
-        margin: 0 auto;
-    }
+  .container-awards {
+      width: 76%;
+      margin: 0 auto;
+  }
 
 }
 
 @media screen and (max-width: 737px) and (orientation: landscape) {
-    .center-hero {
-        max-width: 200px;
-    }
+  .center-hero {
+      max-width: 200px;
+  }
 
-    .poems {
-        right: 2px;
-    }
+  .poems {
+      right: 2px;
+  }
 
-    .list-control {
-        right: 20px;
-        top: -6px;
-    }
+  .list-control {
+      right: 20px;
+      top: -6px;
+  }
 
-    .social-position-1 {
-        bottom: 21px;
-    }
+  .social-position-1 {
+      bottom: 21px;
+  }
 
-    .social-position-2 {
-        bottom: 9px;
-    }
+  .social-position-2 {
+      bottom: 9px;
+  }
 
-    .social-position-3 {
-        bottom: 6px;
-        left: 110px;
-    }
+  .social-position-3 {
+      bottom: 6px;
+      left: 110px;
+  }
 
-    .social-position-4 {
-        right: 75px;
-        bottom: 11px;
-    }
+  .social-position-4 {
+      right: 75px;
+      bottom: 11px;
+  }
 
-    .social-position-5 {
-        bottom: 25px;
-        right: 49px;
-    }
+  .social-position-5 {
+      bottom: 25px;
+      right: 49px;
+  }
 
-    container-info-about-game .slimScrollDiv {
-        min-height: 159px;
-    }
+  container-info-about-game .slimScrollDiv {
+      min-height: 159px;
+  }
 }
 
 @media screen and (max-width: 670px) and (orientation: landscape) {
-    .center-hero {
-        max-width: 180px;
-    }
-
-    .list-control {
-        right: 8px;
-        top: -9px;
-    }
-
-    .wrapper-bottle-info {
-        width: 40px;
-        height: 40px;
-    }
-
-    .percent {
-        font-size: 7px;
-    }
-
-    .item-potion, .potion-butl img {
-        max-width: 48px;
-    }
-
-    .potion-butl {
-        max-width: 48px;
-        height: 41px;
-    }
-
-    .suma-potion {
-        font-size: 6px;
-    }
-
-    .suma {
-        line-height: 6px;
-        top: 0px;
-    }
-
-    .container-potion img {
-        max-width: 54px;
-    }
-
-    .container-potion {
-        max-width: 54px;
-        height: 54px;
-    }
-
-    .footer-action p {
-        font-size: 7px;
-    }
-
-    .bottle-position-4 {
-        right: 29px;
-    }
-
-    .bottle-position-1 {
-        left: 26px;
-    }
-
-    .bottle-position-3 {
-        right: 7px;
-    }
-
-    .wrapper-list-about-potion {
-        min-height: 57px;
-    }
-
-    .top-progress-block .slimScrollDiv {
-        min-height: 182px;
-    }
-
-    .item-awards img {
-        width: 21px;
-    }
-
-    .item-awards {
-        margin: 2px;
-    }
-
-    .container-awards .list-awards, .container-awards .slimScrollDiv {
-        height: 72px !important;
-    }
-
-    .container-center-content::after, .container-center-content::before {
-        height: 28px;
-        width: 20px;
-        bottom: -11px;
-    }
-
-    .actions-wrapper::before, .container-right-column::before {
-        height: 30px;
-        bottom: -19px;
-    }
-
-    .actions-wrapper::before {
-        right: -8px;
-    }
-
-    .container-right-column::before {
-        left: -7px;
-    }
-
-    .container-center-content::after {
-        left: 13px;
-    }
-
-    .container-center-content::before {
-        right: 15px;
-    }
-
-    .top-after::after, .container-right-column::after {
-        height: 32px;
-    }
-
-    .wrapper-left-column::after {
-        top: 16px;
-    }
-
-    .wrapper-right-column::after {
-        right: -30px;
-        top: 15px;
-    }
-
-    .btn-center {
-        top: 50px;
-    }
-
-    .poems {
-        right: -1px;
-    }
-
-    .table-iven .slimScrollDiv {
-        height: 66px !important;
-    }
-
-    .container-icon-table {
-        width: 13px;
-        height: 13px;
-    }
-
-    .percent-choice, .info-table span {
-        font-size: 8px;
-    }
-
-    .summ-table {
-        align-items: center;
-    }
-
-    .item-block span {
-        font-size: 8px;
-    }
-
-    .item-block {
-        min-width: 15px;
-    }
-
-    .icon-raiting {
-        width: 15px;
-        height: 15px;
-    }
-
-    .table-raiting .slimScrollDiv {
-        min-height: 143px;
-    }
-
-    .table-raiting {
-        padding: 5px 0 5px;
-        padding-right: 12px;
-    }
-
-    .footer-raiting {
-        padding: 3px 0;
-        padding-right: 15px;
-    }
-
-    .item-about-game p {
-        font-size: 8px;
-    }
-
-    .wrapper-content-about-game {
-        padding: 6px 12px 6px 0;
-    }
-
-    .footer-about-game {
-        margin-top: 9px;
-    }
-
-    .wrapper-content-events {
-        padding: 5px 8px 5px 0;
-    }
-
-    .header-events {
-        margin-bottom: 2px;
-    }
-
-    .container-count-events {
-        max-width: 59px;
-        height: 8px;
-    }
-
-    .container-table-events .slimScrollDiv {
-        min-height: 135px;
-    }
-
-    .wrapper-content-faq {
-        padding: 8px 10px 8px 0;
-    }
-
-    .header-faq {
-        padding: 4px 18px;
-    }
-
-    .container-faq-list .slimScrollDiv {
-        min-height: 189px;
-    }
-
-    .wrapper-content-progress {
-        padding: 5px 11px 5px 0;
-    }
-
-    .header-awards, .title-action {
-        padding: 0 28px;
-    }
-
-    .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
-        width: 25px;
-        height: 2px;
-    }
-
-    .title-awards, .number-awards span {
-        font-size: 11px;
-    }
-
-    .number-awards {
-        margin-left: 5px;
-    }
-
-    .header-awards {
-        align-items: baseline;
-    }
-
-    .social-position-1 {
-        left: 41px;
-        bottom: 13px;
-    }
-
-    .social-position-5 {
-        bottom: 11px;
-        right: 44px;
-    }
-
-    .social-position-2 {
-        left: 66px;
-        bottom: 1px;
-    }
-
-    .social-position-3 {
-        left: 94px;
-        bottom: -4px;
-    }
-
-    .social-position-4 {
-        right: 70px;
-        bottom: 0px;
-    }
-
-    .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
-        font-size: 10px;
-    }
-
-    .first-title-center {
-        margin-right: 5px;
-    }
-
-    .container-image-hero, #c {
-        max-width: 178px;
-        height: 178px;
-    }
-
-    .item-progress {
-        padding: 2px 7px 0 20px;
-    }
-
-    .item-raiting {
-        margin-bottom: 1px;
-    }
-
-    .container-info-about-game .slimScrollDiv {
-        min-height: 155px;
-    }
+  .center-hero {
+      max-width: 180px;
+  }
+
+  .list-control {
+      right: 8px;
+      top: -9px;
+  }
+
+  .wrapper-bottle-info {
+      width: 40px;
+      height: 40px;
+  }
+
+  .percent {
+      font-size: 7px;
+  }
+
+  .item-potion, .potion-butl img {
+      max-width: 48px;
+  }
+
+  .potion-butl {
+      max-width: 48px;
+      height: 41px;
+  }
+
+  .suma-potion {
+      font-size: 6px;
+  }
+
+  .suma {
+      line-height: 6px;
+      top: 0px;
+  }
+
+  .container-potion img {
+      max-width: 54px;
+  }
+
+  .container-potion {
+      max-width: 54px;
+      height: 54px;
+  }
+
+  .footer-action p {
+      font-size: 7px;
+  }
+
+  .bottle-position-4 {
+      right: 29px;
+  }
+
+  .bottle-position-1 {
+      left: 26px;
+  }
+
+  .bottle-position-3 {
+      right: 7px;
+  }
+
+  .wrapper-list-about-potion {
+      min-height: 57px;
+  }
+
+  .top-progress-block .slimScrollDiv {
+      min-height: 182px;
+  }
+
+  .item-awards img {
+      width: 21px;
+  }
+
+  .item-awards {
+      margin: 2px;
+  }
+
+  .container-awards .list-awards, .container-awards .slimScrollDiv {
+      height: 72px !important;
+  }
+
+  .container-center-content::after, .container-center-content::before {
+      height: 28px;
+      width: 20px;
+      bottom: -11px;
+  }
+
+  .actions-wrapper::before, .container-right-column::before {
+      height: 30px;
+      bottom: -19px;
+  }
+
+  .actions-wrapper::before {
+      right: -8px;
+  }
+
+  .container-right-column::before {
+      left: -7px;
+  }
+
+  .container-center-content::after {
+      left: 13px;
+  }
+
+  .container-center-content::before {
+      right: 15px;
+  }
+
+  .top-after::after, .container-right-column::after {
+      height: 32px;
+  }
+
+  .wrapper-left-column::after {
+      top: 16px;
+  }
+
+  .wrapper-right-column::after {
+      right: -30px;
+      top: 15px;
+  }
+
+  .btn-center {
+      top: 50px;
+  }
+
+  .poems {
+      right: -1px;
+  }
+
+  .table-iven .slimScrollDiv {
+      height: 66px !important;
+  }
+
+  .container-icon-table {
+      width: 13px;
+      height: 13px;
+  }
+
+  .percent-choice, .info-table span {
+      font-size: 8px;
+  }
+
+  .summ-table {
+      align-items: center;
+  }
+
+  .item-block span {
+      font-size: 8px;
+  }
+
+  .item-block {
+      min-width: 15px;
+  }
+
+  .icon-raiting {
+      width: 15px;
+      height: 15px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 143px;
+  }
+
+  .table-raiting {
+      padding: 5px 0 5px;
+      padding-right: 12px;
+  }
+
+  .footer-raiting {
+      padding: 3px 0;
+      padding-right: 15px;
+  }
+
+  .item-about-game p {
+      font-size: 8px;
+  }
+
+  .wrapper-content-about-game {
+      padding: 6px 12px 6px 0;
+  }
+
+  .footer-about-game {
+      margin-top: 9px;
+  }
+
+  .wrapper-content-events {
+      padding: 5px 8px 5px 0;
+  }
+
+  .header-events {
+      margin-bottom: 2px;
+  }
+
+  .container-count-events {
+      max-width: 59px;
+      height: 8px;
+  }
+
+  .container-table-events .slimScrollDiv {
+      min-height: 135px;
+  }
+
+  .wrapper-content-faq {
+      padding: 8px 10px 8px 0;
+  }
+
+  .header-faq {
+      padding: 4px 18px;
+  }
+
+  .container-faq-list .slimScrollDiv {
+      min-height: 189px;
+  }
+
+  .wrapper-content-progress {
+      padding: 5px 11px 5px 0;
+  }
+
+  .header-awards, .title-action {
+      padding: 0 28px;
+  }
+
+  .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+      width: 25px;
+      height: 2px;
+  }
+
+  .title-awards, .number-awards span {
+      font-size: 11px;
+  }
+
+  .number-awards {
+      margin-left: 5px;
+  }
+
+  .header-awards {
+      align-items: baseline;
+  }
+
+  .social-position-1 {
+      left: 41px;
+      bottom: 13px;
+  }
+
+  .social-position-5 {
+      bottom: 11px;
+      right: 44px;
+  }
+
+  .social-position-2 {
+      left: 66px;
+      bottom: 1px;
+  }
+
+  .social-position-3 {
+      left: 94px;
+      bottom: -4px;
+  }
+
+  .social-position-4 {
+      right: 70px;
+      bottom: 0px;
+  }
+
+  .first-title-center, .first-title-center span, .next-title-center, .next-title-center span, .next-title-center span span {
+      font-size: 10px;
+  }
+
+  .first-title-center {
+      margin-right: 5px;
+  }
+
+  .container-image-hero, #c {
+      max-width: 178px;
+      height: 178px;
+  }
+
+  .item-progress {
+      padding: 2px 7px 0 20px;
+  }
+
+  .item-raiting {
+      margin-bottom: 1px;
+  }
+
+  .container-info-about-game .slimScrollDiv {
+      min-height: 155px;
+  }
 
 }
 
 @media screen and (max-width: 640px) and (orientation: landscape) {
-    .social-position-1 {
-        left: 36px;
-        bottom: 14px;
-    }
+  .social-position-1 {
+      left: 36px;
+      bottom: 14px;
+  }
 
-    .social-position-2 {
-        left: 59px;
-        bottom: 3px;
-    }
+  .social-position-2 {
+      left: 59px;
+      bottom: 3px;
+  }
 
-    .social-position-3 {
-        left: 87px;
-        bottom: -2px;
-    }
+  .social-position-3 {
+      left: 87px;
+      bottom: -2px;
+  }
 
-    .social-position-5 {
-        right: 42px;
-        bottom: 12px;
-    }
+  .social-position-5 {
+      right: 42px;
+      bottom: 12px;
+  }
 
-    .social-position-4 {
-        right: 67px;
-        bottom: 2px;
-    }
+  .social-position-4 {
+      right: 67px;
+      bottom: 2px;
+  }
 
-    .table-events {
-        width: 95%;
-    }
+  .table-events {
+      width: 95%;
+  }
 
-    .info-event {
-        font-size: 8px;
-    }
+  .info-event {
+      font-size: 8px;
+  }
 
-    .header-table tr th {
-        font-size: 9px;
-        padding: 3px;
-    }
+  .header-table tr th {
+      font-size: 9px;
+      padding: 3px;
+  }
 
-    .container-table-events .slimScrollDiv {
-        min-height: 142px;
-    }
+  .container-table-events .slimScrollDiv {
+      min-height: 142px;
+  }
 
-    .list-control {
-        right: 1px;
-        top: -8px;
-    }
+  .list-control {
+      right: 1px;
+      top: -8px;
+  }
 
-    .item-potion, .potion-butl img {
-        max-width: 45px;
-    }
+  .item-potion, .potion-butl img {
+      max-width: 45px;
+  }
 
-    .potion-butl {
-        max-width: 46px;
-        height: 38px;
-    }
+  .potion-butl {
+      max-width: 46px;
+      height: 38px;
+  }
 
-    .poems {
-        right: 0px;
-    }
+  .poems {
+      right: 0px;
+  }
 
-    .position-number {
-        width: 16px;
-        height: 16px;
-    }
+  .position-number {
+      width: 16px;
+      height: 16px;
+  }
 
-    .item-progress {
-        padding: 2px 6px 0 18px;
-    }
+  .item-progress {
+      padding: 2px 6px 0 18px;
+  }
 
-    .list-progress {
-        margin-right: 18px;
-    }
+  .list-progress {
+      margin-right: 18px;
+  }
 
-    .wrapper-content-progress {
-        padding: 5px 16px 5px 0;
-    }
+  .wrapper-content-progress {
+      padding: 5px 16px 5px 0;
+  }
 
-    .wrapper-right-column::after {
-        right: -38px;
-        top: 15px;
-    }
+  .wrapper-right-column::after {
+      right: -38px;
+      top: 15px;
+  }
 
-    .center-hero {
-        max-width: 169px;
-    }
+  .center-hero {
+      max-width: 169px;
+  }
 
-    .container-image-hero, #c {
-        max-width: 169px;
-        height: 169px;
-    }
+  .container-image-hero, #c {
+      max-width: 169px;
+      height: 169px;
+  }
 
-    .container-info-about-game .slimScrollDiv {
-        min-height: 148px;
-    }
+  .container-info-about-game .slimScrollDiv {
+      min-height: 148px;
+  }
 
-    .table-raiting .slimScrollDiv {
-        min-height: 139px;
-    }
+  .table-raiting .slimScrollDiv {
+      min-height: 139px;
+  }
 }
