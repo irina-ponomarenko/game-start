@@ -2367,6 +2367,7 @@ a:active {
   background: url("../images/mix-btn.png") no-repeat;
   background-size: contain;
   cursor: pointer;
+  display: block;
 }
 
 .active-readiness,
@@ -2764,7 +2765,6 @@ a:active {
   padding: 15px 25px;
   position: relative;
   padding-right: 30px;
-  width: fit-content;
   cursor: pointer;
 }
 

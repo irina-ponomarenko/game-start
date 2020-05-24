@@ -42,7 +42,7 @@
     .item-awards img {
         width: 65px;
     }
-    
+
     .list-header-gildia li:first-child{
         padding-left: 12px;
     }
@@ -5210,5 +5210,41 @@
 
   .table-raiting .slimScrollDiv {
       min-height: 139px;
+  }
+}
+
+@media screen and (max-width: 620px) and (orientation: landscape){
+  .container-image-hero, #c {
+      max-width: 152px;
+      height: 152px;
+  }
+
+  .container-right-column::after {
+      right: -10px;
+  }
+
+  .wrapper-center-column {
+      width: 35%;
+  }
+
+  .container-awards{
+      margin: 10px auto;
+  }
+
+  .header-awards::before, .header-awards::after, .title-action::after, .title-action::before {
+      width: 17px;
+      height: 2px;
+  }
+
+  .header-awards, .title-action {
+      padding: 0px 19px;
+  }
+
+  .btn-control{
+      display: block;
+  }
+
+  .list-lang, .list-control-sound{
+      width: 13px;
   }
 }
