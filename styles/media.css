@@ -38,6 +38,16 @@
   }
 }
 
+@media screen and (max-width: 1786px) {
+    .item-awards img {
+        width: 65px;
+    }
+    
+    .list-header-gildia li:first-child{
+        padding-left: 12px;
+    }
+}
+
 @media screen and (max-width: 1725px){
 
   .item-raiting {
@@ -50,11 +60,6 @@
 
 }
 
-@media screen and (max-width: 1786px) {
-  .item-awards img {
-      width: 65px;
-  }
-}
 
 @media screen and (max-width: 1738px) {
   .container-image-hero {
@@ -1791,10 +1796,6 @@
 
   .list-header-gildia li {
       padding: 6px 0px 14px;
-  }
-
-  .list-header-gildia li:first-child {
-      padding-left: 20px;
   }
 
   .header-raiting h3 {
@@ -4514,10 +4515,6 @@
       padding: 3px 0px 7px;
   }
 
-  .list-header-gildia li:first-child {
-      padding-left: 12px;
-  }
-
   .header-raiting h3 {
       font-size: 10px;
       padding: 0 35px;
@@ -4817,7 +4814,7 @@
   .item-raiting{
       margin-left: 10px;
   }
-    
+
   .raiting-span {
       max-width: 38px;
   }
