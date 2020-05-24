@@ -28,6 +28,26 @@
   .item-faq {
       max-width: 90%;
   }
+
+  .raiting-span{
+      max-width: 110px;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 1725px){
+
+  .item-raiting {
+      margin-bottom: 7px;
+  }
+
+  .table-raiting .slimScrollDiv {
+      min-height: 322px;
+  }
+
 }
 
 @media screen and (max-width: 1786px) {
@@ -322,11 +342,15 @@
   }
 
   .table-raiting .slimScrollDiv {
-      min-height: 386px;
+      min-height: 357px;
   }
 
   .item-block {
       min-width: 33px;
+  }
+
+  .raiting-span {
+      max-width: 105px;
   }
 
   .icon-raiting {
@@ -436,6 +460,18 @@
   .potion-butl {
       max-width: 110px;
       height: 95px;
+  }
+
+  .raiting-span {
+      max-width: 95px;
+  }
+
+  .item-block:nth-child(2) {
+      width: 18%;
+  }
+
+  .item-block:last-child {
+      width: 22%;
   }
 
   .item-potion, .potion-butl img {
@@ -1658,6 +1694,18 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+  }
+
+  .item-raiting{
+      margin-left: 7px;
+  }
+
+  .item-block:last-child {
+      width: 20%;
+  }
+
+  .raiting-span {
+      max-width: 85px;
   }
 
   .container-awards .slimScrollDiv {
@@ -2898,6 +2946,10 @@
       max-width: 92%;
       margin-bottom: 14px;
   }
+
+  .item-raiting{
+      width: 90%;
+  }
 }
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
@@ -3597,11 +3649,20 @@
 
   .body-table-events tr td:first-child,
   .header-table tr th:first-child{
-    margin-left: 10px;
+      margin-left: 10px;
+  }
+
+  .raiting-span {
+      max-width: 58px;
   }
 
   .name {
-    max-width: 74px;
+     max-width: 74px;
+  }
+
+  .item-raiting{
+      margin-left: 4px;
+      width: 100%;
   }
 
   .scroll-table,
@@ -3689,6 +3750,10 @@
 
   .container-scroll-table {
       max-width: 160px;
+  }
+
+  .raiting-span {
+      max-width: 46px;
   }
 
   .tooltipe {
@@ -4745,6 +4810,16 @@
 
   container-info-about-game .slimScrollDiv {
       min-height: 159px;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape){
+  .item-raiting{
+      margin-left: 10px;
+  }
+    
+  .raiting-span {
+      max-width: 38px;
   }
 }
 

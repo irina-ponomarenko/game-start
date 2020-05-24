@@ -1835,6 +1835,8 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  width: 100%;
+  margin-left: 15px;
 }
 
 .icon-raiting {
@@ -1900,6 +1902,22 @@ a:active {
 
 .item-block {
   min-width: 34px;
+}
+
+.item-block:first-child{
+  width: 10%;
+}
+
+.item-block:nth-child(2){
+  width: 24%;
+}
+
+.item-block:nth-child(3){
+  width: 8%;
+}
+
+.item-block:last-child{
+  width: 20%;
 }
 
 .footer-raiting {
