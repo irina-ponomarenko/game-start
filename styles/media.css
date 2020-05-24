@@ -5248,3 +5248,32 @@
       width: 13px;
   }
 }
+
+@media screen and (max-width: 555px) and (orientation: landscape){
+  .container-image-hero, #c {
+      max-width: 140px;
+      height: 152px;
+  }
+
+  .center-hero {
+      max-width: 148px;
+  }
+
+  .social-position-5 {
+      right: 35px;
+      bottom: 16px;
+  }
+
+  .social-position-4 {
+      right: 58px;
+      bottom: 4px;
+  }
+
+  .wrapper-left-column, .wrapper-right-column {
+      width: 32%;
+  }
+
+  .container-btn-center{
+      top: -7px;
+  }
+}
