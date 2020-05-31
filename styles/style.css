@@ -1838,12 +1838,13 @@ a:active {
 .icon-raiting {
   width: 34px;
   height: 34px;
-  border-radius: 5%;
+  border-radius: 10%;
   overflow: hidden;
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: center;
-  background-color: #d1b978;
+  background-color: transparent;
 }
 
 .icon-raiting img {
@@ -1908,12 +1909,8 @@ a:active {
   width: 24%;
 }
 
-.item-block:nth-child(3){
-  width: 8%;
-}
-
 .item-block:last-child{
-  width: 20%;
+  width: 10%;
 }
 
 .footer-raiting {
@@ -2819,6 +2816,10 @@ a:active {
   height: 100% !important;
 }
 
+.item-faq{
+  width: 94%;
+}
+
 .right-info-block {
   display: none;
   flex: 1;
@@ -3415,6 +3416,7 @@ a:active {
   position: relative;
   margin: 0 2px;
   z-index: 10;
+  padding: 0;
 }
 
 .btn-control:hover {
@@ -3831,6 +3833,7 @@ a:active {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
+  padding: 0 60px;
 }
 
 .checkbox-loader {
@@ -3841,7 +3844,7 @@ a:active {
   position: relative;
   display: block;
   width: 100%;
-  height: 25px;
+  height: 28px;
   background: transparent;
   border-radius: 0.4rem;
   border: 2px solid white;
@@ -3853,22 +3856,83 @@ a:active {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(to bottom, #A3E2EF 35%, #4F9CC0);
   height: 100%;
-  width: 100%;
+  width: 0%;
+  animation: grow 4s linear;
+  animation-iteration-count: inherit;
+  animation-fill-mode: forwards;
   box-shadow: 0 0 8px 1px white inset;
 }
 
-.fill:before {
+.water-label:before {
   content: '';
   display: block;
-  width: 100%;
-  height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/172299/bubbles-mask.gif);
-  mix-blend-mode: overlay;
-  opacity: 0.5;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: url("../images/progress-frame.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: 10;
 }
+
+@keyframes grow {
+  from{
+    width: 0%;
+    background: hsl(108, 80%, 49%);
+    /*background: linear-gradient(to bottom, #A3E2EF 35%, #4F9CC0);*/
+  }
+  70%{
+    background: hsl(106, 72%, 40%);
+  }
+  to{
+    width: 100%;
+    background: rgb(250, 53, 255);
+    /*background: linear-gradient(to bottom, red 35%, darkred);*/
+  }
+}
+
+#loader-container:before{
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   background: url("../images/btn--no-light.png") no-repeat;
+   background-size: contain;
+   -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+ }
+
+#loader-container:after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: url("../images/btn--no-light-4.png") no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-preloader{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(33, 22, 26, 1);
+  z-index: 900000000000;
+}
+
 
