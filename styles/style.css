@@ -2858,6 +2858,70 @@ a:active {
   filter: none !important;
 }
 
+.v-tour__target--highlighted{
+  z-index: 1000000 !important;
+}
+
+.v-tour{
+  z-index: 10000000 !important;
+}
+
+.v-step{
+  background: none !important;
+  background-image: url("../images/bg-popup.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(92, 90, 92, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(92, 90, 92, 1);
+  box-shadow: 0px 0px 5px 0px rgba(92, 90, 92, 1);
+  z-index: 1000000;
+}
+
+.v-step__header{
+  background-color: transparent !important;
+}
+
+.v-step__header div{
+  text-transform: uppercase;
+  color: #f4c66f;
+  text-shadow: 0px 0px 0 rgb(195, 172, 136),
+  1px 1px 0 rgb(143, 120, 84),
+  2px 2px 1px rgba(110, 77, 30, 0.36),
+  2px 2px 1px rgba(110, 77, 30, 0.5),
+  0px 0px 1px rgba(110, 77, 30, .2);
+  font-family: 'Mason Chronicles';
+}
+
+.v-step .v-step__arrow--dark{
+  border-color: #1f1418 !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-top-color: transparent !important;
+}
+
+.v-step__content div{
+  color: #f4eade;
+  font-family: 'PT Sans Narrow';
+}
+
+.v-step__button{
+  background: url("../images/dark-bg-btn.png") no-repeat !important;
+  background-size: 100% 100% !important;
+  font-family: 'Mason Chronicles';
+  color: #f4c66f !important;
+  text-shadow: 0px 0px 0 rgb(195, 172, 136),
+  1px 1px 0 rgb(143, 120, 84),
+  2px 2px 1px rgba(110, 77, 30, 0.36),
+  2px 2px 1px rgba(110, 77, 30, 0.5),
+  0px 0px 1px rgba(110, 77, 30, .2);
+  border: none !important;
+}
+
+.v-step__button:hover{
+  background: url("../images/bg-btn.png") no-repeat !important;
+  background-size: 100% 100% !important;
+}
+
 .tippy-content h2,
 .tippy-content span {
   text-align: center;
@@ -3395,7 +3459,7 @@ a:active {
 
 /*------------------------------------*/
 .list-control {
-  z-index: 1000000;
+  z-index: 100000;
   display: flex;
   align-items: center;
   max-width: 98px;
@@ -3858,6 +3922,7 @@ a:active {
   left: 0;
   height: 100%;
   width: 0%;
+  background: linear-gradient(to right, rgba(13,255,0,1) 0%, rgba(255,0,242,1) 100%);
   animation: grow 4s linear;
   animation-iteration-count: inherit;
   animation-fill-mode: forwards;
@@ -3880,34 +3945,27 @@ a:active {
 @keyframes grow {
   from{
     width: 0%;
-    background: hsl(108, 80%, 49%);
-    /*background: linear-gradient(to bottom, #A3E2EF 35%, #4F9CC0);*/
-  }
-  70%{
-    background: hsl(106, 72%, 40%);
   }
   to{
     width: 100%;
-    background: rgb(250, 53, 255);
-    /*background: linear-gradient(to bottom, red 35%, darkred);*/
   }
 }
 
 #loader-container:before{
-   content: '';
-   position: absolute;
-   left: 0;
-   top: 50%;
-   transform: translateY(-50%);
-   width: 60px;
-   height: 60px;
-   border-radius: 100%;
-   background: url("../images/btn--no-light.png") no-repeat;
-   background-size: contain;
-   -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-   -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
- }
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: url("../images/btn--no-light.png") no-repeat;
+  background-size: contain;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
 
 #loader-container:after{
   content: '';
