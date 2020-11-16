@@ -353,4 +353,13 @@ $(document).ready(function() {
 
     $('.blocked-btn').attr('disabled', 'disabled');
 
+    if ($('body').width() <= 1000) {
+        function reorient(e) {
+            let portrait = (window.orientation % 180 == 0);
+            $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
+        }
+        window.onorientationchange = reorient;
+        window.setTimeout(reorient, 0);
+    }
+
 });

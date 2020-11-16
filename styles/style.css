@@ -908,7 +908,7 @@ a:active {
   position: relative;
   margin: 0 auto;
   top: -10px;
-  z-index: 100000;
+  z-index: 10000;
 }
 
 .center-hero::after {
@@ -1047,6 +1047,10 @@ a:active {
   right: 0;
 }
 
+.poems.v-tour__target--relative{
+  position: absolute !important;
+}
+
 .settings:hover,
 .poems:hover{
   filter: brightness(0.6);
@@ -1137,7 +1141,7 @@ a:active {
 .container-social {
   position: absolute;
   bottom: 0;
-  z-index: 100000;
+  z-index: 10000;
   width: 100%;
 }
 
@@ -2860,10 +2864,31 @@ a:active {
 
 .v-tour__target--highlighted{
   z-index: 1000000 !important;
+  box-shadow: 0 0 0 99999px rgba(0,0,0,0.75) !important;
+}
+
+.v-tour__target--highlighted:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
+  box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 }
 
 .v-tour{
-  z-index: 10000000 !important;
+  z-index: 1000000 !important;
+}
+
+body.v-tour--active {
+  pointer-events: inherit !important;
+}
+
+.v-step__content div a{
+  color: #d9cec2;
 }
 
 .v-step{
@@ -3459,7 +3484,7 @@ a:active {
 
 /*------------------------------------*/
 .list-control {
-  z-index: 100000;
+  z-index: 10000;
   display: flex;
   align-items: center;
   max-width: 98px;
