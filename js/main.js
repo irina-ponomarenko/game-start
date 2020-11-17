@@ -352,6 +352,6 @@ $(document).ready(function() {
     //-----------------------блокирование клика по кнопкам------------------//
 
     $('.blocked-btn').attr('disabled', 'disabled');
-    
+
 
 });
