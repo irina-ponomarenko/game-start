@@ -289,6 +289,20 @@ a:active {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.potion-wrapper .wrapper-tour{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-right-column .wrapper-tour{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .bottom-about-potion {
@@ -549,7 +563,7 @@ a:active {
   flex-direction: column;
 }
 
-.actions-wrapper::before {
+.potion-wrapper::before {
   content: '';
   position: absolute;
   left: -20px;
@@ -1602,8 +1616,13 @@ a:active {
   background-size: 100% 100%;
   position: relative;
   padding: 5px 0 12px;
+  padding-left: 10px;
   display: flex;
   align-items: center;
+}
+
+.container-potion-choice table{
+  width: 97%;
 }
 
 .container-potion-choice::after {
@@ -1617,8 +1636,6 @@ a:active {
 }
 
 .number-range {
-  display: flex;
-  flex-direction: column;
   position: relative;
   margin-left: 18px;
   align-items: center;
@@ -1627,7 +1644,6 @@ a:active {
 .number-range span {
   font-size: 25px;
   color: #ffffff;
-  margin: 5px 0;
   font-family: 'Times New Roman';
 }
 
@@ -1642,8 +1658,10 @@ a:active {
 }
 
 .container-choice-potion {
-  max-width: 80px;
-  margin-right: 8px;
+  max-width: 69px;
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .container-percent-choice {
@@ -1684,6 +1702,10 @@ a:active {
   text-shadow: 0px 0px 0 rgb(195, 172, 136), 1px 1px 0 rgb(143, 120, 84), 2px 2px 1px rgba(110, 77, 30, 0.36), 2px 2px 1px rgba(110, 77, 30, 0.5), 0px 0px 1px rgba(110, 77, 30, .2);
   text-align: left;
   padding: 11px 0px 18px;
+}
+
+.list-header-gildia li:first-child {
+  padding-left: 20px;
 }
 
 .container-ivent-table {
@@ -1777,7 +1799,7 @@ a:active {
 .table-iven .slimScrollDiv {
   width: 87% !important;
   padding: 0 20px 7px;
-  height: 202px !important;
+  height: 156px !important;
   margin-top: 10px;
 }
 
@@ -1842,7 +1864,7 @@ a:active {
 .icon-raiting {
   width: 34px;
   height: 34px;
-  border-radius: 10%;
+  border-radius: 100%;
   overflow: hidden;
   display: flex;
   flex: none;
@@ -2567,7 +2589,7 @@ a:active {
 }
 
 .container-table-events .slimScrollDiv {
-  min-height: 388px;
+  min-height: 375px;
 }
 
 .info-event {
@@ -2813,7 +2835,7 @@ a:active {
 }
 
 .container-faq-list .slimScrollDiv {
-  min-height: 512px;
+  min-height: 500px;
 }
 
 .list-faq {
@@ -2839,12 +2861,12 @@ a:active {
 /*-------------tooltip-------------------*/
 .tooltip {
   position: relative;
-  z-index: 1000000;
+  z-index: 1000;
 }
 
 .tippy-tooltip,
 .tooltipe,
-.tippy-backdrop{
+.tippy-backdrop {
   min-width: 100px;
   background: url("../images/bg-popup.jpg") no-repeat;
   background-size: cover;
@@ -2864,7 +2886,7 @@ a:active {
 
 .v-tour__target--highlighted{
   z-index: 1000000 !important;
-  box-shadow: 0 0 0 99999px rgba(0,0,0,0.75) !important;
+  box-shadow: 0 0 0 99999px rgba(0,0,0,0.8) !important;
 }
 
 .v-tour__target--highlighted:before{
@@ -2879,9 +2901,15 @@ a:active {
   box-shadow: 0px 0px 8px 0px rgba(196,196,196,1);
 }
 
+.btn-center.v-tour__target--highlighted:before{
+  border-radius: 100%;
+}
+
 .v-tour{
   z-index: 1000000 !important;
 }
+
+
 
 body.v-tour--active {
   pointer-events: inherit !important;
@@ -2915,6 +2943,7 @@ body.v-tour--active {
   2px 2px 1px rgba(110, 77, 30, 0.5),
   0px 0px 1px rgba(110, 77, 30, .2);
   font-family: 'Mason Chronicles';
+  font-size: 24px;
 }
 
 .v-step .v-step__arrow--dark{
@@ -2927,6 +2956,7 @@ body.v-tour--active {
 .v-step__content div{
   color: #f4eade;
   font-family: 'PT Sans Narrow';
+  font-size: 19px;
 }
 
 .v-step__button{
@@ -2940,6 +2970,8 @@ body.v-tour--active {
   2px 2px 1px rgba(110, 77, 30, 0.5),
   0px 0px 1px rgba(110, 77, 30, .2);
   border: none !important;
+  font-size: 1.2rem !important;
+  height: 2em !important;
 }
 
 .v-step__button:hover{
@@ -3257,10 +3289,12 @@ body.v-tour--active {
   font-size: 18px;
   margin-top: 0;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow-y: hidden;
   text-align: center;
+  max-width: 98%;
+  margin: 0 auto;
 }
 
 .footer-popup {
@@ -3822,6 +3856,13 @@ body.v-tour--active {
 .table-answer-container {
   margin: 8px 0;
 }
+.desktop-version{
+  display: block;
+}
+
+.mobile-table-version{
+  display: none;
+}
 
 .table-answer {
   width: 100%;
@@ -4018,4 +4059,15 @@ body.v-tour--active {
   z-index: 900000000000;
 }
 
+.wrapper-image-choice{
+  vertical-align: middle;
+}
 
+.container-potion-choice tr td{
+  border-left: 1px solid #808080;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
+  border-right: 1px solid #808080;
+  padding: 2px;
+  text-align: center;
+}
