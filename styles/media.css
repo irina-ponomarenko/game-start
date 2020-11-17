@@ -3050,6 +3050,11 @@
         position: fixed;
     }
 
+    .container-column{
+        justify-content: flex-start;
+        margin-left: 12px;
+    }
+
     .rotate-device-overlay .phone {
         -webkit-animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;
         animation: sizeIncrease .5s forwards ease, borderIncrease .5s .5s forwards ease, rotateRight .7s 1s forwards ease;

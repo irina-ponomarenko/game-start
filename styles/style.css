@@ -290,7 +290,6 @@ a:active {
   display: flex;
   flex-direction: column;
   flex: 1;
-  position: relative;
 }
 
 .potion-wrapper .wrapper-tour{
